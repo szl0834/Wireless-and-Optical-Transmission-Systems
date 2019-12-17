@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidStringInp1">Invalid string input. Type help primpoly for more information on usage.</entry>
+    <entry key="InvalidStringInp2">Invalid string input for polynomial display option.\nChoose ''nodisplay'' to turn off polynomial form of display.</entry>
+    <entry key="InvalidMVal">M must be a real positive scalar greater than 0 and lesser than or equal to 16.</entry>
+    <entry key="InvalidThirdArg">Third parameter must be the string ''nodisplay'' to turn off the display the polynomials naturally</entry>
+    <entry key="LNotPosScalar">Weight L must be a real positive scalar.</entry>
+    <entry key="NoSolution">No primitive polynomial satisfies the given constraints.</entry>
+ <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

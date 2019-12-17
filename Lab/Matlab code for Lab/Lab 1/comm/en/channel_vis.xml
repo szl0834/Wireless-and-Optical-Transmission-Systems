@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="nargin_too_low">channel_vis requires at least 2 arguments.</entry>
+    <entry key="nargin_too_high">channel_vis takes at most 4 arguments.</entry>
+    <entry key="chan">The first argument must be a valid channel object.</entry>
+    <entry key="storehistory">No plot data stored in channel object. Set property StoreHistory to 1 before using the filter method.</entry>
+    <entry key="historystored">No plot data stored in channel object. Use the filter method before visualizing the channel.</entry>
+    <entry key="command">Invalid command.</entry>
+    <entry key="figObj">Figure does not exist or is not a channel visualization.</entry>
+    <entry key="visualization">Invalid visualization.</entry>
+    <entry key="visualization_val">When selecting the visualization, val must be a string or a positive integer scalar.</entry>
+    <entry key="animation">Invalid animation.</entry>
+    <entry key="animation_val">When selecting the animation, val must be a string or a positive integer scalar.</entry>
+    <entry key="sampleindex">When selecting the sample index, val must be a positive integer scalar.</entry>
+    <entry key="sampleindexrange">Slider value out of range.</entry>
+    <entry key="setmenu">Menu value out of range.</entry>
+  </message>
+</rsccat>

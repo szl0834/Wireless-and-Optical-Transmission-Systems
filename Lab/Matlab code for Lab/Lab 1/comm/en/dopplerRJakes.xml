@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FreqMinMaxRJakes">The minimum and maximum frequencies (normalized by the maximum Doppler shift) for the RJakes doppler spectrum should be spaced by more than 1/50, FreqMinMaxRJakes has been reset to [0 1].</entry>
+  </message>
+</rsccat>

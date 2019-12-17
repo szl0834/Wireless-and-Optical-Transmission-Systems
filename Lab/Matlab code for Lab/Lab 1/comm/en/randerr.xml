@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArg">Only numeric or RandStream arguments are accepted.</entry>
+    <entry key="InvalidSyntax">Syntax error.</entry>
+    <entry key="EmptyM">Required parameter empty.</entry>
+    <entry key="NonScalarMatrixDims">Matrix dimensions must be scalars.</entry>
+    <entry key="NonIntMatrixDims">Matrix dimensions must be real integers.</entry>
+    <entry key="NonPositiveMatrixDims">Matrix dimensions must be positive.</entry>
+    <entry key="InvalidInput">Input parameters must be finite.</entry>
+    <entry key="InvalidErrorsElements">First row of the ERRORS parameter must contain finite real positive integers.</entry>
+    <entry key="InvalidErrorsForm">Cannot place more "1"s in a row than there are elements in the row.</entry>
+    <entry key="NonReal2ndRowErrorsElements">Second row of the ERRORS parameter must be real.</entry>
+    <entry key="Invalid2ndRowErrorsVal">Elements of second row of the ERRORS parameter must be between zero and one.</entry>
+    <entry key="InvalidProbabilitySum">Sum of ERRORS probability elements must equal one.</entry>
+    <entry key="InvalidErrorsDims">ERRORS parameter cannot contain more than two rows.</entry>
+  </message>
+</rsccat>

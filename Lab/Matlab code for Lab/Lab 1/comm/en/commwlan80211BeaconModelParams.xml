@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="SSID">''SSID Value'' must have less than or equal to 32 characters.</entry>
+    <entry key="Rates">''Supported Rates'' must be a row vector of at most eight values.</entry>
+  </message>
+</rsccat>

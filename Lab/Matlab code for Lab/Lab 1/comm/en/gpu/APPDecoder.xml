@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyFrames">The input represents too many frames to process on the GPU.</entry>
+    <entry key="FrameSizeTooLarge">The input frame size is too large to process on the GPU.</entry>
+    <entry key="InputMustBeFloat">The input data types must be floating-point.</entry>
+  </message>
+</rsccat>

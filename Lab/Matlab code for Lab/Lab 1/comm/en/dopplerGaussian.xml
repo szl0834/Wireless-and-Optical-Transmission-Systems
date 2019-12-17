@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="SigmaGaussian">SigmaGaussian must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period. It has been set to 0.99 times this value.</entry>
+  </message>
+</rsccat>

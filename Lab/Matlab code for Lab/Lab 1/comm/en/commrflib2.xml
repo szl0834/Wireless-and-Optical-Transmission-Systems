@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="phaseNoiseSampleRateMismatch">The specified sample rate of the {0} block differs from the block's input sample rate of {1} Hz.  The block will run, but may give unexpected results.  Please set the block's sample rate to {2} Hz.</entry>
+  </message>
+</rsccat>

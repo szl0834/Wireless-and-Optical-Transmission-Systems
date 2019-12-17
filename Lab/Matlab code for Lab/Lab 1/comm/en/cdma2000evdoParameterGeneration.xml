@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidID">The waveform ID ''{0}'' is not supported. To see a list of all acceptable waveform IDs, execute "help {1}" or "doc {2}".</entry>
+    <entry key="TooManyInputArgs">Function {0} accepts at most {1} input arguments.</entry>
+    <entry key="NotRelevantRSCHspec">The Reverse Supplemental Channel (R-SCH) is not allowed under Radio Configuration {0}. The 3rd input argument is ignored.</entry>
+    <entry key="NotRelevantFSCHspec">The Forward Supplemental Channel (F-SCH) is not allowed under Radio Configuration {0}. The 3rd input argument is ignored.</entry>
+    <entry key="RUnsupportedRC">Reverse cdma2000 waveform generation only supports Radio Configurations 1-6.</entry>
+    <entry key="FUnsupportedRC">Forward cdma2000 waveform generation only supports Radio Configurations 1-9.</entry>
+    <entry key="Rcdma2000ThirdInputNotAllowed">The specified waveform was ''{0}'', but only the ''R_TRAFFIC_*'' waveforms support a third input argument.</entry>
+    <entry key="Fcdma2000ThirdInputNotAllowed">The specified waveform was ''{0}'', but only the ''F_TRAFFIC_*'' and ''BSTM_RC*'' waveforms support a third input argument.</entry>
+    <entry key="FourthInputNotAllowed">The specified waveform was ''{0}'', but only the ''BSTM_RC*'' waveforms support a fourth input argument.</entry>
+    <entry key="InvalidRSCH">The R-SCH specification ''{0}'' is not supported for Radio Configuration {1}. To see a list of all acceptable R-SCH specifications, execute "doc {2}".</entry>
+</message>
+</rsccat>

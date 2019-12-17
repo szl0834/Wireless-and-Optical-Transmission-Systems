@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidConstOrdering">User-defined constellation ordering is only supported for Square QAM.</entry>
+    <entry key="InvalidConstMapping">Constellation mapping must be an integer-valued vector of length ModulationOrder.</entry>
+    <entry key="InvalidConstMappingRange">Constellation mapping must be in the range [0, ModulationOrder-1].</entry>
+    <entry key="ConstMappingNotUnique">Constellation mapping must be a unique-valued vector.</entry>
+    <entry key="ConstMappingNotDouble">Constellation mapping must be a vector of data type double.</entry>
+  </message>
+</rsccat>

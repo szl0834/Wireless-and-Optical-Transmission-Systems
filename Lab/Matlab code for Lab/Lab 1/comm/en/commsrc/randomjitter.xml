@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="StdTooLarge">The standard deviation value is too large and may result in nonrealizable jitter values</entry>
+    <entry key="SymbolRateTooHigh">The symbol rate may be too high to realize the specified random jitter.</entry>
+  </message>
+</rsccat>

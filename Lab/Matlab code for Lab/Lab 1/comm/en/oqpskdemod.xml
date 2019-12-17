@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numarg">Too many input arguments.</entry>
+    <entry key="Ynum">Y must be numeric.</entry>
+    <entry key="ini_phaseReal">INI_PHASE must be a real scalar.</entry>
+  </message>
+</rsccat>

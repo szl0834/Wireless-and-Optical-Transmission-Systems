@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2015 The MathWorks, Inc.-->
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+        locale="ja_JP"
+        product="comm"
+        xsi:noNamespaceSchemaLocation="../../../resources/schema/msgcat.xsd">
+   <message>
+      <entry key="FnSquareQAMOnly">正方行列の QAM のみ。</entry>
+      <entry key="FnM8Only">M = 2、4、8 のみ。</entry>
+      <entry key="FnSIntsOnly">符号付き整数のみ。</entry>
+      <entry key="FnNoSuppIntOnlyCodegen">整数のみのコード生成をサポートしていません。</entry>
+      <entry key="FnTrigSubOnlySingleRate">Triggered Subsystem 内のシングルレート モードで、非同期の信号と併用できます。</entry>
+      <entry key="FnNoTrigSub">Triggered Subsystem 内で、非同期の信号と併用できません。</entry>
+      <entry key="Fnu1asic">ufix(1) であるのは、出力タイプが ''smallest unsigned integer'' で、ASIC/FPGA がハードウェア実行ペインで選択されている場合のみです。</entry>
+      <entry key="Fnbpack">''enable bit-packed outputs'' が選択されておらず、''output data type'' に ''smallest unsigned integer'' が指定されており、ハードウェア実行ペインで ASIC/FPGA が選択されている場合は、ufix(1) です。''enable bit-packed outputs'' が選択されており、ハードウェア実行ペインで ASIC/FPGA が選択されている場合は sfix(N)/ufix(N) です。ここで N は、''number of packed bits'' パラメーターの値です。</entry>
+      <entry key="Fns">符号付きのみ。</entry>
+      <entry key="Fncs16">複素数の符号付き 16 ビット整数のみ。</entry>
+      <entry key="Fnu1">ufix(1) のみ。</entry>
+      <entry key="Fnudecn">硬判定の場合は入力が ufix(1) であり、軟判定の場合は ufix(N) です。出力は ufix(1) のみです。</entry>
+      <entry key="Fnis">固定小数点の入力は符号付きでなければなりません。</entry>
+      <entry key="Fnouk">[ハードウェア実行] ペインで [ASIC/FPGA] が選択されている場合、ビット出力は ufix(1)、整数出力は ufix(ceil(log2(M))) になります。</entry>
+      <entry key="Fniuk">ufix(ceil(log2(M))) のみが M 値変調への入力です。</entry>
+      <entry key="Fnos">固定小数点の出力は符号付きでなければなりません。</entry>
+      <entry key="Fniukbi">''input type'' が ''bit'' に設定されている場合の入力は ufix(1) です。''input type'' が M 値変調で ''integer'' に設定されている場合の入力は ufix(ceil(log2(M))) です。</entry>
+      <entry key="Fnou1">ASIC/FPGA がハードウェア実行ペインで選択されている場合のみ、出力は ufix(1) です。</entry>
+      <entry key="Fniu1">固定小数点の入力は ufix(1) でなければなりません。</entry>
+      <entry key="Fnoasic">ASIC/FPGA がハードウェア実行ペインで選択されており、出力データ型が (a) Smallest integer または (b) Inherit via internal rule に設定され、それと同時に入力が非浮動小数点の場合、ufix(N) または sfix(N) です。 </entry>
+      <entry key="LoadingCommsLib">Communications System Toolbox ライブラリを読み込みます。</entry>
+      <entry key="bcstUnknownAct">認識されないアクション</entry>
+      <entry key="bcstCapabilities">singleIn,singleOut,booleanIn,booleanOut,integerIn,integerOut,fixedptIn,fixedptOut</entry>
+   </message>
+</rsccat>

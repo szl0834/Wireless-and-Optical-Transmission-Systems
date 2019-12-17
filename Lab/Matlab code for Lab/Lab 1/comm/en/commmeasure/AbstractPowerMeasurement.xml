@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FrequencyValuesOutOfRange">Specified measurement bands are outside the Nyquist interval [-Fs/2 Fs/2] if NormalizedFrequency is false, or [-1 1] if NormalizedFrequency is true.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="unachievableResolution1">Specified frequency resolution value is too large. The FrequencyResolution property should be &lt; {0} {1}. Spectral estimates will be calculated with a single segment length equal to the data length. Note that the FrequencyResolution property has been set to the resolution value attained by this full-data segment length.</entry>
+    <entry key="unachievableResolution2">Specified frequency resolution is not attainable with the input data length. The FrequencyResolution property should be &gt; {0} {1}. Spectral estimates will be calculated with a single segment length equal to the data length. Note that the FrequencyResolution property has been set to the resolution value attained by this full-data segment length.</entry>
+  </message>
+</rsccat>

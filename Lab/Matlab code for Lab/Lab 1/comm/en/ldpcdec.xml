@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonSparseParityCheckMatrix">The parity-check matrix must be a sparse matrix.</entry>
+    <entry key="InvalidNumColumns">The parity-check matrix must have at least one column.</entry>
+    <entry key="TooFewColumns">The parity-check matrix must have more columns than rows.</entry>
+    <entry key="NotZeroOneMatrix">The parity-check matrix must be a zero-one matrix.</entry>
+    <entry key="EmptyColumn">The parity-check matrix must have at least one non-zero element in each column.</entry>
+    <entry key="InvalidNumIterations">NumIterations must be a positive integer.</entry>
+    <entry key="InvalidDoParityChecks">DoParityChecks must be either ''Yes'' or ''No''.</entry>
+    <entry key="InvalidDecisionType">DecisionType must be either ''Hard decision'' or ''Soft decision''.</entry>
+    <entry key="InvalidOutputFormat">OutputFormat must be either ''Information part'' or ''Whole codeword''.</entry>
+  </message>
+</rsccat>

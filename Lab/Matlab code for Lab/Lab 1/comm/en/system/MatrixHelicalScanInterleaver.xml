@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ArrayStepSize">The array step size must be less than the specified number of rows.</entry>
+  </message>
+</rsccat>

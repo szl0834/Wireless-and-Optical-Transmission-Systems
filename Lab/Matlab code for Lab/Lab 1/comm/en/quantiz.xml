@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidSig">The input signal must be a real vector.</entry>
+    <entry key="invalidPartition">The partiion must be a real, strictly ascending vector</entry>
+    <entry key="fewInputs">Not enough input arguments to compute QUANTV.</entry>
+    <entry key="invalidCodebook">The codebook must be a real vector whose length is one more than the length of the partition.</entry>
+  </message>
+</rsccat>

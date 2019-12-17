@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FieldNotSpecified">For zero-degree polynomials, use the second input to specify the field.</entry>
+    <entry key="InvalidFForP2">Polynomial coefficients must be either 0 or 1 for P=2.</entry>
+    <entry key="InvalidF">Polynomial coefficients must be real integers between 0 and P-1.</entry>
+  </message>
+</rsccat>

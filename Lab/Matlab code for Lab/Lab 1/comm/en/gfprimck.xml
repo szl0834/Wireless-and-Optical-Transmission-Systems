@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="InvalidAForP2">Polynomial coefficients must be either 0 or 1 for P=2.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidAElements">Polynomial coefficients must be real integers between 0 and P-1.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPrpolyParameter">Invalid primitive polynomial parameter specified.</entry>
+    <entry key="InvalidPrpoly">The primitive polynomial must be a binary vector of coefficients in descending powers.</entry>
+    <entry key="ShiftNotScalarInt">The shift parameter must be a scalar real integer.</entry>
+    <entry key="OrderGreaterThan53">Only primitive polynomials of degree 53 or less are allowed.</entry>
+  </message>
+</rsccat>

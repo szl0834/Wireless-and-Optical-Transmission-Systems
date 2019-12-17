@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInput">The input for GEN2PAR is not the standard form of a generator or parity-check matrix.</entry>
+  </message>
+</rsccat>

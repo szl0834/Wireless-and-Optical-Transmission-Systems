@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputElements">All elements must be in GF(2)</entry>
+    <entry key="InvalidOrder">Order of polynomial represented by the input decimal elements must be lesser than or equal to 16</entry>
+    <entry key="InvalidInputPoly">The decimal equivalent of the input polynomial(s) must be greater than 1</entry>
+    <entry key="InvalidInput">Input cannot be a matrix</entry>
+    <entry key="InvalidAForm">A must be a column vector</entry>
+    <entry key="InvalidA">A must be nonnegative integer(s) greater than one</entry>
+  </message>
+</rsccat>

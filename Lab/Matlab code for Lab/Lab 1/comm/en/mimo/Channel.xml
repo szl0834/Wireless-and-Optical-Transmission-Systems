@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NumTxAntennas">NumTxAntennas must be chosen between 1 and 8.</entry>
+    <entry key="NumRxAntennas">NumRxAntennas must be chosen between 1 and 8.</entry>
+    <entry key="InputSamplePeriod">InputSamplePeriod must be greater than zero.</entry>
+    <entry key="DopplerSpectrum">DopplerSpectrum must be a single doppler object or a vector of doppler objects of the same length as PathDelays.</entry>
+    <entry key="DopplerSpectrumType">Unsupported Doppler spectrum type.</entry>
+    <entry key="AvgPathGainsdB">AvgPathGaindB must be real-valued and the same size as PathDelays.</entry>
+    <entry key="NormalizePathGains">NormalizePathGains must be scalar boolean.</entry>
+    <entry key="TxCorrelationMatrix_nt1">TxCorrelationMatrix must be equal to 1 if NumTxAntennas is 1.</entry>
+    <entry key="TxCorrelationMatrix_ndims2">TxCorrelationMatrix is not of size NumTxAntennas x NumTxAntennas.</entry>
+    <entry key="TxCorrelationMatrix_hermitian">TxCorrelationMatrix must have hermitian symmetry.</entry>
+    <entry key="TxCorrelationMatrix_diag">The diagonal elements of TxCorrelationMatrix must be all ones.</entry>
+    <entry key="TxCorrelationMatrix_offdiag">The elements of TxCorrelationMatrix must have an absolute value smaller or equal to 1.</entry>
+    <entry key="TxCorrelationMatrix_ndims3">TxCorrelationMatrix is not of size NumTxAntennas x NumTxAntennas x L, L being the length of PathDelays.</entry>
+    <entry key="TxCorrelationMatrix_hermitian3D">TxCorrelationMatrix must have hermitian symmetry.</entry>
+    <entry key="TxCorrelationMatrix_diag3D">The diagonal elements of TxCorrelationMatrix must be all ones.</entry>
+    <entry key="TxCorrelationMatrix_offdiag3D">The elements of TxCorrelationMatrix must have an absolute value smaller or equal to 1.</entry>
+    <entry key="TxCorrelationMatrix_ndims">TxCorrelationMatrix must be either a matrix or a three-dimensional array.</entry>
+    <entry key="RxCorrelationMatrix_nr1">RxCorrelationMatrix must be equal to 1 if NumRxAntennas is 1.</entry>
+    <entry key="RxCorrelationMatrix_ndims2">RxCorrelationMatrix is not of size NumRxAntennas x NumRxAntennas.</entry>
+    <entry key="RxCorrelationMatrix_hermitian">RxCorrelationMatrix must have hermitian symmetry.</entry>
+    <entry key="RxCorrelationMatrix_diag">The diagonal elements of RxCorrelationMatrix must be all ones.</entry>
+    <entry key="RxCorrelationMatrix_offdiag">The elements of RxCorrelationMatrix must have an absolute value smaller or equal to 1.</entry>
+    <entry key="RxCorrelationMatrix_ndims3">RxCorrelationMatrix is not of size NumRxAntennas x NumRxAntennas x L, L being the length of PathDelays.</entry>
+    <entry key="RxCorrelationMatrix_hermitian3D">RxCorrelationMatrix must have hermitian symmetry.</entry>
+    <entry key="RxCorrelationMatrix_diag3D">The diagonal elements of RxCorrelationMatrix must be all ones.</entry>
+    <entry key="RxCorrelationMatrix_offdiag3D">The elements of RxCorrelationMatrix must have an absolute value smaller or equal to 1.</entry>
+    <entry key="RxCorrelationMatrix_ndims">RxCorrelationMatrix must be either a matrix or a three-dimensional array.</entry>
+    <entry key="KFactor">KFactor must be a scalar or a row vector of the same size as PathDelays.</entry>
+    <entry key="DirectPathDopplerShift">DirectPathDopplerShift must be of the same size as KFactor.</entry>
+    <entry key="DirectPathDopplerShift_fdIs0">When the maximum Doppler shift is zero, setting DirectPathDopplerShift to a non-zero value has no effect on the channel. DirectPathDopplerShift should also be set to zero.</entry>
+    <entry key="DirectPathInitPhase">DirectPathInitPhase must be of the same size as KFactor.</entry>
+    <entry key="DirectPathInitPhase_fdIs0">When the maximum Doppler shift is zero, setting DirectPathInitPhase to a non-zero value has no effect on the channel. DirectPathInitPhase should also be set to zero.</entry>
+    <entry key="StorePathGains">StorePathGains must be scalar boolean.</entry>
+    <entry key="ResetBeforeFiltering">ResetBeforeFiltering must be scalar boolean.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

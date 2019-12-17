@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ObjectLocked">Object locked - cannot set {0} .</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="yComplex">Elements of input Y must be complex.</entry>
+    <entry key="nSampPos">NSAMP must be a positive integer.</entry>
+    <entry key="yLength">The number of samples in Y must be an integral multiple of NSAMP.</entry>
+    <entry key="invDataEnc">DATAENC must be either ''diff'' or ''nondiff''.</entry>
+    <entry key="invIniPhase">INI_PHASE must be a real row vector with values equal to integer multiples of pi/2 for each channel.</entry>
+    <entry key="invIniState">INI_STATE must be complex, with NSAMP samples per channel, and with the same number of columns as channels in Y.</entry>
+  </message>
+</rsccat>

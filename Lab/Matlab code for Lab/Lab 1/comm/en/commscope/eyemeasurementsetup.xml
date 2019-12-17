@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+     <entry key="InvalidEyeLevelBoundary">EyeLevelBoundary must be a real positive ascending 1x2 vector with elements in [0 100]</entry>
+    <entry key="InvalidReferenceAmplitude">ReferenceAmplitude must be a finite real vector of size 1x1 or 2x1</entry>
+    <entry key="InvalidCrossingBandWidth">CrossingBandWidth must be a real positive number in [0 1]</entry>
+    <entry key="BERThresholdGT05">BERThreshold must be less than 0.5</entry>
+    <entry key="InvalidAmpThreshold">AmplitudeThreshold must be a real positive ascending 1x2 vector with elements in [0 100]</entry>
+    <entry key="InvalidJitterHysteresis">JitterHysteresis must be a real nonnegative double</entry>
+  </message>
+</rsccat>

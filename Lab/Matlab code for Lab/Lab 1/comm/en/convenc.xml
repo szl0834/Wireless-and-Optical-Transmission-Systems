@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyOutputArg">Too many output arguments.</entry>
+    <entry key="InvalidTrellis">Trellis is not valid.</entry>
+    <entry key="InvalidMsg">The input message must be a logical or numeric vector.</entry>
+    <entry key="InputNotBinary">The input message must contain only binary values.</entry>
+    <entry key="InvalidMsgLength">Length of the input message must be a multiple of the number of bits in an input symbol.</entry>
+    <entry key="InvalidPuncPat">The puncture pattern parameter must be a vector of real or logical values.</entry>
+    <entry key="PuncPatNotBinary">The puncture pattern parameter must be a binary vector of 1''s and 0''s only.</entry>
+    <entry key="InvalidPuncPatLength">The puncture pattern parameter length must be at least the number of bits in an output symbol.</entry>
+    <entry key="InvalidCodeLengthPunc">The input message length divided by the base code rate must be an\ninteger multiple of the length of the puncture pattern parameter.</entry>
+    <entry key="InvalidInitialState">The initial state must be an integer scalar between 0 and (TRELLIS.numStates-1).  See POLY2TRELLIS.</entry>
+  </message>
+</rsccat>

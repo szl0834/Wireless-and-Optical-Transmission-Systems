@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyInp">Too many input arguments.</entry>
+    <entry key="DataIsNotNumeric">DATA must be numeric.</entry>
+    <entry key="ColIsNotAPosScalar">COL must be a positive scalar integer.</entry>
+    <entry key="ColIsNotAPosInt">COL must be a positive integer.</entry>
+    <entry key="NgrpIsNotAPosScalar">NGRP must be a positive scalar integer.</entry>
+    <entry key="NgrpIsNotAPosInt">NGRP must be a positive integer.</entry>
+    <entry key="RowByNgrpIsInvalid">DATA must contain COL*NGRP elements.</entry>
+    <entry key="ColByNgrpIsInvalid">Each column in DATA must contain COL*NGRP elements.</entry>
+    <entry key="StpIsNotAPosScalar">STP must be a positive scalar integer.</entry>
+    <entry key="StpIsNotAPosInt">STP must be a positive integer.</entry>
+  </message>
+</rsccat>

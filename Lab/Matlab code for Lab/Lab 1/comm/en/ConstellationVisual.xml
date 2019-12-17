@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>       
+    <!-- Configuration Properties: Main tab -->
+    <entry key="SamplesPerSymbolLabel">Samples per symbol:</entry>
+    <entry key="SampleOffsetLabel">Offset (samples):</entry>
+    <entry key="InputFrameLength">Input frame length</entry>
+    <entry key="TimeRangeUserDefined"><![CDATA[<user-defined>]]></entry>
+    <entry key="SymbolsToDisplayLabel">Symbols to display:</entry>
+    <entry key="ReferenceConstellationTabLabel">Reference constellation</entry>   
+    <entry key="ReferenceConstellationLabel">Reference constellation:</entry>   
+    <entry key="AveragePowerLabel">Average reference power:</entry>
+    <entry key="PhaseOffsetLabel">Reference phase offset (rad):</entry>
+    <entry key="NormalizationMethodLabel">Constellation normalization:</entry>
+    <entry key="MinDistance">Minimum distance</entry>
+    <entry key="AveragePower">Average power</entry>
+    <entry key="PeakPower">Peak power</entry>
+    <entry key="BPSK">BPSK</entry>
+    <entry key="QPSK">QPSK</entry>
+    <entry key="PSK8">8-PSK</entry>
+    <entry key="QAM16">16-QAM</entry>
+    <entry key="QAM64">64-QAM</entry>
+    <entry key="QAM256">256-QAM</entry>
+    <entry key="MinimumDistanceLabel">Reference minimum distance:</entry>
+    <entry key="PeakPowerLabel">Peak reference power:</entry>
+    <!-- Configuration Properties: Display tab -->
+    <entry key="GridLabel">Show grid</entry>
+    <entry key="LegendLabel">Show legend</entry>
+    <entry key="TrajectoryLabel">Show signal trajectory</entry>
+    <entry key="ShowRefConstellationLabel">Show reference constellation</entry>
+    <entry key="MIShowRefConstellationLabel">Show reference constellation</entry>
+    <entry key="TTShowRefConstellationLabel">Show reference constellation</entry>
+    <entry key="ColorFadingLabel">Color fading</entry>
+    <entry key="ReferenceMarkerLabel">Reference marker:</entry>
+    <entry key="ReferenceColorLabel">Reference color: </entry>
+    <entry key="MinXLimLabel">X-limits (Minimum): </entry>
+    <entry key="MaxXLimLabel">X-limits (Maximum): </entry>
+    <entry key="MinYLimLabel">Y-limits (Minimum): </entry>
+    <entry key="MaxYLimLabel">Y-limits (Maximum): </entry>
+    <entry key="TitleLabel">Title: </entry>
+    <entry key="XLabelLabel">X-axis label: </entry>
+    <entry key="YLabelLabel">Y-axis label: </entry>
+    <!-- Toolbar Button -->
+    <entry key="ShowTrajectoryTooltip">Show Signal Trajectory</entry>   
+    <!-- Error/Warning Messages -->
+    <entry key="ConstellationInvalidSampleTimes">All sample times for the Constellation Diagram block must be discrete.\nContinuous sample time is not allowed.</entry>
+    <entry key="InvalidSamplesPerSymbol">The SamplesPerSymbol property must have a positive integer value greater than that of the SampleOffset property.</entry>
+    <entry key="InvalidSampleOffset">The SampleOffset property must have a non-negative integer value smaller than that of SamplesPerSymbol property.</entry>
+    <entry key="InvalidSymbolsToDisplay">The SymbolsToDisplay property must be a positive integer or ''{0}''.</entry>    
+    <entry key="InvalidSymbolsToDisplayInMeasure">When the Measurements tool is enabled, the SymbolsToDisplay property can not be less than the value of the MeasurementInterval property.</entry> 
+    <entry key="InvalidSymbolsToDisplayInMeasureFromInput">When the Measurements tool is enabled, the number of symbols to display can not be less than the value of the MeasurementInterval property.</entry>     
+    <entry key="InvalidReferenceConstellation">When the Measurements tool is enabled, the ReferenceConstellation property must be a vector with numeric values.</entry> 
+    <entry key="InvalidReferenceConstellationDefined">The ReferenceConstellation property must be a vector with numeric values.</entry>
+    <entry key="InvalidRefConAvgPower">The average constellation power must be a non-negative numeric value.</entry>
+    <entry key="InvalidRefConPhaseOffset">The constellation phase offset must be numeric.</entry>
+    <entry key="InvalidReferenceColor">The ReferenceColor property must be a vector with three elements, all in the range [0,1].</entry>         
+    <entry key="FrameLengthNotDivisible">When SymbolsToDisplay is 'Input frame length' the input frame length must be an integer multiple of the SamplesPerSymbol property.</entry>                
+    <entry key="InvalidMarkerSelection">Markers cannot be disabled in the Constellation Diagram when 'ShowTrajectory' = false.\n</entry>  
+    <entry key="InvalidLineStyleSelection">The selected LineStyle is invalid under the current 'ShowTrajectory' value.\n</entry>
+    <entry key="InvalidRefConSelection">The selected reference-constellation marker is invalid under the current 'ShowReferenceConstellation' value.\n</entry>
+    <entry key="InvalidConstellationDiagramStyle">Constellation Diagram: Invalid Style Settings</entry>
+    <entry key="InvalidSettingForCondExec">To ensure a consistent offset, Constellation Diagram blocks in conditionally executed subsystems need an input length that is an integer multiple of Samples per symbol.</entry>
+    <!-- Style Dialog -->
+    <entry key="ReceivedSymbolsLabel">Received symbols:</entry>
+    <entry key="SDTrajectoryLabel">Signal trajectory:</entry>
+    <entry key="MarkerSize">MarkerSize</entry>
+    <entry key="LineWidth">LineWidth</entry>
+</message>
+</rsccat>

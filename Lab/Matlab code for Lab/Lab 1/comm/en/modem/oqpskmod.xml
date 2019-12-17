@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NumChanReset">The number of channels has changed.  Resetting the modulator.</entry>
+    <entry key="InvalidPhaseOffset">PhaseOffset must be a finite scalar number.</entry>
+    <entry key="MMustBe4">M must be 4 for OQPSK and is set accordingly.</entry>
+    <entry key="ResetInvalidNChan">NCHAN must be a finite scalar integer.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="EyeDiagramBlockHelp"><![CDATA[Eye Diagram &Help]]></entry>
+    <entry key="SamplesPerSymbol_label">Samples per symbol:</entry>
+    <entry key="SampleOffset_label">Sample offset:</entry>
+    <entry key="SymbolsPerTrace_label">Symbols per trace:</entry>
+    <entry key="TracesToDisplay_label">Traces to display:</entry>    
+    <entry key="MinYLim_label">Y-limits (Minimum):</entry>
+    <entry key="MaxYLim_label">Y-limits (Maximum):</entry>
+    <entry key="Title_label">Title:</entry>
+    <entry key="Inphase_label">In-phase axis label:</entry>
+    <entry key="Quadrature_label">Quadrature axis label:</entry>
+    <entry key="Eye_Display_label">Eye diagram to display:</entry>
+    <entry key="Eye_Display_two">In-phase and quadrature</entry>
+    <entry key="Eye_Display_one">In-phase only</entry>
+    <entry key="Grid_label">Show grid</entry>    
+    <entry key="ColorFading_label">Color fading</entry>    
+    <entry key="Style">Style</entry>
+    <entry key="InvalidSampleOffset">Sample offset must have a non-negative integer value.</entry>
+    <entry key="SampleOffsetWrap">Sample offset values outside the [0, SamplesPerSymbol*SymbolsPerTrace-1] range are wrapped to this range.</entry>    
+    <entry key="SampleOffsetWarningTitle">Sample offset</entry>    
+    <entry key="InvalidSamplesPerSymbol">Samples per symbol must be a positive scalar integer.</entry>    
+    <entry key="InvalidSymbolsPerTrace">Symbols per trace must be a positive scalar integer.</entry>
+    <entry key="InvalidTracesToDisplay">Traces to display must be a positive scalar integer.</entry>
+    <entry key="InvalidMinYLim">Y-limits (Minimum) must be a real scalar.</entry>
+    <entry key="InvalidMaxYLim">Y-limits (Maximum) must be a real scalar.</entry>
+    <entry key="InvalidMinMaxRange">Y-limits (Minimum) must be less than Y-limits (Maximum).</entry> 
+    <entry key="InvalidEyeDisplay">EyeDisplay must have value 'InPhaseAndQuadrature' or 'InPhaseOnly'.</entry>
+    <entry key="BufferSizeExceeded">The number of symbols to plot exceeds the scope buffer size. Reduce the number Traces to display.</entry>
+    <entry key="InvalidSettingForCondExec">To ensure visual integrity, Eye Diagram blocks in conditionally executed subsystems need:\n1) An input length that is an integer multiple of 'Symbols per trace * Samples per symbol'\n2) Sample offset equal to 0.</entry>
+    <entry key="sampleTimeNotDiscrete">All sample times for this block must be discrete.\nContinuous sample time is not allowed.</entry>
+    <!-- Toolbar buttons: -->
+    <entry key="HistogramButtonTooltip">Toggle histogram mode</entry>
+    <entry key="ResetButtonTooltip">Reset histogram</entry>
+    <!-- Histogram Tab: -->
+    <entry key="HistogramDocumentation">Set the oversampling method to ''None'' for highly oversampled\ninput signals (e.g., Samples per symbol x Symbols per trace > 64).\nOtherwise, set it to ''Input interpolation'' or ''Histogram interpolation''\nfor low-noise and high-noise scenarios, respectively.\n\nSet the color scale to ''Logarithmic'' when the eye diagram spread\nis very narrow, either vertically or horizontally.\n</entry>
+    <entry key="HistogramTabLabel">Histogram</entry>
+    <entry key="DisplayModeLabel">Display mode:</entry>
+    <entry key="DisplayModeLine">Line</entry>
+    <entry key="DisplayModeHistogram">Histogram</entry>
+    <entry key="OversamplingLabel">Oversampling method:</entry>
+    <entry key="NoOversampling">None</entry>
+    <entry key="InputInterpolation">Input interpolation</entry>
+    <entry key="HistogramInterpolation">Histogram interpolation</entry>
+    <entry key="ColorScaleLabel">Color scale:</entry>
+    <entry key="ColorScaleLinear">Linear</entry>
+    <entry key="ColorScaleLogarithmic">Logarithmic</entry>
+    <entry key="HistInterpInLogarithmicText">Histogram interpolation is not supported when the color scale is logarithmic. The color scale has been set to linear.</entry>
+    <entry key="HistInterpInLogarithmicTitle">Unsupported configuration</entry>
+    <!-- Style Dialog: -->
+    <entry key="ColormapLabel">Colormap:</entry>
+    <entry key="CustomColormapTitle">Custom colormap</entry>
+    <entry key="CustomColormapPrompt">Enter function call or workspace variable:</entry>
+    <!-- Status Bar: -->    
+    <entry key="InterpStatusTT">Interpolation factor</entry>
+    <entry key="InterpStatusText">Interpolation x</entry>
+    <entry key="TraceNumberTT">Number of traces processed since last reset</entry>
+    <entry key="TraceNumberText">Trace #</entry>
+</message>
+</rsccat>

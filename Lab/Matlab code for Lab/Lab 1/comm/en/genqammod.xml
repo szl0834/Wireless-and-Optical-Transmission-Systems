@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Xreal">Elements of input X must be integers in [0, M-1].</entry>
+    <entry key="const1d">CONST must be a one dimensional vector.</entry>
+  </message>
+</rsccat>

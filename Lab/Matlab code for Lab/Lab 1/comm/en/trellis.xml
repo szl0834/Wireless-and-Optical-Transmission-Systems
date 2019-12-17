@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="structureWrong">The input argument must be a structure with the following fields: numInputSymbols, numOutputSymbols, numStates nextStates and outputs.</entry>
+    <entry key="numSymNotScalar">The numInputSymbols field must be a scalar value.</entry>
+    <entry key="numsymNotPow2">The numInputSymbols field must be a power of 2.</entry>
+    <entry key="numOutSymNotScalar">The numOutputSymbols field must be a scalar value.</entry>
+    <entry key="numOutSymNotPow2">The numOutputSymbols field must be a power of 2.</entry>
+    <entry key="numStatesNotScalarPosInt">The numStates field must be a scalar, positive integer value.</entry>
+    <entry key="nextStatesNotMatrixSize">The ''nextStates'' field must be an unsigned integer matrix with numStates rows and numInputSymbols columns.</entry>
+    <entry key="nextStatesWrongElemValue">Each element of the ''nextStates'' matrix must be between 0 and numStates-1.</entry>
+    <entry key="outputsNotMatrixSize">The ''outputs'' field must be an octal matrix with numStates rows and numInputSymbols columns.</entry>
+    <entry key="outputsMatrixWrongElemValue">Each element of the ''outputs'' matrix (in decimal format) must be between 0 and numOutputSymbols-1.</entry>
+    <entry key='inputNotStructure'>The input argument must be a structure.</entry>
+  </message>
+</rsccat>

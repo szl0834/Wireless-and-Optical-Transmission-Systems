@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidResetAlg">To reset an adaptive algorithm object ALG, use RESET(ALG), \nwhere ALG is an adaptive algorithm object.\nFor more information, type ''help adaptalg/reset'' in MATLAB.</entry>
+  </message>
+</rsccat>

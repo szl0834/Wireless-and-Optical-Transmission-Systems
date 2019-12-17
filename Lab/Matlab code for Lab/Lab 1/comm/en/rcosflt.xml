@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Too few input variables for RCOSFLT.</entry>
+    <entry key="InvalidType_Flag">TYPE_FLAG in RCOSFLT must be a string.</entry>
+    <entry key="NegativeRolloff">The rolloff factor in RCOSFLT cannot be a negative number.</entry>
+    <entry key="InvalidRollOff">The rolloff factor in RCOSFLT cannot be greater than 1.</entry>
+    <entry key="InvalidDelay">DELAY must be a positive integer in RCOSFLT.</entry>
+    <entry key="NonIntegerDelay">DELAY in RCOSFLT must be an integer.</entry>
+    <entry key="InvalidRatio">Fs/Fd must be an integer.</entry>
+    <entry key="MissingNum">Too few input variables. ''NUM'' must be defined for the FIR filter</entry>
+    <entry key="MissingNumAndDen">Too few input variables. ''NUM'' and ''DEN'' must be defined for the IIR filter</entry>
+    <entry key="obsWdelay">The FILTER_TYPE argument, "wdelay" is now obsolete.</entry>
+  </message>
+</rsccat>

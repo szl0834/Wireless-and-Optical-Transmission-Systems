@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidErrProb">Error probability values must be real numbers between zero and one.</entry>
+    <entry key="InvalidInitSeedVal">Initial seed values must be real, positive numbers.</entry>
+    <entry key="MismatchLengths">Error probability and initial seed must be the same length if nonscalar.</entry>
+  </message>
+</rsccat>

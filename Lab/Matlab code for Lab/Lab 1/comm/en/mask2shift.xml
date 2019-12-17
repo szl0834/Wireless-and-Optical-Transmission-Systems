@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPrpoly">Invalid primitive polynomial parameter specified.</entry>
+    <entry key="NonBinaryPrpoly">The primitive polynomial must be a binary vector of coefficients in descending powers.</entry>
+    <entry key="InvalidPrpolyDegree">Only primitive polynomials of degree 53 or less are allowed.</entry>
+    <entry key="InvalidMask">The mask must be a binary vector of length equal to the order of the polynomial.</entry>
+    <entry key="InvalidMaskVal">The mask vector must have at least one nonzero value.</entry>
+  </message>
+</rsccat>

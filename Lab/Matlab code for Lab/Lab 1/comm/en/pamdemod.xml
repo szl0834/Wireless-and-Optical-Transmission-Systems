@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Ynum">Y must be numeric.</entry>
+    <entry key="Mreal">M must be a scalar positive integer.</entry>
+    <entry key="ini_phaseReal">INI_PHASE must be a real scalar.</entry>
+    <entry key="SymbolOrder">Invalid symbol set ordering.</entry>
+  </message>
+</rsccat>

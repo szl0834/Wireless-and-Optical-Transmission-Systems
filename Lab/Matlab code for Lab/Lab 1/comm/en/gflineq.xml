@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="InvalidA">A must be a two-dimensional matrix.</entry>
+    <entry key="InvalidB">B must be a column vector.</entry>
+    <entry key="InvalidAB">A and B must have the same number of rows.</entry>
+    <entry key="InvalidAForP2">Entries in A must be either 0 or 1 for P=2.</entry>
+    <entry key="InvalidBForP2">Entries in B must be either 0 or 1 for P=2.</entry>
+    <entry key="InvalidBElements">Entries in B must be real nonnegative integers between 0 and P-1.</entry>
+    <entry key="NoSolution">This linear equation has no solution.</entry>
+    <entry key="ANotRowVector">Polynomial input must be represented as a row vector.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidAElements">Entries in A must be real nonnegative integers between 0 and P-1.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="constPtsCheck">Signal constellation must be a vector of at least two elements, representing the set of constellation points that the modulator in the current model can generate.</entry>
+    <entry key="chCoeffCheck">Channel coefficients must be a column vector whose length is a multiple of the Samples per symbol parameter.</entry>
+    <entry key="tbDepthCheck">Traceback depth must be a positive integer.</entry>
+    <entry key="preambleCheck">Expected preamble must be a vector of integers between 0 and the order of the constellation minus 1.</entry>
+    <entry key="postambleCheck">Expected postamble must be a vector of integers between 0 and the order of the constellation minus 1.</entry>
+    <entry key="numSampCheck">Samples per symbol must be a positive integer.</entry>
+    <entry key="memCheck">MLSE Equalizer parameter settings describe a trellis with more than 2^20 states leading to memory allocation failure</entry>
+  </message>
+</rsccat>

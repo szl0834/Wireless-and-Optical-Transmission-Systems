@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="inputarguments">STDCHAN requires three input arguments.</entry>
+    <entry key="ts">TS must be a strictly positive real finite scalar.</entry>
+    <entry key="fd">FD must be a non-negative real finite scalar.</entry>
+    <entry key="inputarguments80211">STDCHAN requires four input arguments for the 802.11 channels.</entry>
+    <entry key="trms">TRMS must be a non-negative real finite scalar.</entry>
+    <entry key="trms_ts">TS should not be larger than TRMS/2, as per 802.11 specifications.</entry>
+    <entry key="hffd">For the HF channel models, FD must be 1 to obtain the correct frequency spreads.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="chantype1">CHANTYPE must be a string chosen from the set of supported channel profiles.</entry>
+    <entry key="chantype2">CHANTYPE must be chosen from the set of supported channel profiles.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

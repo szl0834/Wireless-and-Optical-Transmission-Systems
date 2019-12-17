@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="IllegalParent">Parent of COMMGUI.SHUTTLECTRL should be a figure or a uipanel.</entry>
+    <entry key="InvalidPosition">Position must be a four element nonnegative vector</entry>
+    <entry key="InvalidAvailableItems">Items must be a cell array of string values</entry>
+    <entry key="InvalidQuickHelpTextString">QuickHelpTextString must be a cell array of string values</entry>
+  </message>
+</rsccat>

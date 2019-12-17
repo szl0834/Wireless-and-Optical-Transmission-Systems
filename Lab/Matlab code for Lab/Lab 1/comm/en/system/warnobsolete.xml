@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="obsoleteReplace">This is an obsolete function and may be removed in the future. Please use {0} instead.</entry>
+    <entry key="obsolete">This is an obsolete function and may be removed in the future.</entry>
+  </message>
+</rsccat>

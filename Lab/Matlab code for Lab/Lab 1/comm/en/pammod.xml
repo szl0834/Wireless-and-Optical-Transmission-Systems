@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numarg">Too few input arguments.</entry>
+    <entry key="toomanyinp">Too many input arguments.</entry>
+    <entry key="Xreal">Elements of input X must be real integers in the range [0, M-1].</entry>
+    <entry key="Mreal">M must be a scalar positive integer.</entry>
+    <entry key="ini_phaseReal">INI_PHASE must be a real scalar.</entry>
+    <entry key="SymbolOrder">Invalid symbol set ordering.</entry>
+  </message>
+</rsccat>

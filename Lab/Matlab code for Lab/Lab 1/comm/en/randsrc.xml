@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArg">Only numeric arguments are accepted.</entry>
+    <entry key="InvalidSyntax">Syntax error.</entry>
+    <entry key="NonScalarMatrixDims">Matrix dimensions must be scalars.</entry>
+    <entry key="InvalidMatrixDims">Matrix dimensions must be finite.</entry>
+    <entry key="NonIntegerMatrixDims">Matrix dimensions must be real integers.</entry>
+    <entry key="NonPositiveMatrixDims">Matrix dimensions must be positive.</entry>
+    <entry key="InvalidAlphabet">The ALPHABET parameter cannot contain more than two rows.</entry>
+    <entry key="InvalidProbabilityVal">The ALPHABET probability elements must be real numbers between zero and one.</entry>
+    <entry key="InvalidProbabilitySum">Sum of ALPHABET probability elements must equal one.</entry>
+  </message>
+</rsccat>

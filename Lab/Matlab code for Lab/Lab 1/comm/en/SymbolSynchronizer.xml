@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="SymbolDropping">The last {0} symbols from this input are dropped as the output length exceeds the maximum allowable limit of {1}.</entry>
+  </message>
+</rsccat>

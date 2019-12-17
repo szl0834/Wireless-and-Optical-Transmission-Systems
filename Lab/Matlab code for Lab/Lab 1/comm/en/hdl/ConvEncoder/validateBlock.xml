@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="poly2trellis">HDL support requires the trellis to be defined by the function poly2trellis in the block mask</entry>
+    <entry key="coderate">HDL support requires encoding rates from 1/2 to 1/7, or 2/3</entry>
+    <entry key="constraintlength">HDL support requires a constraint length from 3 to 9</entry>
+    <entry key="truncatedmode">HDL support is not available for the Truncated trellis operation mode</entry>
+    <entry key="terminatedmode">HDL support is not available for the Terminated trellis operation mode</entry>
+    <entry key="resetttypeunsupported">HDL support requires the reset signal to be boolean</entry>
+    <entry key="resetmodeunsupported">HDL support requires that the Delay reset action
+                                      to next time step checkbox be selected. This will lead
+                                      to a synchronous soft reset in the HDL code.</entry>
+   <entry key ="datatypeunsupported">HDL support requires boolean or ufix1 data input</entry>
+  </message>
+</rsccat>

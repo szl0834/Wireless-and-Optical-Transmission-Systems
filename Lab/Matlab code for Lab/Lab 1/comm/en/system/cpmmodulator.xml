@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPulseLength">The MainLobeDuration property must be a positive, real, integer scalar.</entry>
+    <entry key="InvalidRolloff">The RollOffFactor property must be a real scalar between 0 and 1, inclusive.</entry>
+    <entry key="InvalidBTProduct">The BandwidthTimeProduct property must be a positive, real scalar.</entry>
+    <entry key="InvalidPulseShape">Unrecognized pulse shape.</entry>
+    <entry key="InvalidPulseLengthVal">The PulseLength property must be a positive, real, integer scalar.</entry>
+    <entry key="InvalidSampPerSymbols">The SamplesPerSymbol property must be a positive, real, integer scalar.</entry>
+    <entry key="InvalidModIndex">The ModulationIndex property must be a real, nonnegative scalar.</entry>
+    <entry key="ExceedsMemory">Demodulator property settings exceed memory allocation limit.</entry>
+    <entry key="InvalidMode">Unknown mode.</entry>
+  </message>
+</rsccat>

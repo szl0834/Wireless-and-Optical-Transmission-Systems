@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParamSize">The {0} parameter must be a non-fi scalar or vector of size equal to the degree of the generator polynomial.</entry>
+    <entry key="ParamNotBinary">The {0} parameter values must be binary.</entry>
+    <entry key="GenPolyNotVector">The generator polynomial parameter must be a vector.</entry>
+    <entry key="InvalidGenPoly">Invalid generator polynomial parameter values. Generator polynomial must be a binary or integer row vector, with coefficients in descending order of powers.</entry>
+    <entry key="InvalidGenPolyDegree">Only generator polynomials of degree 32 or less are allowed.</entry>
+  </message>
+</rsccat>

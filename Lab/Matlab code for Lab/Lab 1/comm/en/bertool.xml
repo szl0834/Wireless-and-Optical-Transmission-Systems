@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="JavaSupport">BERTool requires Java Swing.</entry>
+    <entry key="NotenoughBERvalues">Curve fit cannot be done for less than 4 BER values</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="BerfitError1">The following warnings are caused by BERTool trying to perform curve fit.</entry>
+    <entry key="BerfitError2">The following warnings are caused by BERTool trying to perform a curve fit.</entry>
+    <entry key="BerfitError3">The following warnings are caused by BERTool trying to perform curve fit.</entry>
+  </message>
+</rsccat>

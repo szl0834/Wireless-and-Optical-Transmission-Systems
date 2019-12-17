@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="unsetCountProbe">{0} must be set to a registered test point name. Use the info method of the Error Rate Test Console to see valid test point names.</entry>
+    <entry key="invalidCountProbe">Expected {0} to be equal to the name of a registered test point. Use the info method of the Error Rate Test Console to see valid test point names.</entry>
+    <entry key="NoTestPoint">No test point has been registered. First register test points using the registerTestPoint method of the Error Rate Test Console.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="noRegInput1">The system under test may not request a ''NumTransmissions'' test input since it did not register one.</entry>
+    <entry key="noRegInput2">The system under test may not request a ''RandomIntegerSource'' test input since it did not register one.</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidInputRequest">Requested input type ''{0}'' is not available in the Error Rate Test Console. use the info method to see the available test inputs.</entry>
+    <entry key="requiredMParameter">No modulation order test parameter ''M'' has been registered by the system under test. A modulation order test parameter named ''M'' must be registered when the system under test has registered a ''RandomIntegerSource'' test input.</entry>
+    <entry key="invalidDimensions">ActualVal and expVal inputs must be of equal dimensions.</entry>
+    <entry key="noParamsRegistered">The system that you have attached to the test console does not contain any registered test parameters.</entry>
+    <entry key="irrelevantFrameLength">The system that you have attached to the Error Rate Test Console does not contain any registered test inputs so setting the FrameLength property is irrelevant.</entry>
+  </message>
+</rsccat>

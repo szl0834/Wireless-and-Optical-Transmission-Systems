@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="USRPBuildInfo">Invalid USRP(TM) FPGA folder specified. Please specify a valid USRP(TM), FPGA root ending with fpga directory. The folder must be writable.</entry>
+    <entry key="numElementsMismatch">The input, X, must be a column vector with the number of elements equal to the value of the Length property.</entry>
+  </message>
+</rsccat>

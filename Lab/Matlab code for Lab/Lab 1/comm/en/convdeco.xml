@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="insufficientInputVariables">Not enough input variables for CONVDECO.</entry>
+    <entry key="incorrectCodeLength">CODE length does not match the TRAN_FUNC dimension in CONVDECO.</entry>
+  </message>
+</rsccat>

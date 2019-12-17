@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="PuncVecMessage">The puncture pattern must be a row or column vector</entry>
+    <entry key="PuncLen">Puncture pattern must have length N-K</entry>
+    <entry key="PuncBinaryMessage">The puncture pattern must be binary.</entry>
+    <entry key="tooManyPuncs">The Puncture pattern should have less than 2*T zeros.</entry>
+    <entry key="numpuncs">The puncture pattern has exactly 2*T zeros, the code will not be able to correct any errors.</entry>
+    <entry key="NKerr">The values for N and K do not produce a valid narrow-sense BCH code</entry>
+    <entry key="shortNeg">ShortenedLength must be greater than 0.</entry>
+    <entry key="tooShort">K - ShortenedLength must be greater than 0.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="strOpmode">Operation mode must be specified by a character string.</entry>
+    <entry key="Opmode">Unknown operation mode.</entry>
+    <entry key="numOutArgRst">The equalized message is the only output allowed for Reset operation mode.</entry>
+    <entry key="optNumArg">Only numeric arguments are allowed for the optional inputs.</entry>
+    <entry key="numInArg">Invalid syntax.  Too many input arguments.</entry>
+    <entry key="nsamp">Samples per input symbol must be a positive integer scalar.</entry>
+    <entry key="chcffs">Channel coefficients must be a vector whose length is a multiple of the Samples per symbol parameter.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="numArgRst1">Seven input arguments have been provided. This is not allowed. Specify both preamble and postamble. If one of them does not exist, use empty matrix.</entry>
+    <entry key="numArgCont2">Seven input arguments have been provided. This is not allowed in the Continuous operation mode.</entry>
+    <entry key="numArgRst2">Eight input arguments have been provided. This is only allowed for the Reset\noperation mode.</entry>
+    <entry key="numArgCont1">Nine input arguments have been provided.  This is only allowed for the Continuous\noperation mode.</entry>
+    <entry key="X1">Input signal X must be a vector of complex numbers.</entry>
+    <entry key="X2">Length of the input signal vector X must be a multiple of the number of samples per input symbol output symbol.</entry>
+    <entry key="X3">Input signal X must be a vector of complex numbers.</entry>
+    <entry key="insufficientElements">Complex constellation points must be a vector of at least two elements.</entry>
+    <entry key="tblen1">Traceback depth must be a positive integer scalar.</entry>
+    <entry key="tblen2">For the Reset mode, traceback depth must be a positive integer scalar not\nlarger than the number of input symbols.</entry>
+    <entry key="initmetric1">When using [] as the default for INIT_METRIC, INIT_STATES and INIT_INPUTS must\nalso be [].</entry>
+    <entry key="initmetric2">The initial state metrics must be a real vector with length equal to the number\nof states, where numStates = M^(L-1), where M is the order of modulation and L is\nthe length of the channel''s impulse response in symbols.</entry>
+    <entry key="initstate1">When using [] as the default for INIT_STATES, INIT_METRIC and INIT_INPUTS must\nalso be [].</entry>
+    <entry key="initstate2">The initial traceback state must be a matrix of integers between 0 \nand (numStates-1), where numStates = M^(L-1), M = order of modulation,\nand L = length of channel''s impulse response in symbols.\nThe matrix must have numStates rows and TBLEN columns.</entry>
+    <entry key="initinput1">When using [] as the default for INIT_INPUTS, INIT_METRIC and INIT_STATES must\nalso be [].</entry>
+    <entry key="initinput2">The initial traceback input must be a matrix of integers between 0 \nand (numStates-1), where numStates = M^(L-1), M = order of modulation,\nand L = length of channel''s impulse response in symbols.\nThe matrix must have numStates rows and TBLEN columns.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

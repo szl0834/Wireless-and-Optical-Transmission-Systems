@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="LargeResolution">The specified frequency resolution value is too large. The FrequencyResolution property must be &lt; {0} {1}.</entry>
+    <entry key="UnachievableResolution">The specified frequency resolution is not attainable with the input data length. The FrequencyResolution property must be &gt; {0} {1}.</entry>
+    <entry key="FrequencyValuesOutOfRange">The specified measurement bands are outside the Nyquist interval of [-SampleRate/2 SampleRate/2] when NormalizedFrequency is false, or [-1 1] when NormalizedFrequency is true.</entry>
+  </message>
+</rsccat>

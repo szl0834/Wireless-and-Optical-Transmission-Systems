@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputArg">Optional parameters must be string or numeric.</entry>
+    <entry key="InvalidSeqArg">Syntax error.</entry>
+    <entry key="InputEmpty">Required parameter empty.</entry>
+    <entry key="NonScalarBase">Source base must be a real scalar.</entry>
+    <entry key="InvalidBase">Source base must be a finite real integer.</entry>
+    <entry key="BaseLessThan2">Source base must be greater than or equal to two.</entry>
+    <entry key="InvalidInputElement">The elements of the matrix are larger than the base can represent.</entry>
+    <entry key="InvalidFlag">Invalid string flag.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidInput1">The binary input must be numeric or logical.</entry>
+    <entry key="InvalidInput2">Input must contain only finite real positive integers.</entry>
+    <entry key="InvalidMSBFlag">The MSB flag must be the string 'right-msb' or 'left-msb'.</entry>
+    <entry key="IncorrectNumInputs">The number of input arguments must be between 1 and 3, inclusive.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Training_setIsMatrix">TRAINING_SET must be a vector.</entry>
+    <entry key="InvalidOrd">ORD must be a positive, integer scalar.</entry>
+    <entry key="InvalidInput">The size of the training set is not large enough for the design in DPCMOPT.</entry>
+  </message>
+</rsccat>

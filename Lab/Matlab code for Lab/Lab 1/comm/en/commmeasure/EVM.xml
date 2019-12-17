@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NoPercentileHigh">Percentile value cannot be calculated.  The data may have too little noise.  You can turn this warning off by typing ''warning(''off'', ''comm:commmeasure:EVM:NoPercentileHigh'')''.</entry>
+    <entry key="NoPercentileLow">Percentile value cannot be calculated.  The data may have too much noise.  You can turn this warning off by typing ''warning(''off'', ''comm:commmeasure:EVM:NoPercentileLow'')''.</entry>
+    <entry key="AveragePowerInactive">AveragePower property is inactive when NormalizationOption is set to ''{0}''.</entry>
+    <entry key="PeakPowerInactive">PeakPower property is inactive when NormalizationOption is set to ''{0}''.</entry>
+    <entry key="DeprecatedFunction">commmeasure.EVM will be removed in a future release. Use comm.EVM instead.</entry>
+  </message>
+</rsccat>

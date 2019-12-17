@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NlargeK">N must be larger than K</entry>
+    <entry key="NminusK">(N-K)/2 must be greater than or equal to 1.</entry>
+    <entry key="nRange">N must be between 3 and 65535.</entry>
+    <entry key="Mval">Symbols to be encoded must all have 3 or more bits.</entry>
+    <entry key="genPolyGF">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="genPolyMonic">The generator polynomial must be monic.</entry>
+    <entry key="genPolyNonZero">The generator polynomial must not contain any zeros</entry>
+    <entry key="notEnoughInput">N and K must both be specified for a Reed-Solomon code</entry>
+  </message>
+</rsccat>

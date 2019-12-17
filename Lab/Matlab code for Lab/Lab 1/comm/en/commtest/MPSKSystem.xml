@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MNotPower2">Values for test parameter M should be a power of 2.</entry>
+  </message>
+</rsccat>

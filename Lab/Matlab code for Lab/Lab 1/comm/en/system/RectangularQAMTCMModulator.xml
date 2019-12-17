@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidModulationOrder">The ModulationOrder parameter must be 4, 8, 16, 32, or 64.</entry>
+  </message>
+</rsccat>

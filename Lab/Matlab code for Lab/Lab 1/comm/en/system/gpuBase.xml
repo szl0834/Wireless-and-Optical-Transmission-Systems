@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="inputSizeChanged">Changing the size of input {0} is not allowed without first calling the release method.</entry>
+    <entry key="inputDataTypeChanged">Changing the data type of input {0} is not allowed without first calling the release method.</entry>
+    <entry key="inputComplexityChanged">Changing the complexity (from real to complex) on input {0} is not allowed without first calling the release method.</entry>
+    <entry key="noPCT">The Parallel Computing Toolbox is not available. Please make sure that it is installed and that a license is available.</entry>
+    <entry key="badGPU">Could not successfully communicate with the GPU. Please try executing gpuArray(0) at the MATLAB prompt to help diagnose the issue.</entry>
+    <entry key="incorrectSetup">The class must call ''detectGPUInputs'' in the setupImpl method to use this method.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidDelay">DELAY must be a positive integer in RCOSINE.</entry>
+    <entry key="NonIntegerDelay">DELAY in RCOSINE must be an integer.</entry>
+    <entry key="InvalidR">The Rolloff factor, R, in RCOSINE must be a real number in the range, [0, 1].</entry>
+    <entry key="InvalidType_Flag">TYPE_FLAG in RCOSINE must be a string.</entry>
+    <entry key="notEnoughInputs">Not enough input variables for RCOSINE.</entry>
+    <entry key="InvalidRatio">Fs/Fd in RCOSINE must be an integer greater than 1.</entry>
+  </message>
+</rsccat>

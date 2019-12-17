@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="doubletype">HDL code generation for PSK demodulation is not supported for Double and Single data types. Convert the data types to fixed-point.</entry>
+    <entry key="harddecision">HDL code generation is only supported for Hard Decision Decoding.</entry>
+    <entry key="M248">HDL Code generation of the M-PSK Demodulator is only supported for M = 2,4, or 8.</entry>
+  </message>
+</rsccat>

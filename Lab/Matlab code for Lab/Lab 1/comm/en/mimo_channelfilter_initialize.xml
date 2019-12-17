@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="channeltaps">Some path delay values are much larger than the input sample period, resulting in a long channel filter response.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

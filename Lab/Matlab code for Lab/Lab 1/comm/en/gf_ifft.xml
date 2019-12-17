@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidX">X Must be a vector.</entry>
+    <entry key="InvalidXLen">Length of X must equal 2^m-1</entry>
+  </message>
+</rsccat>

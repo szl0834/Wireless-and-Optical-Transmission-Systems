@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="gpuBadInputType">The input must be real-valued, with a built-in floating-point datatype (double or single).</entry>
+    <entry key="gpuInvalidInputLength">The input must be a column vector with a length that is a multiple of the number of columns in ''ParityCheckMatrix.''</entry>
+    <entry key="gpuMultiframeError">Multiframe decoding is not compatible with an Iteration Termination Condition of ''Parity check satisfied''.</entry>
+    <entry key="gpuNonSparseParityCheckMatrix">The parity-check matrix must be a sparse matrix.</entry>
+    <entry key="gpuInvalidNumColumns">The parity-check matrix must have at least one column.</entry>
+    <entry key="gpuTooFewColumns">The parity-check matrix must have more columns than rows.</entry>
+    <entry key="gpuNotZeroOneMatrix">The parity-check matrix must be a zero-one matrix.</entry>
+    <entry key="gpuEmptyColumn">The parity-check matrix must have at least one nonzero element in each column.</entry>
+    <entry key="gpuEmptyRow">The parity-check matrix must have at least one nonzero element in each row.</entry>
+  </message>
+</rsccat>

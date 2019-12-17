@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="xreal">Elements of X must be 0 or 1.</entry>
+    <entry key="nSampPos">NSAMP must be a positive integer.</entry>
+    <entry key="invDataEnc">DATAENC must be either ''diff'' or ''nondiff''.</entry>
+    <entry key="oddNumBits">The signal has an odd number of bits.  Appending a zero in order to create I and Q channels of equal length.</entry>
+    <entry key="invIniPhase">INI_PHASE must be a real row vector with values equal to integer multiples of pi/2 for each channel.</entry>
+  </message>
+</rsccat>

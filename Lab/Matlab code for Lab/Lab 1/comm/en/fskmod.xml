@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numarg1">Too few input arguments.</entry>
+    <entry key="numarg2">Too many input arguments.</entry>
+    <entry key="xreal1">Elements of input X must be integers in the range [0, M-1].</entry>
+    <entry key="xreal2">Elements of input X must be integers in [0, M-1].</entry>
+    <entry key="Mreal">M must be a scalar positive integer greater than or equal to 2.</entry>
+    <entry key="Mpow2">M must be a positive power of 2. </entry>
+    <entry key="freqSep">FREQ_SEP must be a scalar greater than 0.</entry>
+    <entry key="nSampPos">NSAMP must be an integer greater than 1.</entry>
+    <entry key="FsReal">FS must be a real, positive scalar. </entry>
+    <entry key="maxFreq">The maximum frequency must be less than or equal to Fs/2.</entry>
+    <entry key="phaseCont">PHASE_CONT must be ''cont'' or ''discont''.</entry>
+    <entry key="SymbolOrder">Invalid symbol set ordering.</entry>
+ <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

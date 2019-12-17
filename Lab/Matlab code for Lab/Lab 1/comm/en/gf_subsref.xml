@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParenthesis">'{}' reference not allowed</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidPropName">Invalid property name " {0} ". The valid properties are x, m and prim_poly.</entry>
+  </message>
+</rsccat>

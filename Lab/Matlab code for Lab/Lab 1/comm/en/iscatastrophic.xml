@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidTrellis">The input to ISCATASTROPHIC must be a valid trellis. See ISTRELLIS for more information.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidCode">CODE must be a Galois array.</entry>
+    <entry key="InvalidN">N must be a real integer scalar equal to or larger than 3.</entry>
+    <entry key="InvalidK">K must be a real positive integer scalar.</entry>
+    <entry key="CodeEmptyGaloisArray">CODE must be a nonempty Galois array.</entry>
+    <entry key="InvalidCodeForm">CODE must be either a N-element row vector or a matrix with N columns.</entry>
+    <entry key="InvalidCodeSymbol">Symbols in CODE must all have 3 or more bits.</entry>
+    <entry key="InvalidNKDiff">N and K must differ by a positive even integer.</entry>
+    <entry key="InvalidDefaultGenPoly">The default generator polynomial should be marked by [].</entry>
+    <entry key="InvalidOptionalArg">Only strings and Galois vectors are allowed as optional parameters.</entry>
+    <entry key="InvalidSyntax">Illegal syntax.  To specify GENPOLY, it must be provided as the third argument.</entry>
+    <entry key="ParityPosSetOnce">The parity position must only be set once.</entry>
+    <entry key="InvalidOption">Unknown option passed in.</entry>
+    <entry key="InvalidGenPolyForm">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="InvalidGenPolyDegree">The generator polynomial must be of degree (N-K).</entry>
+    <entry key="GenPolyNotMonic">The generator polynomial must be monic.</entry>
+    <entry key="intErr">Values of CODE must be integers between 0 and N.</entry>
+    <entry key="rangeErr">Values of CODE must be integers between 0 and N.</entry>
+    <entry key="erasBin">ERASURES must be a binary vector</entry>
+    <entry key="eraseSize">The size of the ERASURES vector must match the size of the CODE vector</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidNVal1">N must be between 3 and 65535.</entry>
+    <entry key="InvalidNVal2">N must not be greater than (2^CODE.m-1).</entry>
+    <entry key="InvalidCodeGenPoly1">CODE and GENPOLY must be Galois arrays with the same prim_poly field.</entry>
+    <entry key="InvalidCodeGenPoly2">CODE and GENPOLY must be Galois arrays with the same m field.</entry>
+    <entry key="InvalidGenPoly">The generator polynomial must be the product\n(X+alpha^b)*(X+alpha^(b+1))*...*(X+alpha^(b+N-K-1)), where b is an integer.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidSyntax1">Illegal syntax. No more than one Galois vector is allowed in the optional parameter list.</entry>
+  </message>
+</rsccat>

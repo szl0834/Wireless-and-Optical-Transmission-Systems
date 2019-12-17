@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="nSamp">Number of samples per symbols must be a scalar integer greater than 0.</entry>
+    <entry key="sigConst">The signal constellation must be a 1-D vector.</entry>
+    <entry key="refTap">The reference tap must be a scalar integer greater than 0 and less than the number of Taps.</entry>
+    <entry key="leakage">Leakage must be between 0 and 1.</entry>
+    <entry key="stepsize">The stepsize must be greater than 0.</entry>
+    <entry key="initweights">The initial weights must be numeric.</entry>
+  </message>
+</rsccat>

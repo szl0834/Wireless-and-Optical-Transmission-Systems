@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputLength">The input must be a column vector with a length that is an integer multiple of the number of elements in the PermutationVector property.</entry>
+  </message>
+</rsccat>

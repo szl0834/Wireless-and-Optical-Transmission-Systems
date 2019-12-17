@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidDefaultImp">The default impedance should be marked by [].</entry>
+    <entry key="InvalidNumericInput">The default seed should be marked by [].</entry>
+    <entry key="InvalidArg">Only string, numeric, or RandStream arguments are allowed.</entry>
+    <entry key="InvalidSyntax">Illegal syntax.</entry>
+    <entry key="TooManyPowerTypes">The Power mode must only be set once.</entry>
+    <entry key="InvalidPowerType">Incorrect power mode passed in.  Please use ''dBW'', ''dBm'', or ''linear.''</entry>
+    <entry key="TooManyOutputTypes">The complexity mode must only be set once.</entry>
+    <entry key="InvalidArgOption">Unknown option passed in.</entry>
+    <entry key="InvalidPowerVal">The power value must be a real scalar.</entry>
+    <entry key="NegativePower">In linear mode, the required noise power must be &gt;= 0.</entry>
+    <entry key="InvalidDims">The required dimensions must be real, integer scalars &gt; 1.</entry>
+    <entry key="InvalidImp">The Impedance value must be a real scalar &gt; 0.</entry>
+  </message>
+</rsccat>

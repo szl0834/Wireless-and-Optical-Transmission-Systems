@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="BadSampleRate">SampleRate must be at least twice the frequency deviation.</entry>
+    <entry key="WrongObjectFMModulator">A System object used to create an FMModulator must be an FMDemodulator. </entry>
+    <entry key="WrongObjectFMDemodulator">A System object used to create an FMDemodulator must be an FMModulator. </entry>
+    <entry key="WrongObjectFMBCModulator">A System object used to create an FMBroadcastModulator must be an FMBroadcastDemodulator. </entry>
+    <entry key="WrongObjectFMBCDemodulator">A System object used to create an FMBroadcastDemodulator must be an FMBroadcastModulator. </entry>
+    <entry key="InvalidInputSize">The signal length (number of rows) must be a multiple of the decimation factor: {0,number,integer}. The decimation factor can also be obtained using the info method.</entry>
+    <entry key="StereoInputError">The input signal must be a two-column matrix (each column representing a channel) when the Stereo property is set to true. </entry>      
+    <entry key="MonoInputError">The input signal must be a column vector when the Stereo property is set to false. </entry>
+    <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

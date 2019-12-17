@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvCorrMatrix">Size of InvCorrMatrix must be nWeights-by-nWeights.</entry>
+    <entry key="StepSizeVector">Step size must be a row vector of length nWeights.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="rowvector1">Weights must be a row vector with nWeights elements.</entry>
+    <entry key="rowvector2">Weights must be a row vector with sum(nWeights) elements.</entry>
+    <entry key="rowvector3">WeightInputs must be a row vector with nWeights elements.</entry>
+    <entry key="rowvector4">WeightInputs must be a row vector with sum(nWeights) elements.</entry>
+  </message>
+</rsccat>

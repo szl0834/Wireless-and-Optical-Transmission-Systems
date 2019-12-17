@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidInputSignal1">Input signal for AMOD QAM must have an even number of columns.</entry>
+    <entry key="invalidInputSignal2">The input signal for AMOD has an illegal element.</entry>
+    <entry key="invalidInputSignal3">The input signal for AMOD has an element larger than given limit.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input variables for RCOSFIR</entry>
+    <entry key="InvalidR">The Rolloff factor in RCOSFIR must be a positive integer in the range, [0, 1].</entry>
+    <entry key="InvalidRate">RATE in RCOSFIR must be an integer greater than 1</entry>
+  </message>
+</rsccat>

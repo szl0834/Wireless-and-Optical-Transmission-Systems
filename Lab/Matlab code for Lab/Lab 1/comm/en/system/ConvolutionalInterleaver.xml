@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InitialConditions">The InitialConditions property must either be a finite-valued scalar, or a column vector with length equal to the value of the NumRegisters property.</entry>
+  </message>
+</rsccat>
+

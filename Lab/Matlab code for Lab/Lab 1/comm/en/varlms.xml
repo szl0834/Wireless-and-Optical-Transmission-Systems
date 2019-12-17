@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="initMu">The initial stepsize must be a scalar greater than 0.</entry>
+    <entry key="incMu">The increment stepsize must be a scalar greater than 0.</entry>
+    <entry key="minMu">The minimum stepsize must be a scalar greater than 0.</entry>
+    <entry key="maxMu">The maximum stepsize must be a scalar greater than 0.</entry>
+  </message>
+</rsccat>

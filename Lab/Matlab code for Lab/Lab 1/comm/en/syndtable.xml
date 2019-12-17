@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="EmptyH">The parity check matrix cannot be empty.</entry>
+    <entry key="LessRowsMoreColumns">There must be more columns than rows in the parity check matrix.</entry>
+    <entry key="NonBinaryNosInH">The parity check matrix must contain only binary numbers.</entry>
+  </message>
+</rsccat>

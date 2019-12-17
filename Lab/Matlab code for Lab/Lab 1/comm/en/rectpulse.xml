@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Xnum">X must be numeric.</entry>
+    <entry key="nsamp">NSAMP must be a positive integer.</entry>
+  </message>
+</rsccat>

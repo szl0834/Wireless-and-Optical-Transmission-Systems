@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="inputNumeric">Input signal must be numeric.</entry>
+    <entry key="inputVectorDims">Input signal must be a vector or matrix.</entry>
+    <entry key="inputVectorNt">The number of columns of the input signal must be equal to the number of transmit antennas.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

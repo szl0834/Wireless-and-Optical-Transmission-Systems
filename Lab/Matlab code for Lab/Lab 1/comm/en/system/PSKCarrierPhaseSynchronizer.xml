@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="obsoleteObject">The comm.PSKCarrierPhaseSynchronizer System object is obsolete and may be removed in the future.  Please use comm.CarrierSynchronizer instead.</entry>
+  </message>
+</rsccat>

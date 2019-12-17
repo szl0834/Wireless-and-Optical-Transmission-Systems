@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="EmptyTRAINING_SET">Training set parameter cannot be empty.</entry>
+    <entry key="NonVectorTRAINING_SET">Training set must be a vector.</entry>
+    <entry key="InvalidINI_CODEBOOK">Initial codebook parameter must be a real-valued vector or a scalar specifying the length of the codebook.</entry>
+    <entry key="NonPositiveINI_CODEBOOK">Invalid initial codebook parameter specified.</entry>
+    <entry key="InvalidTRAINING_SET">The input training set is not valid because it has only one value.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="IllegalVal">Illegal value for Block type</entry>
+    <entry key="InvalidSampPerSym">The 'Number of samples per symbol' must be an integer greater than or equal to {0}.\n\nReverting dialog to previous values.'</entry>
+    <entry key="InvalidOffset1">The 'Offset' must be a non-negative integer less than the 'Samples per symbol'*'Symbols per Trace'.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidOffset2">The 'Offset' must be a non-negative integer less than the 'Samples per symbol'.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidSymbolsPerTrace">The 'Symbols per trace' must be an integer greater than or equal to 1 and less than or equal to 50. \n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidLineColors">The 'Line colors' must be  either 'b', 'g', 'r', 'c', 'm', 'y', or 'k' (without the quotes) or a real-valued, 1x3 vector.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidYaxisMinimum">'Y axis minimum' must be a real-valued scalar.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidYaxisMaximum">'Y axis maximum' must be a real-valued scalar.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidMaximuYaxisLimit">Maximum Y-axis limit must be greater than Minimum Y-axis limit.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidXaxisMinimum">'X axis minimum' must be a real-valued scalar.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidXaxisMaximum">'X axis maximum' must be a real-valued scalar.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidMaximuXaxisLimit">Maximum X-axis limit must be greater than Minimum X-axis limit.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidTraces">The 'Traces' displayed must be an integer greater than or equal to 'Symbols per trace'.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidPoints">The 'Points' displayed must be a positive integer.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidSymbols">The 'Symbols' displayed must be a positive integer.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidLineMarker">The 'Line markers' must be  either '+', 'o', '*', '.','x', 'square', 'diamond' (without the quotes), or ''(none).\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidLineMarker1">The 'Line markers' must be  either '+', 'o', '*', '.','x', 'square', 'diamond' (without the quotes).\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidNewTracesPerDisplay">The 'New traces per display' must be a positive integer less than or equal to the 'Traces' displayed.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidNewPointsPerDisplay">The 'New points per display' must be a positive integer less than or equal to the 'Points' displayed.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidNewSymbolsPerDisplay">The 'New symbols per display' must be a positive integer less than or equal to the 'Symbols' displayed.\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidLineStyle">The 'Line styles' must be  either '-', '--', ':', '-.' (without the quotes) , or ''(none).\n\nReverting dialog to previous values.</entry>
+    <entry key="InvalidLineStyle2">The 'Line styles' must be  either '-', '--', ':', '-.' (without the quotes).\n\nReverting dialog to previous values.</entry>
+  </message>
+</rsccat>

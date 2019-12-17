@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="OrderMismatch">Orders must match.</entry>
+    <entry key="WrongInputs">gfconv expects at least two input arguments, or a single input that is either a filename or a cell array.</entry>
+    <entry key="CellMustHaveStrings">When the first input argument to gfconv is a cell array, it must contain strings.</entry>
+  </message>
+</rsccat>

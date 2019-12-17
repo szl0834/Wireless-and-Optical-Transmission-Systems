@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidP">P must be a real prime scalar.</entry>
+    <entry key="InvalidSecondArg">The second parameter must be either a scalar or a row vector.</entry>
+    <entry key="InvalidM">M must be a real positive integer.</entry>
+    <entry key="InvalidPrim_poly">Elements in PRIM_POLY must be real nonnegative integers less than P.</entry>
+    <entry key="Prim_polyNotMonic">PRIM_POLY must be a monic primitive polynomial.</entry>
+    <entry key="InvalidK">K must be either a scalar or a vector.</entry>
+    <entry key="KElementNotInt">Elements in K must be real integers.</entry>
+    <entry key="InvalidKElement">Elements in K cannot be +Inf.</entry>
+  </message>
+</rsccat>

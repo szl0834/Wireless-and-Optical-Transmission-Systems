@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MustBeString">Input must be a string or a cell of strings.</entry>
+    <entry key="FormatNeedsBinary">When the output format is set to {0}, the polynomial coefficients must equal either 0 or 1.</entry>
+    <entry key="MultiplePolyVars">The polynomial must use a single variable. Variable name {0} found in term {1} does not match variable name {2} found in a prior term of polynomial {3}.</entry>
+    <entry key="InvalidPower">Invalid polynomial power term {0} in polynomial {1}.</entry>
+    <entry key="InvalidNegativePower">Negative coefficients are not supported.</entry>
+    <entry key="NonIntegerPower">All polynomial powers should be integer. Power {0} in {1} is not integer.</entry>
+    <entry key="MissingCloseBrace">A close brace is missing in term {0} in polynomial {1}.</entry>
+    <entry key="DuplicatePower">Polynomial power {0} specified more than once in polynomial {1}.</entry>
+    <entry key="DuplicateConstant">Term {0} specifies the constant term multiple times in polynomial {1}.</entry>
+    <entry key="InvalidConstant">Failed to parse constant term {0} of polynomial {1}.</entry>
+    <entry key="InvalidCoefficient">Variable coefficients must either be numeric scalars or powers of the primitive elememt alpha. Failed to parse coefficient/power {0} of polynomial {1}.</entry>
+    <entry key="InvalidPrimitivePower">Powers of the primitive elements alpha must be numeric. Failed to parse coefficient {0} of polynomial {1}.</entry>
+    <entry key="InvalidPrimitivePolynomial">The primitive polynomial input argument (#3) must be either a decimal scalar or a binary vector or a polynomial string.</entry>
+    <entry key="MixedPowerSigns">All polynomial powers need to have the same sign. Power {0} has a different sign than previous terms in polynomial {1}.</entry>
+    <entry key="UnexpectedPrimitiveElement">Coefficient {0} contains a character that is interpreted as a primitive element, while the PARSEALPHA input of commstr2poly has not been set to true.</entry>
+</message>
+</rsccat>

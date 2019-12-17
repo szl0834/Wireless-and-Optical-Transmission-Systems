@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidInputRESETDims">The RESET input must be a scalar or a vector with dimensions [{0,number,integer} 1]</entry>
+    <entry key="invalidInputRESETDimsVarS">The RESET input must be a scalar.</entry>
+    <entry key="invalidPolynomialDegrees">The two preferred pair polynomials must have the same degree.</entry>
+    <entry key="invalidIndex">The value of the Index property must be an integer scalar between -2 and (2^n)-2 where n is the degree of the generator polynomials.</entry>
+    <entry key="invalidFirstInitialConditions">The FirstInitialConditions property must be a scalar or a vector with a length equal to the degree of the generator polynomials.</entry>
+    <entry key="invalidSecondInitialConditions">The SecondInitialConditions property must be a scalar or a vector with a length equal to the degree of the generator polynomials.</entry>
+    <entry key="invalidIndexInitCond">The SecondInitialConditionsSource property value must be ''Property'' for an Index property value of -2.</entry>
+  </message>
+</rsccat>

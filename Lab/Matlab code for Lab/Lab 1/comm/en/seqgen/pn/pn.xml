@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2009-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DeprecatedFunction">seqgen.pn has been removed. Use comm.PNSequence instead.</entry>
+  </message>
+</rsccat>

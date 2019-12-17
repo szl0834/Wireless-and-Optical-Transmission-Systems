@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MismatchOrders">Orders must match.</entry>
+    <entry key="MismatchPrim_Poly">Primitive polynomials must match.</entry>
+    <entry key="MismatchInpDims"> LSOLVE: Inputs L and b must be of compatible dimensions</entry>
+    <entry key="LNotLwrTriangularMtx"> LSOLVE: Input matrix L must be lower-triangular</entry>
+    <entry key="SingularL"> LSOLVE: Input matrix L must be nonsingular</entry>
+  </message>
+</rsccat>

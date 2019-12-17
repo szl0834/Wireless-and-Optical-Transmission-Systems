@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="resettype">The PN Generator reset port must be of type boolean.</entry>
+    <entry key="maskport">The PN Generator mask input port must have type ufix1.</entry>
+    <entry key="doubleoutput">PN Generator does not support an output of type double.</entry>
+    <entry key="vectoroutput">PN Generator Samples per frame parameter must be 1.</entry>
+  </message>
+</rsccat>

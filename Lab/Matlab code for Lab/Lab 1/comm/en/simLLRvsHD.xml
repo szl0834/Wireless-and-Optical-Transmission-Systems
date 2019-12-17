@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidnumLLRRuns1">numLLRRuns cannot exceed the length of the EbNo vector.</entry>
+    <entry key="invalidnumLLRRuns2">Hard decision and LLR simulations need to be run for at least four EbNo values.</entry>
+  </message>
+</rsccat>

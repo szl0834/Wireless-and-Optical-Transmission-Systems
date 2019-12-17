@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input arguments.</entry>
+    <entry key="InvalidMethod">Invalid method option for ENCODE.</entry>
+    <entry key="InvalidCodingMethod">Invalid coding method.</entry>
+    <entry key="inputVarNum">Wrong number of input variables for ENCODE.</entry>
+    <entry key="InvalidMessageFormat">Message format must be either binary or decimal.</entry>
+    <entry key="InvalidN">The codeword length, N must be a positive integer greater than 0.</entry>
+    <entry key="InvalidK">The message length, K must be a positive integer greater than 0.</entry>
+    <entry key="NLessThanK">The codeword length, N must be greater than the message length, K.</entry>
+    <entry key="InvalidMSG">For decimal data processing, MSG must contain only integers between 0 and 2^K-1.</entry>
+    <entry key="InvalidMsgDataFormat">MSG does not match specified data format.  Either make MSG binary or append /decimal to the method string.</entry>
+    <entry key="InvalidMatrixColumnSize">The matrix MSG in ENCODE must have K columns.</entry>
+    <entry key="InvalidNKLen">The specified codeword length and message length are not valid.</entry>
+    <entry key="MissingGenMatrix">The generator matrix is a required input argument for linear block code.</entry>
+    <entry key="InvalidGenMatrixDims">The generator matrix dimensions are not valid.</entry>
+    <entry key="IvalidGenPoly">No generator polynomial satisfies the given constraints of N and K.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="MsgNotVector">For ''{0}'' code with decimal data, MSG must be a vector.</entry>
+    <entry key="CodingMethodUnknown">Unknown coding method ''{0}''</entry>
+  </message>
+</rsccat>

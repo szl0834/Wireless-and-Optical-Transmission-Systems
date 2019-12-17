@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numArgs">BERAWGN requires at least 3 arguments.</entry>
+    <entry key="EbNo">EbNo must be a real vector.</entry>
+    <entry key="scalarM">M must be a scalar.</entry>
+    <entry key="intM">M must be a positive integer power of 2.</entry>
+    <entry key="minM">M must be at least 4 for QAM.</entry>
+    <entry key="numArgsPSK">BERAWGN requires 4 arguments for PSK.</entry>
+    <entry key="dataEnc">DATAENC must be either ''diff'' or ''nondiff''.</entry>
+    <entry key="numArgsFSK">BERAWGN requires at least 4 arguments for FSK.</entry>
+    <entry key="coherence">COHERENCE must be either ''coherent'' or ''noncoherent''.</entry>
+    <entry key="rho">RHO must be a numeric scalar with a magnitude smaller than or equal to 1.</entry>
+    <entry key="mskDataEncNonDiff">DATAENC ''nondiff'' is equivalent to PRECODING ''on''. DATAENC is an obsolete option.\nPlease use PRECODING instead.</entry>
+    <entry key="mskDataEncDiff">DATAENC ''diff'' is equivalent to PRECODING ''off''. DATAENC is an obsolete option.\nPlease use PRECODING instead.</entry>
+    <entry key="mskPrecoding">PRECODING must be either ''on'' or ''off''.</entry>
+    <entry key="numArgsCPFSK">BERAWGN requires 5 arguments for CPFSK.</entry>
+    <entry key="modIndex">MODINDEX must be a positive number.</entry>
+    <entry key="Kmin">KMIN must be a positive integer.</entry>
+    <entry key="diffPSK">No results for coherent detection of differentially encoded PSK with M &gt; 4.</entry>
+    <entry key="FSK">No results for noncoherent FSK with M &gt; 64.</entry>
+    <entry key="fskNonorthogonal">No results for coherent detection of nonorthogonal FSK with M &gt; 2.</entry>
+    <entry key="mskPrecodingOff">No results available for noncoherent detection of conventional MSK.</entry>
+    <entry key="modType">Invalid modulation type.</entry>
+  </message>
+</rsccat>

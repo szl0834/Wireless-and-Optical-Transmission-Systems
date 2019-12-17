@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ElementsOfXInfOrNaN">X must not contain Inf or NaN elements</entry>
+    <entry key="NonIntegerM">M must be an integer</entry>
+    <entry key="NonScalarM">M must be a scalar.</entry>
+    <entry key="RangeM1To16">M must be an integer in the range 1 to 16.</entry>
+    <entry key="InvalidX">X must be between 0 and 2^m-1</entry>
+    <entry key="NonScalarPrim_Poly">PRIM_POLY must be a scalar</entry>
+    <entry key="primPolyPrim">PRIM_POLY must be a primitive polynomial.</entry>
+    <entry key="primPolyRange">PRIM_POLY must be between 0 and 2^M-1.</entry>
+  </message>
+</rsccat>

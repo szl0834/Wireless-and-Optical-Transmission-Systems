@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MismatchOrders">Orders must match.</entry>
+    <entry key="MismatchPrim_Poly">Primitive polynomials must match.</entry>
+    <entry key="InvalidUbDims"> USOLVE: Inputs U and b must be of compatible dimensions</entry>
+    <entry key="UNotUpperTriangularMtx"> USOLVE: Input matrix U must be upper-triangular</entry>
+    <entry key="SingularU"> USOLVE: Input matrix U must be nonsingular</entry>
+  </message>
+</rsccat>

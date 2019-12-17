@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="resetunsupport">HDL support is not available for the reset input port</entry>
+    <entry key="tbdtoosmallforram">RAM-based traceback recommends traceback depth >= 10*constraint length</entry>
+  </message>
+</rsccat>

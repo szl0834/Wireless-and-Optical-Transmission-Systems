@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="RandIntGen_MaskDesc">Generate random uniformly distributed integers in the range [0, M-1], where M is the M-ary number.</entry>
+    <entry key="BerBinGen_MaskDesc">Generate a Bernoulli random binary number. To generate a vector output, specify the probability as a vector.</entry>
+	<entry key="PoiIntGen_MaskDesc">Generate Poisson distributed random integers.</entry>
+	<entry key="M_ary_Number_MP">M-ary number:</entry>
+	<entry key="ProbOfZero_MP">Probability of a zero:</entry>
+	<entry key="Lambda_MP">Lambda:</entry>
+	<entry key="InitialSeed_MP">Initial seed:</entry>
+	<entry key="SampleTime_MP">Sample time:</entry>
+	<entry key="FrameBasedOutput_MP">Frame-based outputs</entry>
+	<entry key="SamplesPerFrame_MP">Samples per frame:</entry>
+	<entry key="InterpVecParam_MP">Interpret vector parameters as 1-D</entry>	
+  </message>
+</rsccat>

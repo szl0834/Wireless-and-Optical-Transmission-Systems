@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArg">Only string and numeric arguments are accepted.</entry>
+    <entry key="InvalidArgSeq">Syntax error.</entry>
+    <entry key="NoInput">Required parameter empty.</entry>
+    <entry key="InvalidInput">Input must contain only finite real nonnegative integers.</entry>
+    <entry key="NonScalarBase">Destination base must be scalar.</entry>
+    <entry key="InvalidBase">Destination base must be a finite real integer scalar.</entry>
+    <entry key="BaseLessThan2">Cannot convert to a base of less than two.</entry>
+    <entry key="NonScalarN">Specified number of columns must be scalar.</entry>
+    <entry key="InvalidN">Specified number of columns must be a finite real integer scalar.</entry>
+    <entry key="SmallN">Specified number of columns in output matrix is too small.</entry>
+    <entry key="InvalidMsbFlag">The MSB flag must be the string 'right-msb' or 'left-msb'.</entry>
+    <entry key="IncorrectNumInputs">The number of input arguments must be between 1 and 4, inclusive.</entry>
+  </message>
+</rsccat>

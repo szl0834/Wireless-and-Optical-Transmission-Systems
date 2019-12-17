@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="VectorInputOutput">Vector inputs and outputs are not supported for HDL code generation.</entry>
+    <entry key="NonZeroIC">Non-zero initial conditions are not supported for the RAM based architecture</entry>
+    <entry key="DoubleInputOutput">Double datatype is not supported for the RAM based architecture</entry>
+    <entry key="MinRAMSize">The number of RAM locations needed ({0}) is less than
+                            the minimum supported (N*B*N = ' num2str(minramloc){1}).</entry>
+    <entry key="NumberofRows">HDL code generation requires at least 2 rows of interleaving.</entry>
+  </message>
+</rsccat>

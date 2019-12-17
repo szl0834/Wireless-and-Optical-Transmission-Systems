@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input variables for RCOSIIR</entry>
+    <entry key="InvalidRate">RATE in RCOSIIR must be a positive integer</entry>
+  </message>
+</rsccat>

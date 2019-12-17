@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotInBaseWorkspace">All variables used in the model must be defined in the base workspace. {0} is not defined.</entry>
+  </message>
+</rsccat>

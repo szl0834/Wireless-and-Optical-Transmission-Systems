@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonScalarLinearGain">The linear gain must be a real scalar.</entry>
+    <entry key="NonScalarInputGain">The input gain must be a real scalar.</entry>
+    <entry key="NonScalarIIP3">The IIP3 must be a real scalar.</entry>
+    <entry key="NonScalarConversion">The AM/PM conversion must be a real scalar.</entry>
+    <entry key="NonScalarLwrInpPowLimit">The lower input power limit for AM/PM conversion must be a real scalar.</entry>
+    <entry key="NonScalarUprInpPowLimit">The upper input power limit for AM/PM conversion must be a real scalar.</entry>
+    <entry key="InvalidUprInpPowLimit">The upper input power limit for AM/PM conversion must be greater than the lower limit.</entry>
+    <entry key="InvalidSmoothnessFactor">The smoothness factor for the Rapp model must be a real scalar.</entry>
+    <entry key="NonScalarOutputGain">The output gain must be a real scalar.</entry>
+    <entry key="InvalidOutputSatLvl">The output saturation level for the Rapp model must be a real scalar.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidParamsForSalehMdl1">The AM/AM parameters for the Saleh model must be a real vector of length 2.</entry>
+    <entry key="InvalidParamsForSalehMdl2">The AM/PM parameters for the Saleh model must be a real vector of length 2.</entry>
+    <entry key="InvalidParamsForGhorbaniMdl1">The AM/AM parameters for the Ghorbani model must be a real vector of length 4.</entry>
+    <entry key="InvalidParamsForGhorbaniMdl2">The AM/PM parameters for the Ghorbani model must be a real vector of length 4.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

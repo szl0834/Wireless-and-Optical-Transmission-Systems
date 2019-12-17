@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonIntegerSamplesPerSymbol">TR, TF, and PW does not result in integer number of samples per symbol.  Pulse is not realizable.  Type ''doc commsrc.pattern/std181toideal'' for more details</entry>
+    <entry key="InvalidIdealNRZParams">TR, TF, and PW does not result in a valid RZ pulse. Type ''doc commsrc.pattern/std181toideal'' for more details.</entry>
+    <entry key="InvalidIdealRZParams">TR, TF, and PW does not result in a valid RZ pulse. Type ''doc commsrc.pattern/std181toideal'' for more details.</entry>
+    <entry key="DCDForRZ">Duty cycle distortion is not defined for RZ pulses.</entry>
+  </message>
+</rsccat>

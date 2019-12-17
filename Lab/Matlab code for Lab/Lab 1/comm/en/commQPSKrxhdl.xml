@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>    
+    <entry key="PositiveAutoGainCtrlLoopGain">The loop gain should be a positive real number.</entry>
+    <entry key="PositiveAutoGainCtrlMaximumGain">The maximum gain should be a positive real number.</entry>    
+    <entry key="PositiveThreshold">The threshold should be a positive real number.</entry>
+  </message>
+</rsccat>

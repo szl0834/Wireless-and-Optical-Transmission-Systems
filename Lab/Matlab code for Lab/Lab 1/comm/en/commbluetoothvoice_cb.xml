@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidSlot">Slot 5&amp;6 cannot be used as initial slot for HV2</entry>
+  </message>
+</rsccat>

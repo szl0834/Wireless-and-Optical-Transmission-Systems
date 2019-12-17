@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidDecimationFactor">DecimationFactor must be a factor of InputSamplesPerSymbol.</entry>
+    <entry key="InvalidDecimationOffset">DecimationOffset must be less than DecimationFactor.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="bitInMNotPow2">When the BitInput property is set to true, the ModulationOrder property must be a positive integer power of two.</entry>
+    <entry key="inputIntRangeNot0ToMm1">Input must be an integer between 0 and ModulationOrder-1.</entry>
+    <entry key="inputNotOneOrZero">Input values must be binary (0 or 1).</entry>
+    <entry key="bitInVecInWrongLen">When the BitInput property is set to true, the length of the input must be an integer multiple of the number of bits per symbol.</entry>
+  </message>
+</rsccat>

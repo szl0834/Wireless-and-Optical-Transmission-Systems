@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidGenPoly">The generator polynomial parameter must be of even degree.</entry>
+    <entry key="InvalidInitStates">The initial states parameter must be a scalar or a vector of length equal to the degree of the generator polynomial parameter.</entry>
+    <entry key="InvalidInitStates1">The initial states parameter must have its last value to be nonzero.</entry>
+    <entry key="InvalidShift">The shift parameter must be an integer scalar.</entry>
+    <entry key="NonIntValuedSeqIndex">The sequence indexes parameter must be integer valued.</entry>
+    <entry key="InvalidSeqIndex">The sequence indexes parameter must be an integer between -1 and 2^(degree/2)-2.</entry>
+    <entry key="InvalidSeqIndexFirstVal">The first element of the sequence indexes parameter must be an integer between -2 and 2^(degree)-2.</entry>
+    <entry key="InvalidSeqIndexSecondVal">The second element of the sequence indexes parameter must be an integer between -1 and 2^(degree/2)-2.</entry>
+    <entry key="InvalidSeqIndexDims">The sequence indexes parameter must be a 2-element vector or a scalar of integer values.</entry>
+    <entry key="InitStatesNotBinary">The initial states parameter values must be binary.</entry>
+  </message>
+</rsccat>

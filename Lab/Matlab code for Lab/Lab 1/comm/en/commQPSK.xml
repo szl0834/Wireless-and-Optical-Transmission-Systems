@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="PositiveDelayStart">The initial delay should be a positive real number.</entry>
+    <entry key="NonNegativeDelayStep">The delay step should be a non-negative real number.</entry>
+    <entry key="NonNegativeDelays">The minimum delay, maximum delay and delay step should be non-negative real numbers.</entry>
+    <entry key="MaxGTMinDelay">The maximum delay should be greater than minimum delay plus delay step.</entry>
+    <entry key="RealEbN0">EbN0 should be a real number.</entry>
+    <entry key="RealFreqOffset">Frequency offset should be a real number.</entry>
+    <entry key="PositiveFreqResolution">Frequency resolution should be a real, positive scalar.</entry>
+    <entry key="PositiveFineFreqNormalizedBW">The normalized loop bandwidth of fine frequency compensation PLL should be a positive real number.</entry>
+    <entry key="PositiveFineFreqDampFactor">The damping factor of fine frequency compensation PLL should be a positive real number.</entry>
+    <entry key="PositiveTimeRecNormalizedBW">The normalized loop bandwidth of timing recovery PLL should be a positive real number.</entry>
+    <entry key="PositiveTimeRecDampFactor">The damping factor of timing recovery PLL should be a positive real number.</entry>
+  </message>
+</rsccat>

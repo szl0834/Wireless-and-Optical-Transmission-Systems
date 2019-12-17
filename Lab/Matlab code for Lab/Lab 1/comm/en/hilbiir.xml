@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DlyThanZero">The time delay factor for designing HILBIIR filter must be larger than 0</entry>
+    <entry key="smallDelay">The time delay is too small comparing the step size in HILBIIR</entry>
+    <entry key="longCompute">The filter coefficients may take a long time to compute. Try reducing the length of the impulse response by increasing Ts or decreasing the delay.</entry>
+  </message>
+</rsccat>

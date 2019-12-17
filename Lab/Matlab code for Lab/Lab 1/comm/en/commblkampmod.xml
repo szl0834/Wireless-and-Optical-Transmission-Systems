@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInpSigOffset">Input signal offset must be a real scalar.</entry>
+    <entry key="InvalidFilterOrder">Filter order must be an even and positive real scalar greater than 2.</entry>
+    <entry key="InpSigOffsetNotScalar">Input signal offset must be a real scalar.</entry>
+    <entry key="FilterOrdNotAnInt">Filter order must be a real positive integer.</entry>
+    <entry key="InvalidCutOffFreq">Cutoff frequency must be a real positive scalar.</entry>
+    <entry key="InvalidPassBandRipple">Passband ripple must be a real positive scalar.</entry>
+    <entry key="InvalidStopBandAtten">Stopband attenuation must be a real positive scalar.</entry>
+    <entry key="InvalidCarrierFreq">Carrier frequency must be a real positive scalar.</entry>
+    <entry key="InvalidIniPhase">Initial phase must be a real scalar.</entry>
+    <entry key="InternalErrorMultiRateBlock">Internal Error: block cannot be multi-rate.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DataIsEmpty">DATA cannot be empty.</entry>
+    <entry key="NrowsIsNotAPositiveInt">The number of rows must be a nonnegative integer.</entry>
+    <entry key="NcolsIsNotAPositiveInt">The number of columns must be a nonnegative integer.</entry>
+    <entry key="NrowsByNcolsIsInvalid">The product of NROWS and NCOLS must equal the length of\nthe sequence(s) in DATA.</entry>
+    <entry key="InvalidHstep">The array step size must be a nonnegative integer less than\nthe specified number of rows.</entry>
+  </message>
+</rsccat>

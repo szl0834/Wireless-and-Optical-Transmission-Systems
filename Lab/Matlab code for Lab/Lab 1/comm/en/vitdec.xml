@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyArgs">Too many output arguments.</entry>
+    <entry key="inVTrellis">Trellis is not valid.</entry>
+    <entry key="charOpMode">Operation mode must be specified by a character string.</entry>
+    <entry key="charDecType">Decision type must be specified by a character string.</entry>
+    <entry key="InvalidOpMode">Unknown operation mode passed in.</entry>
+    <entry key="termTrunc">The decoded message is the only output allowed for the Truncated and Terminated\noperation modes.</entry>
+    <entry key="InvalidDecType">Unknown decision type passed in.</entry>
+    <entry key="InvalidPuncPatErasPat">PUNCPAT and ERASPAT cannot be both empty arrays. If you would like to use the default values, do not specify these arguments. If you want to specify ERASPAT only, then specify PUNCPAT as an empty array.</entry>
+    <entry key="InvalidErasPat">ERASPAT cannot be an empty array if PUNCPAT has been specified. If you would like to use the default ERASPAT do not specify this argument.</entry>
+    <entry key="NoBits">Number of soft decision bits must be provided for the ''soft'' decision type.</entry>
+    <entry key="invalidCodeLength">Length of the input code vector must be a multiple of the number of bits in an\n input symbol.</entry>
+    <entry key="invBits">Number of soft decision bits must be a positive scalar integer.</entry>
+    <entry key="invPuncPat">The puncture pattern parameter must be a vector of real or logical values.</entry>
+    <entry key="PuncPatBinary">The puncture pattern parameter must be a binary vector of 1''s and 0''s only.</entry>
+    <entry key="codeLengthPunc">The input code length must be an integer multiple of the number of ones in the\npuncture pattern parameter.</entry>
+    <entry key="codeLengthPuncN">The input code length divided by the number of ones in the puncture pattern\ntimes the length of the puncture pattern must be an integer multiple of the number\nof bits in an input symbol.</entry>
+    <entry key="InvPuncture">The puncture pattern parameter must be a binary vector of 1''s and 0''s only. If you want to use the default PUNCPAT, and ERASPAT values, do not specify this parameter.</entry>
+    <entry key="erasVector">The erasures pattern parameter must be a vector of real or logical values.</entry>
+    <entry key="erasVectorBinary">The erasures pattern parameter must be a binary vector of 1''s and 0''s only.</entry>
+    <entry key="codeLengthEras">The length of the erasures pattern parameter must be the same as the input code length.</entry>
+    <entry key="invalidStates">The initial state metrics must be a real vector with length equal to the number\nof states in the specified trellis.</entry>
+    <entry key="invalidTBStates">The initial traceback states must be integers between 0 and\n(number of states - 1), arranged in a matrix.  Its number of rows must equal the\nnumber of states in the specified trellis, and its number of columns must equal\nthe traceback depth.</entry>
+    <entry key="invalidTBInputs">The initial traceback inputs must be integers between 0 and\n(number of states - 1), arranged in a matrix.  Its number of rows must equal the\nnumber of states in the specified trellis, and its number of columns must equal\nthe traceback depth.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvCode1">CODE must be a vector of real or logical values.</entry>
+    <entry key="InvCode2">For hard decision type, CODE must contain only binary values.</entry>
+    <entry key="InvCode3">For soft decision type, CODE must contain only integers between 0 and 2^NSDEC-1.</entry>
+    <entry key="tracebackDepth1">Traceback depth must be a positive integer scalar.</entry>
+    <entry key="tracebackDepth2">For the ''term'' and ''trunc'' modes, traceback depth must be a positive integer scalar not larger than the number of input symbols in CODE.</entry>
+    <entry key="emptyDefaults1">When using [] as the default for INIT_METRIC, INIT_STATES and INIT_INPUTS must\nalso be [].</entry>
+    <entry key="emptyDefaults2">When using [] as the default for INIT_STATES, INIT_METRIC and INIT_INPUTS must\nalso be [].</entry>
+    <entry key="emptyDefaults3">When using [] as the default for INIT_INPUTS, INIT_METRIC and INIT_STATES must\nalso be [].</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="TooManyInputs">Invalid syntax.  Too many input arguments.</entry>
+  </message>
+</rsccat>

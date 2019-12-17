@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidElements">{0} must be a nonempty positive integer vector with unique elements.</entry>
+    <entry key="InvalidElements1">The PermutationVector property must be a nonempty positive integer vector with unique elements.</entry>
+    <entry key="ElementsNotIntVec">{0} must be a nonempty integer vector.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidChanFilter">To pass a signal X through a channel CHAN, use Y=FILTER(CHAN, X) \nwhere CHAN is a channel object.\nFor more information, type ''help channel/filter'' in MATLAB.</entry>
+  </message>
+</rsccat>

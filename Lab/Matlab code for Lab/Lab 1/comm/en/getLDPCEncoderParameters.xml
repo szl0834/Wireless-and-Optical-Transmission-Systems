@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonInvertibleParityCheckMatrix">The last (N-K) columns of the parity-check matrix must be invertible in GF(2).</entry>
+    <entry key="InvParityCheckMatrix">The parity-check matrix must have at least two rows.</entry>
+    <entry key="NonSquareInputForFactorization">Input for gf2factorize must be a square matrix.</entry>
+  </message>
+</rsccat>

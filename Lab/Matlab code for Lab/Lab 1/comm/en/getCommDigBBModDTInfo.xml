@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FloatingPtDataTypUnsupported">Custom floating-point data types are not supported by this block.</entry>
+    <entry key="UnsignedDataTypUnsupported">Unsigned output data types are not supported by this block.</entry>
+    <entry key="UnsupportedFixPtScaling">Communications System Toolbox only supports fixed-point scaling with power of two slopes and zero bias.</entry>
+  </message>
+</rsccat>

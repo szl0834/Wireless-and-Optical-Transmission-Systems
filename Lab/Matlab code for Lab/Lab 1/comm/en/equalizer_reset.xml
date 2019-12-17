@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidEqReset">To reset an equalizer EQOBJ, use RESET(EQOBJ), \nwhere EQOBJ is an equalizer object.\nFor more information, type ''help equalizer/reset'' in MATLAB.</entry>
+  </message>
+</rsccat>

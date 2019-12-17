@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="KFactorAllZero">KFactor cannot be all-zero.</entry>
+    <entry key="FreqMinMaxRJakes">The minimum and maximum frequencies for a restricted Jakes Doppler spectrum must be spaced by more than 1/50.</entry>
+    <entry key="FreqMinMaxAJakes">The minimum and maximum frequencies for an asymmetric Jakes Doppler spectrum must be spaced by more than 1/50.</entry>
+    <entry key="CenterFreqPowerGainMismatch">NormalizedCenterFrequencies and PowerGains of a bi-Gaussian Doppler spectrum must be chosen so that the elements in the vector abs(NormalizedCenterFrequencies) + PowerGains*sqrt(2*log(2))) must not be greater than 1.</entry>
+    <entry key="UnequalTauPdBLen">AveragePathGains and PathDelays must have the same length.</entry>
+    <entry key="UnequalDSTauLen">The length of DopplerSpectrum must be 1 or the same as the length of PathDelays.</entry>
+    <entry key="UnequalKFactorTauLen">KFactor must be a scalar or a row vector of the same length as PathDelays.</entry>
+    <entry key="UnequalLOSShiftKFactorLen">DirectPathDopplerShift must have the same size as KFactor.</entry>
+    <entry key="UnequalLOSPhaseKFactorLen">DirectPathInitialPhase must have the same size as KFactor.</entry>    
+    <entry key="LOSShiftForStaticChan">When the maximum Doppler shift is zero, setting DirectPathDopplerShift to a non-zero value has no effect on the channel.</entry>
+    <entry key="LOSPhaseForStaticChan">When the maximum Doppler shift is zero, setting DirectPathInitialPhase to a non-zero value has no effect on the channel.</entry>
+    <entry key="MaxDopplerShiftTooLarge">MaximumDopplerShift times cutoff frequency factor(s) must be less than SampleRate/10.</entry>
+    <entry key="OverSampFactorTooLarge">Oversampling factor is greater than 100 for at least one path.</entry>
+    <entry key="PathDelayTooLarge">Some path delay values are much greater than the input sample period, resulting in a long channel filter response.</entry>
+    <entry key="ChannelFilterDelayNeg">The smallest path delay is much greater than the input sample period, which causes a negative channel filter delay.</entry>
+    <entry key="AllZeroSelectedTxInput">The input for selected transmit antennas must have at least one 1.</entry>
+    <entry key="AllZeroSelectedRxInput">The input for selected receive antennas must have at least one 1.</entry>
+    <entry key="InvalidBlkSignalInput">The signal input must be a double precision, real or complex, 2-dimensional matrix with the number of columns equal to the number of transmit antennas.</entry>
+    <entry key="InvalidBlkTxSelInput">The input for selected transmit antennas must be a fixed-size, binary, row vector of length equal to the number of transmit antennas, or equivalently, the first dimension of the transmit correlation matrix.</entry>
+    <entry key="InvalidBlkRxSelInput">The input for selected receive antennas must be a fixed-size, binary, row vector of length equal to the number of receive antennas, or equivalently, the first dimension of the receive correlation matrix.</entry>
+    <entry key="TxAntSelForFixSizeSig">Consider turning off transmit antenna selection for a fixed-size input signal.</entry>
+    <entry key="DopplerDispPathOutOfRange">PathsForDopplerDisplay must be no larger than the length of PathDelays.</entry>
+    <entry key="NoCodegenForVisual">Channel visualization is not supported in code generation.</entry>    
+    <entry key="NoVisualizationForSOS">Visualization is supported only when FadingTechnique is set to 'Filtered Gaussian noise'.</entry>
+    <entry key="NonIntInitialTimeInput">The INITIALTIME input must be a multiple of the reciprocal of the SampleRate property.</entry>
+    <entry key="NonIntInitialTimeProperty">The InitialTime property must be a multiple of the reciprocal of the SampleRate property.</entry>
+    <entry key="NegativeInitialTimeInput">The INITIALTIME input must be greater than the last frame time.</entry>
+    <entry key="DopplerSpectrumCheckSOS">DopplerSpectrum must be of Jakes type when FadingTechnique is set to Sum of sinusoids.</entry>
+    <entry key="NonScalarInitialTimeInput">The INITIALTIME input must be a scalar.</entry>
+</message>
+</rsccat>

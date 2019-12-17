@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InputNotAnEyeDiagramObj">Input argument must be a commscope.eyediagram object.</entry>
+    <entry key="NoInputName">Cannot determine eye diagram object name. Assigned the default name: eyeDiagramObj.</entry>
+    <entry key="InvalidArgumentNumber">Too many input arguments. Type ''help eyescope'' for correct usage.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numargs">Number of arguments must be 0, 2, 3, or 4.</entry>
+  </message>
+</rsccat>

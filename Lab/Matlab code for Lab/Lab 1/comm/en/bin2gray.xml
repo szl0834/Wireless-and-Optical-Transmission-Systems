@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InputEmpty">Input data vector is empty.</entry>
+    <entry key="InputDimensions">Input data must be a scalar, vector, matrix or a 3D array.</entry>
+    <entry key="InputError">Input data must contain only finite real non-negative integers.</entry>
+    <entry key="ModulationTypeError">Invalid modulation type.</entry>
+    <entry key="ModulationOrderError">Modulation order must be a finite real positive - integer power of 2.</entry>
+    <entry key="XError">Elements of input X must be integers in the range [0, M-1].</entry>
+    <entry key="ModulationTypeUnknown">Unknown modulation method.</entry>
+  </message>
+</rsccat>

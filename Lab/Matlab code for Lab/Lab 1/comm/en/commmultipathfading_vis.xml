@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FigDoNotExist">Figure does not exist or is not a channel visualization.</entry>
+    <entry key="InvalidSliderVal">Slider value out of range.</entry>
+    <entry key="OutOfRangeVal">Menu value out of range.</entry>
+  </message>
+</rsccat>

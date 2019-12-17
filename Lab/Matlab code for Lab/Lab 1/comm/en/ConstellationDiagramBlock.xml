@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schema/msgcat.xsd">
+  <message>
+    <entry key="LicenseFailed">Constellation Diagram requires a Communications System Toolbox license.</entry>
+    <entry key="NoVarNumChan">Varying the number of input channels is not allowed.</entry>
+    <entry key="NoNDInput">Inputs with more than two dimensions are not supported.</entry>
+    <entry key="NoMultichannel">The input must be a scalar, column vector or Simulink 1-D signal. Multichannel inputs are not supported.</entry>
+    <entry key="BlockDescription">Displays a constellation diagram</entry>
+    <entry key="BusSignalNotSupported">Constellation Diagram cannot accept a bus as its input signal. Insert a Bus to Vector conversion block in the signal path or extract signals using a Bus Selector block. To view the options associated with this message, in the Configuration Parameters dialog box, select Diagnostics > Connectivity; under Buses, see Bus signal treated as vector.</entry>
+    <entry key="UnsupportedDataType">The input data type must be double precision, single precision, or fixed point.</entry>
+    <entry key="TooManyInputChannels">The number of input channels cannot exceed {0}.</entry>
+    <entry key="OpenAtMdlStart"><![CDATA[Open a&t Start of Simulation]]></entry>
+</message>
+</rsccat>

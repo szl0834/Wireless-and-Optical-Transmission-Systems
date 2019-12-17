@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="columnInput">The X input must be a column vector.</entry>
+    <entry key="invalidInputXDims">The dimensions of the input X must be consistent with the BitInput property value, the message and codeword lengths, and the primitive polynomial. For more information, type ''help comm.RSEncoder/BitInput''.</entry>
+  </message>
+</rsccat>

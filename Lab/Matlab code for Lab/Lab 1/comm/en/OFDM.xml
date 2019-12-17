@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="PilotIndexForMoreThan64Tx">When PilotCarrierIndices is a 3-D array, its last dimension size must be no greater than 64.</entry>    
+    <entry key="IndexNotUniquePerSym">The pilot subcarrier indices per symbol across all the transmit antennas must be mutually distinct.</entry>
+    <entry key="InvalidCyclicPrefix">CyclicPrefixLength must be a scalar or a row vector of length equal to NumSymbols, with values between 0 and FFTLength, inclusive.</entry>
+    <entry key="InvalidGuardBands">The values of NumGuardBandCarriers must be smaller than half of FFTLength.</entry>
+    <entry key="InvalidPilotIndex">PilotCarrierIndices must have the first dimension size less than FFTLength, the second dimension size equal to 1 or NumSymbols, with values in [{0}, {1}] or [{2}, {3}].</entry>
+    <entry key="PilotIndexNotMatchNumTx">When PilotCarrierIndices is a 3-D array, its third dimension size must be equal to NumTransmitAntennas.</entry>
+    <entry key="NoDataCarriers">The summation of guard band, null and pilot subcarriers per symbol must be smaller than FFTLength.</entry>
+    <entry key="WindowLenGreaterThanCP">WindowLength must be smaller than or equal to the minimum of CyclicPrefixLength.</entry>
+    <entry key="NoCodegenForResourceMapping">Code generation for the showResourceMapping method is not supported.</entry>
+    <entry key="FreqIndexNotMatchFFT">The freqIndex input to the showResourceMapping method must be a 1 x 2 row vector such that freqIndex(2)=freqIndex(1)+FFTLength-1.</entry>    
+    <entry key="MoreThan8GridToPlot">The txIndex input to the showResourceMapping method must have 8 or less unique elements.</entry>    
+    <entry key="SelectedTxInputIgnored">The txIndex input to the showResourceMapping method is ignored as all the transmit antennas have the same subcarrier mapping.</entry>
+    <entry key="SpecifySelectedTxInput">Specify the txIndex input to show up to 8 subcarrier mapping plots for different transmit antennas at one time.</entry>
+  </message>
+</rsccat>

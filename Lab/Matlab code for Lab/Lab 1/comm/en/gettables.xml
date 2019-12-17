@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="gftablewarning">Lookup tables not defined for this order 2^{0} and\nprimitive polynomial {1}.  Arithmetic still works\ncorrectly but multiplication, exponentiation, and\ninversion of elements is faster with lookup tables.\nUse gftable to create and save the lookup tables.</entry>
+  </message>
+</rsccat>

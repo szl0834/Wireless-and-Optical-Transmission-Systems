@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidIndex1">IDX must be less than of equal to the number of elements of the list, which is {0,number,integer}.</entry>
+    <entry key="InvalidIndex2">IDX must be less than of equal to the number of elements of the list, which is {0,number,integer}.</entry>
+    <entry key="InvalidIndex3">OLDIDX must be less than or equal to the number of elements of the list, which is {0,number,integer}.</entry>
+    <entry key="InvalidIndex4">NEWIDX must be less than or equal to the number of elements of the list, which is {0,number,integer}.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MismatchOrder">Orders must match.</entry>
+    <entry key="MismatchPrim_Poly">Primitive polynomials must match.</entry>
+    <entry key="XNotAVector">X must be a vector.</entry>
+    <entry key="ANotAVector">A must be a vector.</entry>
+    <entry key="BNotAVector">B must be a vector.</entry>
+    <entry key="ZeroFirstElement">The first element of A cannot be zero.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="VectorInputSignal">The input signal must be a vector.</entry>
+    <entry key="InvalidCodeType">The encoded signal has to be a vector of type double.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="CodeNotFound">The encoded signal contains a code which is not present in the dictionary.</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InputArgumentCount">There must be two input arguments.</entry>
+  </message>
+</rsccat>

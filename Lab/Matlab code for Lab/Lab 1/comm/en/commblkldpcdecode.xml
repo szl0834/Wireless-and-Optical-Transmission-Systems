@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParityChkMtxSize">The number of rows of parity-check matrix must be less than the number of columns.</entry>
+    <entry key="NonBinParityChkMtx">The parity-check matrix is not binary-valued.</entry>
+    <entry key="InvalidParityChkMtx">The parity-check matrix cannot have an all-zero column.</entry>
+  </message>
+</rsccat>

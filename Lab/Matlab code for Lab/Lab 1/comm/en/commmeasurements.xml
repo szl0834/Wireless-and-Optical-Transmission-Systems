@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2014-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+
+    <!-- Signal Quality -->
+    <entry key="SignalQuality">Signal Quality</entry>
+    <entry key="MISignalQuality">Signal Quality</entry>
+    <entry key="TTSignalQuality">Signal Quality</entry>
+    <entry key="SignalQualitySettings">Signal quality Settings</entry>
+    <entry key="MeasurementInterval">Measurement interval:</entry> 
+    <entry key="MIMeasurementInterval">Measurement interval</entry> 
+    <entry key="TTMeasurementInterval">Measurement interval (number of symbols)</entry>  
+    <entry key="EVMNormalization">EVM normalization:</entry>      
+    <entry key="MIEVMNormalization">EVM normalization</entry>      
+    <entry key="TTEVMNormalization">Average or peak constellation power</entry> 
+    <entry key="EVMAvePower">Average constellation power</entry>
+    <entry key="EVMPeakPower">Peak constellation power</entry>
+    <entry key="refConstellation">Reference constellation:</entry>      
+    <entry key="MIrefConstellation">Reference constellation</entry>      
+    <entry key="TTrefConstellation">Compare received signal with this constellation</entry> 
+    <entry key="BPSK">BPSK</entry>
+    <entry key="QPSK">QPSK</entry>
+    <entry key="PSK8">8-PSK</entry>
+    <entry key="QAM16">16-QAM</entry>
+    <entry key="QAM64">64-QAM</entry>
+    <entry key="QAM256">256-QAM</entry>
+    <entry key="UserDefinedConstellation"><![CDATA[<user-defined>]]></entry>
+    <entry key="AveragePower">Average reference power:</entry>
+    <entry key="MIAveragePower">Average reference power</entry>
+    <entry key="TTAveragePower">Average power of the reference constellation</entry>
+    <entry key="PhaseOffset">Reference phase offset:</entry>
+    <entry key="MIPhaseOffset">Reference phase offset</entry>
+    <entry key="TTPhaseOffset">Phase offset of the reference constellation (in radians)</entry>
+    <entry key="CustomRefCon">Custom value:</entry>
+    <entry key="MICustomRefCon">Custom value</entry>
+    <entry key="TTCustomRefCon">Custom reference constellation</entry>
+    <entry key="ConstellationNormalization">Constellation normalization:</entry>      
+    <entry key="MIConstellationNormalization">Constellation normalization</entry>      
+    <entry key="TTConstellationNormalization">Normalization method of reference constellation</entry> 
+    <entry key="ConstellationMinDistance">Minimum distance</entry>
+    <entry key="ConstellationAvePower">Average power</entry>
+    <entry key="ConstellationPeakPower">Peak power</entry>
+    <entry key="MinDistance">Minimum distance:</entry>
+    <entry key="MIMinDistance">Minimum distance</entry>
+    <entry key="TTMinDistance">Minimum distance between reference symbols</entry>
+    <entry key="PeakPower">Peak reference power:</entry>
+    <entry key="MIPeakPower">Peak power</entry>
+    <entry key="TTPeakPower">Peak power of the reference constellation</entry>
+    <entry key="EVM">EVM</entry>
+    <entry key="MIEVM">EVM</entry>
+    <entry key="TTEVM">Error vector magnitude</entry>    
+    <entry key="MER">MER</entry>   
+    <entry key="MIMER">MER</entry>  
+    <entry key="TTMER">Modulation error ratio</entry>  
+    <entry key="RMS">RMS</entry>    
+    <entry key="MIRMS">RMS</entry>    
+    <entry key="TTRMS">Root mean square value</entry>       
+    <entry key="Peak">Peak</entry>     
+    <entry key="MIPeak">Peak</entry>     
+    <entry key="TTPeak">Peak value</entry>  
+    <entry key="EVMrmsValue">RMS EVM value in dB</entry> 
+    <entry key="MIEVMrmsValue">RMS EVM value in dB</entry> 
+    <entry key="TTEVMrmsValue">RMS EVM value in dB</entry>   
+    <entry key="EVMpeakValue">Peak EVM value in dB</entry>   
+    <entry key="MIEVMpeakValue">Peak EVM value in dB</entry>   
+    <entry key="TTEVMpeakValue">Peak EVM value in dB</entry> 
+    <entry key="EVMrmsPercent">RMS EVM value in percent</entry> 
+    <entry key="MIEVMrmsPercent">RMS EVM value in percent</entry> 
+    <entry key="TTEVMrmsPercent">RMS EVM value in percent</entry> 
+    <entry key="EVMpeakPercent">Peak EVM value in percent</entry> 
+    <entry key="MIEVMpeakPercent">Peak EVM value in percent</entry> 
+    <entry key="TTEVMpeakPercent">Peak EVM value in percent</entry> 
+    <entry key="MERrmsValue">RMS MER value in dB</entry> 
+    <entry key="MIMERrmsValue">RMS MER value in dB</entry> 
+    <entry key="TTMERrmsValue">RMS MER value in dB</entry> 
+    <entry key="InvalidMeasurementInterval">MeasurementInterval property must be a positive integer greater than one and not greater than the number of displayed symbols.</entry> 
+    <entry key="InvalidSymbolsToDisplay">The number of displayed symbols must be a positive number not smaller than the value of MeasurementInterval property.</entry> 
+    <entry key="InvalidEVMNormalization">EVMNormalization property must be either 'Average constellation power' or 'Peak constellation power'.</entry> 
+    <entry key="InvalidDistanceOrPower">A positive real scalar must be given for the minimum distance between symbols, as well as for the average and peak reference powers.</entry>
+    <entry key="InvalidPhaseOffset">Reference phase offset must be a real scalar.</entry>
+    <entry key="RefConOutsideAxes">The reference constellation is not entirely contained within the current scope axes. Misconfigured reference constellations may lead to poor measurements.</entry>
+    <entry key="RefConOutsideAxesTitle">Reference constellation.</entry>
+    <entry key="NoReferenceConstellation">For measurement mode, ReferenceConstellation property needs to be set.</entry> 
+    <entry key="SamplesPerSymbolNotOne">For measurement mode, the input signal cannot contain more than one sample per symbol.</entry> 
+    <entry key="NoColorFading">For measurement mode, ColorFading property needs to be false.</entry> 
+    <entry key="WaitForMoreData">Waiting for more data...</entry> 
+    <entry key="TTWaitForMoreData">In order to compute measurements, the input data size needs to be larger or equal to MeasurementInterval property value.</entry> 
+    <entry key="MIWaitForMoreData">In order to compute measurements, the input data size needs to be larger or equal to MeasurementInterval property value.</entry>
+    <entry key="WaitForRefCon">Waiting for reference constellation...</entry> 
+    <entry key="TTWaitForRefCon">In order to compute measurements, the reference constellation needs to be set.</entry> 
+    <entry key="MIWaitForRefCon">In order to compute measurements, the reference constellation needs to be set.</entry> 
+    <entry key="Settings">Settings</entry>
+    <!-- Context Help -->
+    <entry key="WhatsThis">What''s This?</entry>
+  </message>
+</rsccat>

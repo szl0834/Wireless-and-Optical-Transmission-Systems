@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="notChar">SYS must be a character array.</entry>
+    <entry key="wrongColor">COLOR must be ''blue'', ''green'', ''red'', ''cyan'', ''magenta'', ''yellow'', or ''black''.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="mdlExist">The model ''{0}'' does not exist.</entry>
+  </message>
+</rsccat>

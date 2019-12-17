@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputType">Unknown input type.</entry>
+    <entry key="InvalidPulseShape">Unrecognized pulse shape.</entry>
+    <entry key="InvalidFiltCoeff">The filter coefficients must be a nonempty vector</entry>
+    <entry key="InvalidInterpolFactor">Interpolation factor must be a positive integer</entry>
+  </message>
+</rsccat>

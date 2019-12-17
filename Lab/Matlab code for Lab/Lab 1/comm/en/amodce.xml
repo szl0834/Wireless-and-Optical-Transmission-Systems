@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidInputSignal1">Both the numerator and denominator need to be specified.</entry>
+    <entry key="invalidInputSignal2">There must be an even number of columns in the input X.</entry>
+    <entry key="invalidInputSignal3">The input signal for AMODCE has an illegal element.</entry>
+    <entry key="invalidInputSignal4">The input signal for AMODCE has an element larger than the given limit.</entry>
+    <entry key="invalidInputSignal5">Not enough input parameters.</entry>
+  </message>
+</rsccat>

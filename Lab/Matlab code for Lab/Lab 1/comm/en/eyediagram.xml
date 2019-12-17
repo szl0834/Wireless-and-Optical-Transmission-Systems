@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidHandle">Ignoring invalid handle H. Creating a new eye diagram.</entry>
+    <entry key="invalidHandle1">Figure is not an existing eye diagram. Use an existing eye diagram or do not use a figure handle as an input.</entry>
+    <entry key="EmptyX">Input variable X is empty.</entry>
+    <entry key="NonPositivePeriod">PERIOD must be a positive number.</entry>
+    <entry key="InvalidN">N must be an integer greater than 1.</entry>
+    <entry key="InvalidOffset">OFFSET must be a integer in the range 0 &lt;= OFFSET &lt; N.</entry>
+    <entry key="invalidSizeX">Number of columns in the input data, X, cannot exceed 2.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidHandle2">{0}</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidHandle3">Ignoring invalid handle H. Creating a new eye diagram.</entry>
+  </message>
+</rsccat>

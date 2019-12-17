@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ts">InputSamplePeriod must be a strictly positive real finite scalar.</entry>
+    <entry key="fd">MaxDopplerShift must be a non-negative real finite scalar.</entry>
+    <entry key="sizePathDelays">PathDelays must be a row vector.</entry>
+    <entry key="typePathDelays">PathDelays must be real.</entry>
+    <entry key="infNanPathDelays">Elements of PathDelays cannot be Inf or NaN.</entry>
+  </message>
+</rsccat>

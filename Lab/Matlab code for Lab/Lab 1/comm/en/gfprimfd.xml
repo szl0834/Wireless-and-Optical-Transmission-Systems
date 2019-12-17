@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidM">M must be a real positive scalar.</entry>
+    <entry key="InvalidString">Invalid string input.</entry>
+    <entry key="InvalidOPT">OPT parameter must be either a string, or a real integer greater than one and less than M+1.</entry>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="NoSolution">No primitive polynomial satisfies the given constraints.</entry>
+  </message>
+</rsccat>

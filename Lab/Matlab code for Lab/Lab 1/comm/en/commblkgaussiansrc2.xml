@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParams">Mean, Variance and Initial seed must be numeric arrays.</entry>
+    <entry key="MatrixParamsDisAllowed">Mean and Initial seed cannot be a matrix.</entry>
+    <entry key="InvalidParamsForm">Mean, Variance and Initial seed must be either all scalars, or if more than one of them is a vector, their vector sizes, should agree.  If Variance is a matrix, it must be a square matrix with its sides being of the same length as the other vectors.</entry>
+    <entry key="InvalidStdDev">Standard deviation must consist of nonnegative numbers only.</entry>
+    <entry key="InvalidStdDevForGausNoiseBlk">Standard deviation for Gaussian noise block is not valid.</entry>
+    <entry key="InvalidCovarMtx">The covariance matrix must be symmetric and nonnegative definite.</entry>
+    <entry key="InvalidDims">The dimensions of the Mean and Variance for Gaussian noise generator block are not compatible.</entry>
+  </message>
+</rsccat>

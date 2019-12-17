@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="irrelevantPropertySet">The {0} property is not relevant in this configuration of {1}.</entry>
+    <entry key="invalidStateChange">The {0} object has been reset due to changes in input specifications at run time. This will affect performance.</entry>
+  </message>
+</rsccat>

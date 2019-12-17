@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArgsPassed">Syntax error.</entry>
+    <entry key="NoInputs">Required parameter empty.</entry>
+    <entry key="ColFlagRowInput">A column-wise comparison is not possible with a row vector input.</entry>
+    <entry key="RowFlagColInput">A row-wise comparison is not possible with a column vector input.</entry>
+    <entry key="NonBinaryWithLogical">When one of the inputs is logical, the other input must be binary valued.</entry>
+    <entry key="InvalidNumBitsWithLogical">When one of the inputs is logical, number of bits, K, must be 1.</entry>
+    <entry key="NonScalarWordLength">Word length must be a scalar.</entry>
+    <entry key="InvalidWordLength">Word length must be a finite, real integer.</entry>
+    <entry key="ShortWordLength">The specified word length is too short for the matrix elements.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidFlag1">Only string and numeric arguments are accepted.</entry>
+    <entry key="MismatchedInputDims1">Input row vector must contain as many elements as there are columns in the input matrix.</entry>
+    <entry key="MismatchedInputDims2">Input column vector must contain as many elements as there are rows in the input matrix.</entry>
+    <entry key="MismatchedInputDims3">Input matrices must be the same size.</entry>
+    <entry key="InvalidFlag2">Invalid string flag.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

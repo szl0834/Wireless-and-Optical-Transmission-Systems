@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NumOfElemNotPowof2">{0} must be a power of 2.</entry>
+    <entry key="InvalidNumofElements">{0} plus one must be prime.</entry>
+    <entry key="InvalidMode1">The ''Type'' parameter value is invalid.</entry>
+    <entry key="InvalidMode2">The Method property value is invalid.</entry>
+    <entry key="NumOfElemNotInt">Number of elements must be an integer.</entry>
+    <entry key="MultiFactorNotOddInt">Multiplicative factor must be an odd integer.</entry>
+    <entry key="MultiFactorLessThanZero">Multiplicative factor must be greater than zero.</entry>
+    <entry key="InvalidMultiFactor">Multiplicative factor must be less than Number of elements.</entry>
+    <entry key="CyclicShiftNotAnInt">Cyclic shift must be an integer.</entry>
+    <entry key="CyclicShiftLessThanZero">Cyclic shift must be greater than or equal to zero.</entry>
+    <entry key="InvalidCyclicShift">Cyclic shift must be less than Number of elements.</entry>
+    <entry key="InvalidPrimitiveElement">Primitive element must be less than Number of elements.</entry>
+    <entry key="ValNotPrimitive">Specified value is not a primitive element.</entry>
+    <entry key="InvalidMode">Unrecognized mode</entry>
+  </message>
+</rsccat>

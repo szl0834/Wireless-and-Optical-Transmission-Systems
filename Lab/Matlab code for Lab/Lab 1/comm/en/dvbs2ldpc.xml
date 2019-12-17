@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="UnsupportedCodeRate">Code rate not supported</entry>
+    <entry key="InvalidOutputFormat">The outputFormat value must be either ''sparse'' or ''indices''.</entry>
+    <entry key="NotIndexOutForCodegen">Code generation for sparse matrices is not supported. Please set the ''outputFormat'' argument of dvbs2ldpc function to ''indices''.</entry>
+  </message>
+</rsccat>

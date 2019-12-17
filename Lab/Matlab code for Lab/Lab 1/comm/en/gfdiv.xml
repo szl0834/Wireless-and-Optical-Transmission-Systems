@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputElements1">Input elements must be real integers.</entry>
+    <entry key="InvalidInputElements2">Input elements must be either 0 or 1 for division over GF(2).</entry>
+    <entry key="InvalidInputElements3">Input elements must be between 0 and P-1 for division over a prime field.</entry>
+    <entry key="InvalidInputElements4">Input elements must be between -Inf and P^M-2 for division over an extension field.</entry>
+    <entry key="InvalidFieldParameterVal1">Field parameter values must be real nonnegative integers.</entry>
+    <entry key="InvalidFieldParameterVal2">Field parameter is not valid. See GFTUPLE.</entry>
+    <entry key="InvalidInputSize">Inputs must have the same size and orientation.</entry>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="InvalidInputDims">Inputs must not have more than two dimensions.</entry>
+    <entry key="InvalidFieldParameter">Field parameter is not valid. See GFTUPLE.</entry>
+ <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidFieldParameterVal3">Field parameter is not valid. See GFTUPLE.</entry>
+    <entry key="InvalidFieldParameterVal4">Field parameter is not valid. See GFTUPLE.</entry>
+  </message>
+</rsccat>

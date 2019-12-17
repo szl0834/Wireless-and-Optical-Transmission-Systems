@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonScalarSymbolSetSize">Symbol set size must be a scalar</entry>
+    <entry key="SymbolSetSizeLessThan2">Symbol set size must be greater than two</entry>
+    <entry key="NonIntSymbolSetSize">Symbol set size must be an integer</entry>
+    <entry key="InvalidSymbolSetSize">Symbol set size must be a power of two</entry>
+    <entry key="MismatchSizes">Mapping vector should be the same length as the symbol set size.</entry>
+  </message>
+</rsccat>

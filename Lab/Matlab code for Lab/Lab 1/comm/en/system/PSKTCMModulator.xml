@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidModulationOrder">The ModulationOrder parameter must be 4, 8, or 16.</entry>
+    <entry key="isTrellis">Invalid trellis structure. </entry>
+    <entry key="MTrellisDimension">Incorrect trellis specified for the chosen M-ary number.</entry>
+  </message>
+</rsccat>

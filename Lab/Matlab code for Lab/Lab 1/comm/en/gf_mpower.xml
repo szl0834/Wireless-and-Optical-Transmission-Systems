@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="yNotgf">x^y not defined for y in GF(2^M).</entry>
+    <entry key="Infinitely">Exponentiation by Inf or NaN not defined for Galois Fields</entry>
+    <entry key="InpsNotSqrMatrixOrScalar">^ only defined for square matrices (and scalars)</entry>
+    <entry key="NonScalary">in x^y, y must be a scalar</entry>
+  </message>
+</rsccat>

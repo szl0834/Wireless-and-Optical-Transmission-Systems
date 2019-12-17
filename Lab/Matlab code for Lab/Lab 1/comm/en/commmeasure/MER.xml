@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NoPercentileHigh">Percentile value cannot be calculated.  The data may have too little noise.  You can turn this warning off by typing ''warning(''off'', ''comm:commmeasure:MER:NoPercentileHigh'')''.</entry>
+    <entry key="NoPercentileLow">Percentile value cannot be calculated.  The data may have too much noise.  You can turn this warning off by typing ''warning(''off'', ''comm:commmeasure:MER:NoPercentileLow'')''.</entry>
+    <entry key="DeprecatedFunction">commmeasure.MER will be removed in a future release. Use comm.MER instead.</entry>
+  </message>
+</rsccat>

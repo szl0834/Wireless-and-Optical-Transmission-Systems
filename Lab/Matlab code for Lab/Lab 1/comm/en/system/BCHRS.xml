@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidCodeType">codeType must be either 1 (for BCH) or 2 (for RS).</entry>
+    <entry key="InvalidBlockType">blockType must be either ''encoder'' or ''decoder''</entry>
+    <entry key="InvalidInterfaceMode">interfaceMode must be either ''integer'' or ''binary''</entry>
+    <entry key="InvalidNK">N and K must be positive, double precision integer scalars</entry>
+    <entry key="IncorrectFormN">N must be of form 2^m-1, where m is an integer between 3 and 16.</entry>
+    <entry key="InvalidBCHCodeN">The codeword length N must be between 4 and 2^16-1</entry>
+    <entry key="InvalidBCHCodeK">The message length must be between 1 and 65519</entry>
+    <entry key="InvalidRSCodeN">The codeword length N must be between 3 and 2^16-1</entry>
+    <entry key="InvalidRSCodeK">The message length must be between 1 and 65533</entry>
+    <entry key="InvalidPrimPoly">The Primitive Polynomial must be a double precision row vector</entry>
+    <entry key="InvalidPrimPolyCoeff">The coefficients of the primitive polynomial must be binary</entry>
+    <entry key="PrimPolyNotPrimitive">The Primitive polynomial entered is not primitive</entry>
+    <entry key="PrimPolyDegreeTooLarge">The primitive polynomial must not be of degree over 16</entry>
+    <entry key="PrimPolyDegreeTooSmall">The primitive polynomial must be of degree 3 or above</entry>
+    <entry key="InvalidN">N is too large for the primitive polynomial entered</entry>
+    <entry key="NTooSmall">To use the default primitive polynomial, N must be greater than 3</entry>
+    <entry key="InvalidNKCombo">N must be greater than K by at least 2</entry>
+    <entry key="GenPolyNotMonic">The generator polynomial must be monic</entry>
+    <entry key="InvalidGenPoly">Invalid generator polynomial</entry>
+    <entry key="InvalidGenPolyGF">The Generator Polynomial must be either a double precision row vector or a Galois row vector</entry>
+    <entry key="InvalidGenPolyDouble">The Generator Polynomial must be either a double precision row vector or a Galois row vector</entry>
+    <entry key="InvalidGenPolyType">The Generator Polynomial must be either a double precision row vector or a Galois row vector</entry>
+    <entry key="InvalidBCHGenPolyCoeff">The coefficients of the generator polynomial must be binary</entry>
+    <entry key="BCHGenPolyNotGF">The BCH Encoder block must use a generator polynomial defined over GF(2)</entry>
+    <entry key="InvalidBCHGenPoly">The generator polynomial must evenly divide X^n+1, where n is the length of a full length code</entry>
+    <entry key="InvalidPunctVec">The PuncturePattern property must be a double precision binary column vector of length N-K, where N is the codeword length and K is the message length. The puncture pattern must have no more than 2t zeros, where t is the error-correcting capability of the code.</entry>
+    <entry key="GenPolyDegreeMatchNMinusK">The degree of the generator polynomial must be equal to the codeword length minus the message length.</entry>
+  </message>
+</rsccat>

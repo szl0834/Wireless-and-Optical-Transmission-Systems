@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidBitOutput">The BitOutput property can only be set to true.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="inputNot1D2DColVec">The input must be a column vector.</entry>
+    <entry key="bitInMNotPow2">The ModulationOrder property must be a positive integer power of two.</entry>
+    <entry key="invalidComplexity">The input data must be complex.</entry>
+    <entry key="noiseVarNotRealPosScl">The Variance input must be a real, positive scalar.</entry>
+  </message>
+</rsccat>

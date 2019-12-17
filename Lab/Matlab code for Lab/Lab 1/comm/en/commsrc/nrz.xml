@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="EqualOutputLevels">OutputLevels must be distinct values.</entry>
+    <entry key="InvalidTrTsym">RiseTime must be less than or equal to SymbolDuration.</entry>
+    <entry key="InvalidTfTsym">FallTime must be less than or equal to SymbolDuration.</entry>
+  </message>
+</rsccat>

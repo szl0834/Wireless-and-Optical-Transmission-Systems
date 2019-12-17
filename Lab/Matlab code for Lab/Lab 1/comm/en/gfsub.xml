@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="LenNotScalarInt">Length parameter must be a real integer scalar.</entry>
+    <entry key="InputsNotSameSize">If inputs are matrices, they must have the same size.</entry>
+    <entry key="InvalidOrientation">Orientations of input vectors must be the same.</entry>
+    <entry key="InvalidInputDims">Inputs must not have more than two dimensions.</entry>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="InputElementsNotInt">Input elements must be real integers.</entry>
+    <entry key="InvalidInputElementsP2">Input elements must be either 0 or 1 for subtraction over GF(2).</entry>
+    <entry key="InvalidFieldVal">Field parameter values must be real nonnegative integers.</entry>
+    <entry key="InvalidField">Field parameter is not valid. See GFTUPLE.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidInputElements1">Input elements must be between 0 and P-1 for subtraction over a prime field.</entry>
+    <entry key="InvalidInputElements2">Input elements must be between -Inf and P^M-2 for subtraction over an extension field.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

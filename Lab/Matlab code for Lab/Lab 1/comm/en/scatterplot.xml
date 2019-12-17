@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidX">Input variable X is empty.</entry>
+    <entry key="InvalidN">N must be a positive integer.</entry>
+    <entry key="InvalidOffset">OFFSET must be a nonnegative integer.</entry>
+    <entry key="invalidHandle">Ignoring invalid handle, H. Creating a new scatter plot.</entry>
+    <entry key="NonExistingScatterPlot">Figure is not an existing scatter plot.\nUse an existing scatter plot or do not use a figure handle as an input</entry>
+    <entry key="InvalidRealInput">A real input must be a vector or a two-column matrix.</entry>
+    <entry key="InvalidComplexInput">A complex input must be a vector.</entry>
+  </message>
+</rsccat>

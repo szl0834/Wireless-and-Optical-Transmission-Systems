@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input parameters.</entry>
+    <entry key="InvalidParam">Parameter METHOD in COMPAND must be a string.</entry>
+    <entry key="InputNotNumeric">Inputs IN, PARAM and V must be real numbers.</entry>
+    <entry key="InvalidMethod">Parameter METHOD has invalid value.</entry>
+  </message>
+</rsccat>

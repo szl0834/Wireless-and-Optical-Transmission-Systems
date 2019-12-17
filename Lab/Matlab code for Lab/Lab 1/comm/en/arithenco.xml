@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidSymbolSequenceParameter1">The symbol sequence parameter must be a vector of positive finite integers.</entry>
+    <entry key="InvalidSymbolSequenceParameter2">The symbol counts parameter must be a vector of positive finite integers.</entry>
+    <entry key="InvalidSymbolSequenceParameter3">The symbol sequence parameter can take values only between 1 and the length of the symbol counts parameter.</entry>
+  </message>
+</rsccat>

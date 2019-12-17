@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidSignedFiInput">Signed fixed-point inputs must have word length at least 2 bits larger than their fraction length.</entry>
+    <entry key="InvalidUnsignedFiInput">Unsigned fixed-point inputs must have word length at least 1 bit larger than their fraction length.</entry>
+  </message>
+</rsccat>

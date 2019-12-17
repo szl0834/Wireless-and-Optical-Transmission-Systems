@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidM">M must be a real positive scalar.</entry>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="OutsideDatabase">You have requested a polynomial of degree {0,number,integer} over GF({1,number,integer}). This polynomial is outside the range of values stored in GFPRIMDF. GFPRIMFD is being called to compute the primitive polynomial.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numElementsMismatch">The input, X, must be a column vector with the number of elements equal to (NumRows x NumColumns).</entry>
+  </message>
+</rsccat>

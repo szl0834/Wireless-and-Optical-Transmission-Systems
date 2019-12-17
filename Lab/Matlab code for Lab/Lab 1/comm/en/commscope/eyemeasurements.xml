@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="JitterRJDJTJFailed">The ANALYZE method cannot determine random, deterministic, and total jitter. Check measurement setup values in the MeasurementsSetup property. Also, the collected data may not be dual-Dirac. See documentation for description of valid eye diagrams.</entry>
+    <entry key="JitterRMSP2PFailed">The ANALYZE method cannot determine RMS and peak-to-peak jitter. Check measurement setup values in the MeasurementsSetup property. Also, the collected data may not be dual-Dirac. See documentation for description of valid eye diagrams.</entry>
+    <entry key="CrossingTimeFailed">The ANALYZE method cannot determine crossing times. Check measurement setup values in the MeasurementsSetup property. Also, the collected data may not be dual-Dirac. See documentation for description of valid eye diagrams.</entry>
+    <entry key="UnevenWrapping">The eye crossing time measurement for the {0} branch has been wrapped and that of the {1} branch has not. Consider shifting the eye measurements by adding one half symbol duration to the current value in the MeasurementDelay property.</entry>
+    <entry key="EyeLevelNotStable">Eye level measurements are not stable.  Cannot determine rise and fall times.  Provide more data to stabilize eye level measurements.</entry>
+    <entry key="InvalidEyeLevel">The ANALYZE method cannot determine eye levels. Check measurement setup values in the MeasurementsSetup property. Also, the collected data may not be dual-Dirac. See documentation for description of valid eye diagrams.</entry>
+    <entry key="EyeOpenVerFailed">The ANALYZE method cannot determine vertical eye opening. Check measurement setup values in the MeasurementsSetup property. Also, the collected data may not be dual-Dirac. See documentation for description of valid eye diagrams.</entry>
+    <entry key="NotEnoughInputArgs">Not enough input arguments.</entry>
+    <entry key="InvalidInput">The input to the analyze method must be a commscope.eyediagram object.</entry>
+    <entry key="InvalidSymbolsPerTrace">The eye diagram measurements can only be performed when SymbolsPerTrace is 2.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="NotEnoughData">The eye diagram does not have enough data. Analysis results may not be\naccurate. To improve accuracy, enter more data using the UPDATE method.</entry>
+    <entry key="QuaNotEnoughData">The quadrature eye diagram does not have enough data. Analysis results may not be\naccurate. To improve accuracy, enter more data using the UPDATE method.</entry>
+    <entry key="SmallNoise">{0} noise variance is too small to make an estimate and is assumed to be 0. Either increase the number of input samples or increase the noise in the input samples.</entry>
+  </message>
+</rsccat>

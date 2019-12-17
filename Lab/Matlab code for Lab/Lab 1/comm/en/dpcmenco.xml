@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NotEnoughInputs">Not enough input variables for DPCMENCO.</entry>
+    <entry key="InvalidPartitionSize">The vector size for PARTITION must be the size of CODEBOOK -1.</entry>
+    <entry key="InvalidPredictorSize">The vector size for PREDICTOR must be more than 1.</entry>
+  </message>
+</rsccat>

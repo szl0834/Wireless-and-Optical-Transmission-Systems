@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPartitionAndCodeBookSize">The partition and the codebook must be row vectors.</entry>
+    <entry key="InvalidPartitionVecLength">The length of the partition vector must be one less than the length of the codebook vector.</entry>
+    <entry key="InvalidArg">Unknown argument for function ''commblkquantenc''</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="class">Object must be a rayleigh or rician channel.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidChannel">Object must be a rayleigh or rician channel.</entry>
+  </message>
+</rsccat>

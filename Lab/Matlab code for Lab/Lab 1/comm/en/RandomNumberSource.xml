@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ContSampleTime">Continuous sample time is not allowed. Set sample time to a non-negative integer scalar value or -1 to use inherited sample time.</entry>
+    <entry key="NegativeSampleTime">Sample time must be a non-negative integer scalar value or -1 to use inherited sample time.</entry>
+  </message>
+</rsccat>

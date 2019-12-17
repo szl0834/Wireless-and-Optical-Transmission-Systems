@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ts">Output sample period must be greater than zero.</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="fc">{0} must be greater than or equal to zero.</entry>
+  </message>
+</rsccat>

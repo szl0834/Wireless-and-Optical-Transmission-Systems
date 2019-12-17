@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidDecisionType">''{0}'' DecisionType is not allowed with MSKDEMOD.</entry>
+    <entry key="InitDiffBitReset">The number of channels has changed.  Resetting the demodulator.</entry>
+    <entry key="ResetInvalidNChan">NCHAN must be a finite scalar integer.</entry>
+    <entry key="DemodStatesReset">The number of channels has changed.  Resetting the demodulator.</entry>
+    <entry key="InvalidSamplesPerSymbol">SamplesPerSymbol must be a finite scalar number.</entry>
+    <entry key="MMustBe2">M must be 2 for MSK and is set accordingly.</entry>
+  </message>
+</rsccat>

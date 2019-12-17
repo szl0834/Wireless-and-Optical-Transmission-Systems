@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidAmplitude">The symbol rate is too high to realize the specified periodic jitter.  Resetting the periodic jitter amplitude to a realizable value.</entry>
+    <entry key="InvalidDelta">The symbol rate is too high to realize the specified Dirac jitter.  Resetting the Dirac jitter delta to a realizable value.</entry>
+  </message>
+</rsccat>

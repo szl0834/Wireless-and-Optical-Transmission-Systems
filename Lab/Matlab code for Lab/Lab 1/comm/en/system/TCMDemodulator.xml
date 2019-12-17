@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="isTrellis">Invalid trellis structure. </entry>
+    <entry key="constPtsCheck">Signal constellation must be a vector of at least two elements, representing the set of constellation points that the modulator in the current model can generate.</entry>
+    <entry key="MTrellisDimension">Trellis specified does not correspond to the chosen signal constellation set.</entry>
+    <entry key="tbDepthCheck">Traceback depth must be a positive integer.</entry>
+  </message>
+</rsccat>

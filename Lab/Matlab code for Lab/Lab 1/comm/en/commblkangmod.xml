@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidFiltOrder">Filter order must be an even and positive real scalar greater than 2.</entry>
+    <entry key="InvalidCarrierFreq">Carrier frequency must be a real positive scalar.</entry>
+    <entry key="InvalidInitPhase">Initial phase must be a real scalar.</entry>
+    <entry key="InvalidPhaseDev">Phase deviation must be a real positive scalar.</entry>
+    <entry key="InvalidFreqDev">Frequency deviation must be a real positive scalar.</entry>
+  </message>
+</rsccat>

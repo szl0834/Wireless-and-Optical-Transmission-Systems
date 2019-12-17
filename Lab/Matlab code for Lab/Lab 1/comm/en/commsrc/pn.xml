@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidGenPolyLength">GenPoly length must be greater than one.</entry>
+    <entry key="GenPolyNotPrimitive">GenPoly is not a primitive polynomial. Type warning(''off'',''comm:commsrc:pn:GenPolyNotPrimitive'') to turn off this warning message.</entry>
+    <entry key="InvalidInitialStatesValues">InitialStates values must be 0 or 1.</entry>
+    <entry key="InvalidInitialStatesLength">InitialStates vector length must equal the GenPoly order.</entry>
+    <entry key="InvalidCurrentStatesValues">CurrentStates values must be 0 or 1.</entry>
+    <entry key="InvalidCurrentStatesLength">CurrentStates vector length must equal the GenPoly order.</entry>
+    <entry key="InvalidMaskLength">Mask vector length must equal the GenPoly order.</entry>
+    <entry key="InvalidMaskValues">Mask values must be 0 or 1.</entry>
+    <entry key="InvalidShiftLength">Shift must be a scalar value.</entry>
+    <entry key="InvalidShiftValue">Shift must be integer valued.</entry>
+    <entry key="InvalidGenPolyValues">GenPoly values must be 0 or 1, or all non-negative integers. Values specified as non-negative integer powers of two must be in strictly decreasing order.</entry>
+    <entry key="ObjConstructorInitAndCurrStatesNotEqual">InitialStates and CurrentStates must be equal at object construction.</entry>
+    <entry key="BothMaskAndShiftSpecified">Only one of the Mask or Shift properties can be specified (but not both).</entry>
+    <entry key="ObjConstructorBadPVPairFormat">Input arguments must be parameter-value pairs.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="ObjConstructorUnrecognizedParam">There is no property named ''{0}'' in the commsrc.pn class.</entry>
+  </message>
+</rsccat>

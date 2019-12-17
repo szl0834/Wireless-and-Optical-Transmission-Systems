@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ScalarHeader">The FrameHeader property must be a column vector of length larger than or equal to 2.</entry>
+    <entry key="BufLenLessThanFrmLen">The InternalBufferLength property must be no less than the OutputFrameLength property.</entry>
+    <entry key="InvalidBlkInput">The input must be a scalar or column vector.</entry>  
+    <entry key="BufferOverflow">The last {0} elements from this input are dropped as the input makes the internal buffer overflow. Consider increasing the buffer size.</entry>
+</message>
+</rsccat>

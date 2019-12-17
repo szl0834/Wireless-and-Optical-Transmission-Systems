@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2013 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <!-- Resource entries for toolbox/comm/comm/+comm/SphereDecoder.m -->
+  <message>
+    <entry key="ExpectedComplexConst">Constellation must be complex.</entry>
+    <entry key="InvalidConstellationLen">Constellation length must be a nonzero power of two.</entry>
+    <entry key="NonUniqueConstellation">Constellation values must be unique.</entry>
+    <entry key="InvalidBitTableLen">The first dimension of BitTable must be a nonzero power of two.</entry>
+    <entry key="InconsistentBitTable">Inconsistent BitTable specified. The number of columns must be log2() of the number of rows of the BitTable property.</entry>
+    <entry key="NonUniqueBitTableRows">Inconsistent BitTable specified. The row-wise BitTable values must be unique.</entry>
+    <entry key="ExpectedComplexRxSymbols">RXSYMBOLS must be complex.</entry>
+    <entry key="ExpectedComplexChan">CHAN must be complex.</entry>
+    <entry key="InvalidChanDims">CHAN must be three dimensional.</entry>
+    <entry key="InvalidInputDimsMode">Inputs must be either both fixed-size or variable-size signals.</entry>
+    <entry key="UnequalNumRx">The number of receive antennas of CHAN [: Nt Nr] must be the same as the number of receive antennas of RXSYMBOLS [: Nr].</entry>
+    <entry key="NumTxGTNumRx">The number of transmit antennas cannot be greater than the number of receive antennas.</entry>
+    <entry key="UnequalSymbols">The number of symbols specified by CHAN must be the same as those by RXSymbols.</entry>
+    <entry key="UnequalPropertyRows">Constellation and BitTable must have the same number of rows.</entry>
+  </message>
+</rsccat>

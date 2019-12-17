@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidN">The codeword length must be a positive integer greater than 0.</entry>
+    <entry key="InvalidK">The message length must be a positive integer greater than 0.</entry>
+    <entry key="NLessThanK">Message length cannot be shorter than code word length.</entry>
+    <entry key="NoCycGenPolyFound">No cyclic generator polynomial satisfies the given constraints.</entry>
+  </message>
+</rsccat>

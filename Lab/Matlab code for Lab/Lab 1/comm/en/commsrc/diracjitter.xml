@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidProbability">The sum of Probability values must be one.</entry>
+    <entry key="InvalidDelta">The difference between the maximum Delta value and the minimum delta value must be less than one symbol duration.</entry>
+  </message>
+</rsccat>

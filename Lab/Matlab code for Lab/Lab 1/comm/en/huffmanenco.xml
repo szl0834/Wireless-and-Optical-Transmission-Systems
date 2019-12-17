@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="VectorInputSignal">The input signal must be a vector.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="CodeNotFound">The Huffman dictionary provided does not have the codes for all the input signals.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InputArgumentCount">There must be two input arguments.</entry>
+  </message>
+</rsccat>

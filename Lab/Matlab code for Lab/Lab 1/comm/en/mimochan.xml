@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numargs">Number of arguments must be 4, 5, or 6.</entry>
+    <entry key="DeprecatedFunction">mimochan has been removed. Use comm.MIMOChannel instead.</entry>
+  </message>
+</rsccat>

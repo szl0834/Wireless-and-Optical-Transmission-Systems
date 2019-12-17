@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+    <entry key="InvalidPropValue">Property names must be strings.  Type "help {0}" for proper usage.</entry>
+    <entry key="ReadOnlyProperty">{0} is a read-only property.</entry>
+  </message>
+</rsccat>

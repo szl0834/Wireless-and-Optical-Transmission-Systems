@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Expected2D">Expected input to be two-dimensional.</entry>
+    <entry key="InputNotDoubleOrSingle">Input data type must be double precision or single precision.</entry>
+    <entry key="InputsNotSameDataType">The variance input must be of the same data type as the signal input.</entry>
+    <entry key="PropsNotSameLength">The EbNo, EsNo, SNR, BitsPerSymbol, SignalPower, SamplesPerSymbol and Variance properties, when applicable, must be row vectors of the same length or scalar.</entry>
+    <entry key="PropsNotScalarsForVarChannels">The EbNo, EsNo, SNR, BitsPerSymbol, SignalPower, SamplesPerSymbol and Variance properties, when applicable, must be scalars when the input number of channels changes.</entry>
+    <entry key="InvalidSignalInputNumChan">The input number of channels must match the length of those non-scalar properties including EbNo, EsNo, SNR, BitsPerSymbol, SignalPower, SamplesPerSymbol and Variance when applicable.</entry>
+    <entry key="InvalidInputVARDims">The VAR input must be a scalar or a vector with dimensions [1 {0,number,integer}]</entry>
+    <entry key="InvalidPropertyEbNoDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertyBitsPerSymbolDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertyEsNoDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertySNRDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertyVarianceDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertySignalPowerDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidPropertySamplesPerSymbolDimensions">The {0} property must be a scalar or a row vector with a length equal to the number of channels.</entry>
+    <entry key="InvalidVarInputNumChan">The variance input must be a scalar or a vector with the same number of channels as the signal input.</entry>
+  </message>
+</rsccat>

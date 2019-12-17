@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MMustBeLengthConstellation">M must be equal to the Constellation size.</entry>
+  </message>
+</rsccat>

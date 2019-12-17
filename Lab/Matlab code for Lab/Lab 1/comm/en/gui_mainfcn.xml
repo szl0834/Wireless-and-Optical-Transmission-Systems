@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FieldNotFound">Could not find field {0} in the gui_State struct in GUI MATLAB file. {1}</entry>
+  </message>
+</rsccat>

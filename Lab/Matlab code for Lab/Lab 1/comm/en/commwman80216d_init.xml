@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="UnsupportedConfig">Unsupported configuration.</entry>
+    <entry key="InvalidSNRThreshold">SNR threshold parameter must be a 6-element vector.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidNumOfSymPerBurst">The number of OFDM symbols per burst must be even for space-time block coding.</entry>
+  </message>
+</rsccat>

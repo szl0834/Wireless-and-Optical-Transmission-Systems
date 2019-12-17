@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+    <entry key="InvalidM">M must be a real positive integer between 1 and 16.</entry>
+    <entry key="InvalidPRIMPOLY">PRIMPOLY must be a scalar integer that represents a primtive polynomial.</entry>
+  </message>
+</rsccat>

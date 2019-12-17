@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonRealY">Y must be real.</entry>
+    <entry key="InvalidFs">Fs must be a real, positive scalar.</entry>
+    <entry key="InvalidFc">Fc must be a real, positive scalar.</entry>
+    <entry key="InvalidPhaseDev">PHASEDEV must be a real, positive scalar.</entry>
+    <entry key="InvalidIni_Phase">INI_PHASE must be a real scalar.</entry>
+    <entry key="FsLessThan2Fc">Fs must be at least 2*Fc</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="TooManyInputs">Too many input arguments.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

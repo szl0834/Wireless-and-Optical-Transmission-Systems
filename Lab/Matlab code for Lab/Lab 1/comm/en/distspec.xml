@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidFirstArg">The first input to DISTSPEC must be a valid trellis. See ISTRELLIS for more information.</entry>
+    <entry key="InvalidTrellis">The specified trellis corresponds to a catastrophic code. </entry>
+    <entry key="InvalidSecondArg">The second input to DISTSPEC must be a positive integer scalar value.</entry>
+  </message>
+</rsccat>

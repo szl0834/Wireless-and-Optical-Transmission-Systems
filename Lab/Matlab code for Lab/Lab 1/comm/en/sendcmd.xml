@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="noreply">did not receive a reply</entry>
+    <entry key="wrongreply">received wrong type of reply</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

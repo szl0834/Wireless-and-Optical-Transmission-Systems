@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidCodeWidth">CODE must be either a N-element row vector or a matrix with N columns.</entry>
+    <entry key="InvalidParityPos">PARITYPOS must be either ''beginning'' or ''end''  </entry>
+    <entry key="notDoub">CODE must be a double</entry>
+    <entry key="wrongCODEsize">The number of rows in CODE must be an integer multiple of N</entry>
+    <entry key="notBin">The values of CODE must be 0 or 1</entry>
+    <entry key="eraseNotBin">ERASURES must be a binary vector</entry>
+    <entry key="eraseSize">The size of the ERASURES vector must match the size of the CODE vector</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidCode1">CODE must be a Galois array.</entry>
+    <entry key="InvalidCode2">Code must be in GF(2).</entry>
+    <entry key="InvalidCode3">CODE must be a nonempty Galois array.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

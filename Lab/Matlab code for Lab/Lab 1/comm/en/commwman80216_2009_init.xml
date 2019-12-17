@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="UnsupportedConfig">Unsupported configuration.</entry>
+    <entry key="InvalidSNRThreshold">SNRthres parameter must be a 6-element vector.</entry>
+    <entry key="InvalidNumOfSymPerBurst">Number of OFDM data symbol per burst must be an even number less than or equal to 10.</entry>
+    <entry key="InvalidSubChanIndex">Subchannels allocated to two users must not overlap.</entry>
+    <entry key="InvalidSubChanOver30">Valid subchannels are 0 ~ 29.</entry>
+    <entry key="InvalidChanBW">Channel bandwidth must be less than 33 MHz.</entry>
+    <entry key="InvalidRate">Code rate 2/3 is only allowed for 64-QAM.</entry>
+  </message>
+</rsccat>

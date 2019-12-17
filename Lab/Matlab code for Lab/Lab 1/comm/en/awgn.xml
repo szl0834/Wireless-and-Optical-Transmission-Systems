@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArg">Only string, numeric, or RandStream arguments are allowed.</entry>
+    <entry key="InvalidSyntax">Syntax error.</entry>
+    <entry key="NoInput">An input signal must be given.</entry>
+    <entry key="InvalidSignalDims">The input signal must have 2 or fewer dimensions.</entry>
+    <entry key="InvalidPowerType">The signal power mode must be ''db'' or ''linear''.</entry>
+    <entry key="InvalidSNR">The signal-to-noise ratio must be a real scalar.</entry>
+    <entry key="InvalidSNRForLinearMode">In linear mode, the signal-to-noise ratio must be &gt; 0.</entry>
+    <entry key="InvalidSigPowerForLinearMode">In linear mode, the signal power must be &gt;= 0.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidSigPower1">The signal power parameter must be numeric or ''measured''.</entry>
+    <entry key="InvalidSigPower2">The signal power value must be a real scalar.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidCodeParameter">The binary arithmetic code parameter must be a double array of zeros and ones only.</entry>
+    <entry key="InvalidSymbolCountParameter">The symbol counts parameter must be a vector of positive finite integers.</entry>
+    <entry key="InvalidLength">The number of symbols must be a positive, finite, integer scalar.</entry>
+  </message>
+</rsccat>

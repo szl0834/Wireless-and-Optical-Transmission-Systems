@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidSpecType">Spectrum type must be one of 'Jakes', 'Flat', 'Rounded', 'Bell', 'Asymmetric Jakes', 'Restricted Jakes', 'Gaussian' and 'BiGaussian'.</entry>
+    <entry key="InvalidFreqInterval">The normalized minimum frequency must be no larger than the normalized maximum frequency.</entry>
+    <entry key="InputNotPVParis">Specify the field and corresponding value in pairs for bi-Gaussian spectrum type.</entry>
+    <entry key="InvalidBiGaussianField">The field must be one of 'NormalizedStandardDeviations', 'NormalizedCenterFrequencies' and 'PowerGains' for bi-Gaussian spectrum type.</entry>
+    <entry key="PowerGainsBothZeros">At least one power gain must be non-zero.</entry>    
+    <entry key="NoSpectrumTypeField">A Doppler spectrum structure must have a SpectrumType field.</entry>    
+    <entry key="InvalidJakesField">SpectrumType is the only field for a Jakes Doppler spectrum structure.</entry>
+    <entry key="InvalidFlatField">SpectrumType is the only field for a flat Doppler spectrum structure.</entry>    
+    <entry key="InvalidRoundedField">Polynomial is the only field other than SpectrumType for a rounded Doppler spectrum structure.</entry>
+    <entry key="InvalidBellField">Coefficient is the only field other than SpectrumType for a bell Doppler spectrum structure.</entry>
+    <entry key="InvalidAJakesField">NormalizedFrequencyInterval is the only field other than SpectrumType for an asymmetric Jakes Doppler spectrum structure.</entry>
+    <entry key="InvalidRJakesField">NormalizedFrequencyInterval is the only field other than SpectrumType for a restricted Jakes Doppler spectrum structure.</entry>
+    <entry key="InvalidGaussianField">NormalizedStandardDeviation is the only field other than SpectrumType for a Gaussian Doppler spectrum structure.</entry>
+    <entry key="InvalidBiGaussianFields">NormalizedStandardDeviations, NormalizedCenterFrequencies and PowerGains are the other three fields than SpectrumType for a bi-Gaussian Doppler spectrum structure.</entry>
+  </message>
+</rsccat>

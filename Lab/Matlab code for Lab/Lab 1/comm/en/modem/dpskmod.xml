@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPhaseRotation">PhaseRotation must be a finite scalar number.</entry>
+    <entry key="InvalidInitPhase">InitialPhase must be a vector of finite real numbers.</entry>
+  </message>
+</rsccat>

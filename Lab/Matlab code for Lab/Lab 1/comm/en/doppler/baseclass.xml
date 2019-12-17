@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="AbstractClass">This is an abstract class.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidArgs">Invalid usage. Type ''help {0}'' to see correct usage.</entry>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,26 @@
+1. Apply concepts of satellite communication systems associated with the operation of satellite communication networks;
+1. 应用与卫星通信网络运作有关的卫星通信系统概念;
+2. Demonstrate the use of advanced knowledge to solve basic and advance radio link design problems associated with satellite communication systems;
+2. 演示如何使用先进的知识来解决与卫星通信系统相关的基本和先进的无线电链路设计问题;
+3. Apply skills required to design an end-to-end satellite communications link budget, based on the standard engineering practices;
+3.根据标准工程实践，应用设计端到端卫星通信链路预算所需的技能;
+4. Identify engineering applications that are affected by satellite communications.
+4. 识别受卫星通信影响的工程应用。
+
+This coursework assignment project aims to design and implement an end-to-end satellite communications link over a poor-quality satellite communications channel using MATLAB simulation software.
+本课程作业的目的是使用MATLAB仿真软件设计和实现一个低质量卫星通信信道上的端到端卫星通信链路。
+The end goal is to implement a satellite data communications system, in which a stream of data is analysed being communicated over satellite communication systems. This will involve a significant amount of background research.
+最终目标是实现一个卫星数据通信系统，在这个系统中，分析数据流通过卫星通信系统进行通信。这将涉及大量的背景研究。
+Some environments of path loss will be present inclusive of mobile and fixed propagation environments. Some sources of interference and noise will be present inclusive of atmospheric attenuation, attenuation, and depolarisation. A large part of your brief is to study the constellations, satellite orbital design, angle from satellite to earth station, radio interface, link budget design inclusive of advanced link calculations, antennas, error coding, multi-access inclusive of code division multiple access (CDMA), frequency division multiple access (FDMA), time division multiple access (TDMA), and random access, followed by variations in system design with their respective performances. The performance metrics to be utilised include outage probability, throughput, bit-error rate, and capacity. Your goal is to design and implement a satellite communications system that achieves high performance and reliable transmission.
+You have full control over what simulation components and parameters to use, and you are encouraged to try several different combinations of these.
+一些路径损耗的环境包括移动和固定传播环境。一些干扰和噪声的来源包括大气衰减、衰减和去极化。很大一部分你的简短研究星座,卫星轨道设计,角度从卫星到地球站,无线电接口,链路预算设计包括先进链路计算,天线,错误编码、多路存取的包容性的码分多址(CDMA),频分多址(FDMA),时分多址(TDMA),和随机访问,其次是系统设计的差异与各自的表演。要使用的性能指标包括停机概率、吞吐量、误码率和容量。您的目标是设计和实现一个卫星通信系统，实现高性能和可靠的传输。
+You should start by designing and modelling the satellite communications system and channel in MATLAB before implementing the final physical system. MATLAB provides several non-ideal communication channel models for you to utilise in evaluating your design.
+您可以完全控制使用哪些模拟组件和参数，并鼓励您尝试这些组件和参数的几种不同组合。
+在实现最终的物理系统之前，您应该首先在MATLAB中设计和建模卫星通信系统和信道。MATLAB提供了几个非理想的通信信道模型，供您在评估设计时使用。
+Important points:
+• Your implementation will be at the level of MATLAB Communications Toolbox and Communications Blockset (i.e. NO hardware design is required).
+•您的实现将在MATLAB通信工具箱和通信块集级别(即不需要硬件设计)。
+• Assume the data to be transmitted over the link is already digitised and analogue to digital conversion is NOT part of the coursework task.
+•假设通过链路传输的数据已经数字化，模拟到数字转换不是课程作业的一部分。
+• You are not required to use data compression.
+•您不需要使用数据压缩。

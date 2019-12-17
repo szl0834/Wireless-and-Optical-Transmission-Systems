@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InputSamplePeriod">InputSamplePeriod must be greater than zero.</entry>
+    <entry key="SigmaGaussian">The standard deviation parameter must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.</entry>
+    <entry key="SigmaGaussian2">The standard deviation of the second Gaussian function must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.</entry>
+    <entry key="SigmaGaussian1">The standard deviation of the first Gaussian function must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.</entry>
+    <entry key="SigmaGaussian12">The standard deviation parameters must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.\n</entry>
+    <entry key="PathDelays">PathDelays must be a real-valued row vector or scalar.</entry>
+    <entry key="getPathDelays">Number of paths of channel filter object not equal to the number of channels of Rayleigh fading object.</entry>
+    <entry key="DopplerSpectrum">DopplerSpectrum must be a single doppler object or a vector of doppler objects of the same length as PathDelays.</entry>
+    <entry key="DopplerSpectrumType">Unsupported Doppler spectrum type.</entry>
+    <entry key="AvgPathGainsdB">AvgPathGaindB must be real-valued and the same size as PathDelays.</entry>
+    <entry key="AvgPathGainsdB_infNaN">Elements of AvgPathGaindB cannot be Inf or NaN.</entry>
+    <entry key="KFactor_Rayleigh">KFactor cannot be set for a Rayleigh Channel.</entry>
+    <entry key="KFactor_real">KFactor must be real.</entry>
+    <entry key="KFactor_infNaN">KFactor cannot be Inf or NaN.</entry>
+    <entry key="KFactor_negative">KFactor cannot be negative.</entry>
+    <entry key="KFactor">KFactor must be a scalar or a row vector of the same size as PathDelays.</entry>
+    <entry key="DirectPathDopplerShift_Rayleigh">DirectPathDopplerShift cannot be set for a Rayleigh Channel.</entry>
+    <entry key="DirectPathDopplerShift_real">DirectPathDopplerShift must be real.</entry>
+    <entry key="DirectPathDopplerShift_infNaN">DirectPathDopplerShift cannot be Inf or NaN.</entry>
+    <entry key="DirectPathDopplerShift">DirectPathDopplerShift must be of the same size as KFactor.</entry>
+    <entry key="DirectPathDopplerShift_fdIs0">When the maximum Doppler shift is zero, setting DirectPathDopplerShift to a non-zero value has no effect on the channel. DirectPathDopplerShift should also be set to zero.</entry>
+    <entry key="DirectPathInitPhase_Rayleigh">DirectPathInitPhase cannot be set for a Rayleigh Channel.</entry>
+    <entry key="DirectPathInitPhase_real">DirectPathInitPhase must be real.</entry>
+    <entry key="DirectPathInitPhase_infNaN">DirectPathInitPhase cannot be Inf or NaN.</entry>
+    <entry key="DirectPathInitPhase">DirectPathInitPhase must be of the same size as KFactor.</entry>
+    <entry key="DirectPathInitPhase_fdIs0">When the maximum Doppler shift is zero, setting DirectPathInitPhase to a non-zero value has no effect on the channel. DirectPathInitPhase should also be set to zero.</entry>
+    <entry key="StoreHistory">StoreHistory must be false if MaxDopplerShift is zero.</entry>
+    <entry key="HistoryLength">HistoryLength must be positive integer or ''auto''.</entry>
+    <entry key="OptimizationMode">OptimizationMode must be either ''Accuracy'' or ''Speed''.</entry>
+    <entry key="FDLOS_fdIs0">When the maximum Doppler shift FD is zero, using a non-zero value for the Doppler shift of the line-of-sight component, FDLOS, has no effect on the channel. FDLOS should also be zero.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="NotADopplerObject">DopplerSpectrum must be a Doppler object.</entry>
+  </message>
+</rsccat>

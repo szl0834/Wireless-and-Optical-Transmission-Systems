@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPrim_Poly">To use the default PRIM_POLY, it must be marked by [].</entry>
+    <entry key="NonScalarPrim_Poly">PRIM_POLY must be a scalar integer.</entry>
+    <entry key="NotAPrim_Poly">PRIM_POLY must be a primitive polynomial.</entry>
+    <entry key="InvalidOutputFormat">The outputFormat value must be either ''gf'' or ''double''.</entry>
+    <entry key="NotDoubleOutForCodegen">Code generation cannot handle Galois field output. Please set the parameter ''outputFormat'' of bchgenpoly function to ''double''.</entry>
+  </message>
+</rsccat>

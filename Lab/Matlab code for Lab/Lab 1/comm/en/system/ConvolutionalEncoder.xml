@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonBinaryInput">Input values must be binary (0 or 1).</entry>
+    <entry key="BadNumFrames">The input length should be divisible by the value of the NumFrames property.</entry>
+    <entry key="BadInputLength">The input size must be greater than the constraint length.</entry>
+    <entry key="BadInputType">The input must be a real-valued floating-point or logical data type.</entry>
+    <entry key="BadInputLengthPuncturing"> The input length divided by the code rate (prior to puncturing) must be an integer multiple of the PuncturePattern property length.</entry>
+    <entry key="BadTrellis">Only rate 1/n codes from simple feedforward encoders are supported.</entry>
+    <entry key="BadPuncturePattern">The puncture pattern must be a column vector containing only 1s and/or 0s.</entry>
+    <entry key="BadDelayedResetProp">The DelayedResetAction property can only be set to false.</entry>
+    <entry key="BadResetInputPort">The ResetInputPort property can only be set to false.</entry>
+    <entry key="BadInitialStateInputPort">The InitialStateInputPort property can only be set to false.</entry>
+    <entry key="BadFinalStateOutputPort">The FinalStateOutput property can only be set to false.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="NonSparseParityCheckMatrix">The parity-check matrix must be a sparse matrix.</entry>
+    <entry key="InvalidNumColumns">The parity-check matrix must have at least one column.</entry>
+    <entry key="TooFewColumns">The parity-check matrix must have more columns than rows.</entry>
+    <entry key="NotBinaryValued">The parity-check matrix must be binary valued.</entry>
+    <entry key="EmptyColumn">The parity-check matrix must have at least one nonzero element in each column.</entry>
+  </message>
+</rsccat>

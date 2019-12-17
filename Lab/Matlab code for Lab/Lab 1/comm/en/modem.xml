@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidUse">Use MODEM.&lt;TYPE&gt; to create a modulation object.\nFor example,\n h = modem.pskmod</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidSymbolMapping">SymbolMapping must be a unique vector of length M with integer valued elements in range [0:M-1].</entry>
+    <entry key="InvalidInitPhaseVector">InitialPhase vector is set to 0 for all the channels.</entry>
+    <entry key="InvalidOutputType">To set OutputType to ''Bit'' M must be in the form of M = 2^K,\nwhere K is a positive integer.  First change M to the required form.</entry>
+    <entry key="InvalidOutputTypeAndDecisionType">''Integer'' OutputType is not allowed when DecisionType is {0}.\nPlease set DecisionType to ''Hard decision'' before changing OutputType.</entry>
+    <entry key="InvalidInputType">When InputType is ''Bit'', M must be in the form of M = 2^K,\nwhere K is a positive integer.  First change M to the required form.</entry>
+    <entry key="InvalidNumericArgs">Invalid usage. Type ''help {0}'' to see correct usage.</entry>
+    <entry key="InvalidArgs">Invalid usage. Type ''help {0}'' to see correct usage.</entry>
+    <entry key="InvalidRefObjectCopy1">Invalid reference object. Reference object must be of type modem.{0}mod.\nUse &lt;a href="matlab:help modem.copy"&gt;modem.copy&lt;/a&gt; method to create same type of object.</entry>
+    <entry key="InvalidModRefObject">Invalid reference object. Reference object must be of type modem.{0}mod.</entry>
+    <entry key="InvalidRefObjectCopy2">Invalid reference object. Reference object must be of type modem.{0}demod.\nUse &lt;a href="matlab:help modem.copy"&gt;modem.copy&lt;/a&gt; method to create same type of object.</entry>
+    <entry key="InvalidDemodRefObject">Invalid reference object. Reference object must be of type modem.{0}demod.</entry>
+    <entry key="InvalidUsage">Invalid usage. Type ''help {0}'' to see correct usage.</entry>
+    <entry key="InvalidConstellation1">Constellation must be a finite valued complex array.</entry>
+    <entry key="InvalidConstellation2">Constellation must contain at least 2 elements.</entry>
+    <entry key="InvalidConstBit">Number of constellation points must be of the form M=2^K,\nwhere K is a positive integer.</entry>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+    <entry key="ReadOnlyProperty">{0} is a read-only property.</entry>
+    <entry key="InvalidM">M must be an integer greater than 1.</entry>
+    <entry key="InvalidBitM1">When InputType is ''Bit'', M must be in the form of M = 2^K,\nwhere K is a positive integer</entry>
+    <entry key="InvalidBitM2">When OutputType is ''Bit'', M must be in the form of M = 2^K,\nwhere K is a positive integer</entry>
+    <entry key="InvalidInput1">Input X must be an integer-valued double-precision matrix.</entry>
+    <entry key="InvalidInput2">Elements of input X must be integers in range [0, H.M-1].</entry>
+    <entry key="InvalidInput3">Elements of input X must be either 0 or 1.</entry>
+    <entry key="InvalidInputSize">Number of elements in each channel of input X must be an integer multiple of log2(M).</entry>
+    <entry key="NoReset">{0} does not have internal state information. Nothing to reset.</entry>
+    <entry key="InvalidDecisionTypeAndOutputType">''{0}'' DecisionType is not allowed when OutputType is ''Integer''.\nPlease set OutputType to ''Bit'' before changing DecisionType.</entry>
+    <entry key="InvalidInput">Input X must be a double-precision matrix.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="CMLicenseRequired">Communications System Toolbox license required.</entry>
+  </message>
+</rsccat>

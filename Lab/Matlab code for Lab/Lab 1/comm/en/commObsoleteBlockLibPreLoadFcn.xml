@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="commObsoleteBlockLibrary">{0}:The current Simulink model contains blocks from a prior version of the Communications System Toolbox that may not be supported in future releases. We recommend that you replace these blocks with currently supported blocks. Please use the Upgrade Advisor to automatically replace these blocks. A list of currently supported replacement blocks can be found in the Communications System Toolbox Release Notes. To disable this warning, execute:\n>> warning(''off'',''comm:commObsoleteBlockLibrary'')</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

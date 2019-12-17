@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InputArgs">SEMIANALYTIC requires between 5 and 8 arguments.</entry>
+    <entry key="sameDims">TXSIG and RXSIG must be the same dimensions.</entry>
+    <entry key="invalidModtype">Invalid MODTYPE specified</entry>
+    <entry key="mskDataEnc">''msk/diff'' is equivalent to ''msk'' and ''msk/nondiff'' is equivalent to\n''msk/precoded''.  ''msk/diff'' and ''msk/nondiff'' are obsolete options.  Please use\n''msk'' or ''msk/precoded'' instead.</entry>
+    <entry key="invalidLength">For MSK modulation, the signals must be at least 4 symbols long.</entry>
+    <entry key="invalidNsamp">Nsamp must be a real, positive integer scalar.</entry>
+    <entry key="invalidEbNo">EbNo must be a real vector.</entry>
+    <entry key="invalidNUM">NUM must be a numeric vector.</entry>
+    <entry key="invalidDEN">DEN must be a numeric vector.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="complexVector1">TXSIG must be a complex vector.</entry>
+    <entry key="complexVector2">RXSIG must be a complex vector.</entry>
+    <entry key="invalidM1">For PSK modulation with differential encoding, M must be 2 or 4.</entry>
+    <entry key="invalidM2">For PSK modulation with nondifferential encoding, M must be 2, 4, 8, 16, 32, or 64.</entry>
+    <entry key="invalidM3">For QAM modulation, M must be an integer power of 2 between 4 and 1024, inclusive.</entry>
+    <entry key="invalidM4">For DPSK modulation, M must be 2 or 4.</entry>
+    <entry key="invalidM5">For OQPSK modulation, M must be 4.</entry>
+    <entry key="invalidM6">For MSK modulation, M must be 2.</entry>
+    <entry key="OutputArgs1">Too many output arguments.</entry>
+    <entry key="OutputArgs2">SEMIANALYTIC allows 1 or 3 output arguments.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

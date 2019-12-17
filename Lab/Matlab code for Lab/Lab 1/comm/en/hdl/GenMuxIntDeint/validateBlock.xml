@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="VectorInputOutput">Vector inputs and outputs are not supported for HDL code generation.</entry>
+    <entry key="ResetTypeNone">Initial HDL and simulation outputs will mismatch when ResetType
+                               is ''none''. Use the ''IgnoreDataChecking'' flag while generating
+                               the testbench to avoid comparisons till the shift registers are
+                               filled up.</entry>
+    <entry key="NumberofRows">HDL code generation requires at least 2 rows of interleaving.</entry>
+  </message>
+</rsccat>

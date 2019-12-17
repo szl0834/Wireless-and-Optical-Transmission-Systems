@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidCDFInputDimensions">CDFy and CDFx inputs must have the same dimensions.</entry>
+    <entry key="invalidThirdInputDimensions">The third input must be a vector of size equal to one or equal to the number of input channels.</entry>
+  </message>
+</rsccat>

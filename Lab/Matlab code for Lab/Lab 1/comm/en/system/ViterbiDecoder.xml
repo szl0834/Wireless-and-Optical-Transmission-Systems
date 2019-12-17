@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="UnsupportedMode">This mode is not supported for the GPU-based Viterbi Decoder.</entry>
+    <entry key="BadInputType">The input must be real-valued, with a built-in floating-point datatype (double or single).</entry>
+    <entry key="BadNumFrames">The input vector length must be a multiple of NumFrames for Terminated or Truncated mode.</entry>
+    <entry key="BadNonContInputLength">The TracebackDepth property must be less than or equal to the number of symbols in the input.</entry>
+    <entry key="BadInputLength">The input vector length must be a multiple of the symbol length (n=log2 (numInputSymbols))</entry>
+    <entry key="BadPuncturedInputLength">The input vector length must be a multiple of the symbol length (n=log2 (numInputSymbols)) and the number of 1s in the puncture pattern.</entry>
+    <entry key="BadResetInput">The reset signal must be a double precision, single precision, or logical scalar.</entry>
+    <entry key="BadPuncturePatternLength">The puncture pattern length must be an integer multiple of the codeword size,\nlog2(&lt;object handle&gt;.TrellisStructure.numOutputSymbols).</entry>
+    <entry key="BadTrellis">Only rate 1/n codes from simple feedforward encoders are supported.</entry>
+    <entry key="UnsupportedRate">The code base rate must be 1/2, 1/3, or 1/4.</entry>
+    <entry key="UnsupportedConstraintLength">The constraint length must be a positive integer between 3 and 9.</entry>
+    <entry key="BadTracebackDepth">The traceback depth must be a positive integer less than or equal to 256.</entry>
+    <entry key="BadPuncturePattern">The puncture pattern must be a column vector of 16 or fewer elements containing only 1s and/or 0s.</entry>
+    <entry key="BadDelayedResetProp">The DelayedResetAction property can only be set to false.</entry>
+    <entry key="BadErasuresInputPort">The ErasuresInputPort property can only be set to false.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidSigmaGaussian1">SigmaGaussian1 must be a strictly positive finite scalar real number.</entry>
+    <entry key="InvalidSigmaGaussian2">SigmaGaussian2 must be a strictly positive finite scalar real number.</entry>
+    <entry key="InvalidCenterFreqGaussian1">CenterFreqGaussian1 must be a scalar real number between -1 and 1.</entry>
+    <entry key="InvalidCenterFreqGaussian2">CenterFreqGaussian2 must be a scalar real number between -1 and 1.</entry>
+    <entry key="InvalidGainGaussian1">GainGaussian1 must be a non-negative finite scalar real number.</entry>
+    <entry key="InvalidGainGaussian2">GainGaussian2 must be a non-negative finite scalar real number.</entry>
+    <entry key="InvalidGainGaussian12BothZeros">GainGaussian1 and GainGaussian2 cannot both be zero.</entry>
+  </message>
+</rsccat>

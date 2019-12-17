@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+    <entry key="NotProp">{0} is not a valid property name</entry>
+    <entry key="ReadOnlyProperty">{0} is a read-only property.</entry>
+    <entry key="genPolyGfObj">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="genPolyDegree">The generator polynomial must be of degree (N-K).</entry>
+    <entry key="genPolyBin">The coefficients of the generator polynomial must be binary</entry>
+    <entry key="genPolyDiv">The generator polynomial must evenly divide X^n+1, where n is the length of a full length code</entry>
+    <entry key="InvalidNumInput">Incorrect number of input arguments</entry>
+    <entry key="intVal">ShortenedLength must be an integer.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="genPolyRowGF">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="genPolyGF">The BCH Encoder block must use a generator polynomial defined over GF(2)</entry>
+  </message>
+</rsccat>

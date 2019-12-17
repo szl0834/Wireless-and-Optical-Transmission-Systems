@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MismatchOrders">Orders must match.</entry>
+    <entry key="MismatchPrim_Poly">Primitive polynomials must match.</entry>
+    <entry key="InvalidMatrixDims">matrix dimensions must agree</entry>
+    <entry key="CannotFindSol">A''*A is not invertible, so MLDIVIDE cannot find a solution. However, a solution may still exist.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="CannotFindSol1">A''*A is not invertible, so MLDIVIDE cannot find a solution. However, a solution may still exist.</entry>
+    <entry key="CannotFindSol2">A*A''is not invertible, so MLDIVIDE cannot find a solution. However, a solution may still exist.</entry>
+  </message>
+</rsccat>

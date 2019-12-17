@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="HighMinValue">Internal Error:  The requested percentile value is smaller than the MinValue.  Decrease the MinValue property.</entry>
+    <entry key="LowMaxValue">Internal Error:  The requested percentile value is larger than the MaxValue.  Increase the MaxValue property.</entry>
+    <entry key="InvalidMaxValue">MaxValue must be greater than MinValue.</entry>
+    <entry key="InvalidMinValue">MinValue must be less than MaxValue.</entry>
+    <entry key="InvalidPercentileValue">PercentileValue must be in the range [0 100].</entry>
+  </message>
+</rsccat>

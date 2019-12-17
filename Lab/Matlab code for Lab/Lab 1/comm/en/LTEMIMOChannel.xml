@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="OneByTwoMedCorrNotSupported">Medium correlation strength for 1x2 antenna configuration is not supported in LTE specification.</entry>
+    <entry key="OneByTwoTxSelectionNotSupported">Transmit antenna selection is not supported for 1x2 antenna configuration.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="noplotdatastorehistory">No plot data stored in channel object.  Set property StoreHistory to 1 before using filter method.</entry>
+    <entry key="noplotdatafilter">No plot data stored in channel object.  Use the filter method before using plot.</entry>
+    <entry key="onesample">Must have more than one channel sample (snapshot) stored in channel object. Use the filter method with more than one input sample.</entry>
+  </message>
+</rsccat>

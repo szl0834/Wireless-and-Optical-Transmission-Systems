@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MsgNonGaloisArray">MSG must be a Galois array.</entry>
+    <entry key="InvalidN">N must be a real integer scalar equal to or larger than 3.</entry>
+    <entry key="InvalidK">K must be a real positive integer scalar.</entry>
+    <entry key="MsgEmptyGaloisArray">MSG must be a nonempty Galois array.</entry>
+    <entry key="InvalidMsgForm">MSG must be either a K-element row vector or a matrix with K columns.</entry>
+    <entry key="InvalidMsgSymbols">Symbols in MSG must all have 3 or more bits.</entry>
+    <entry key="InvalidNKDiff">N and K must differ by a positive even integer.</entry>
+    <entry key="InvalidDefaultGenPoly">The default generator polynomial should be marked by [].</entry>
+    <entry key="InvalidOptionalArg">Only strings and Galois vectors are allowed as optional parameters.</entry>
+    <entry key="ParityPosSetOnce">The parity position must only be set once.</entry>
+    <entry key="InvalidOption">Unknown option passed in.</entry>
+    <entry key="InvalidGenPolyForm">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="InvalidGenPolyDegree">The generator polynomial must be of degree (N-K).</entry>
+    <entry key="GenPolyNotMonic">The generator polynomial must be monic.</entry>
+    <entry key="InvalidGenPoly">The generator polynomial must be the product\n (X+alpha^b)*(X+alpha^(b+1))*...*(X+alpha^(b+N-K-1)), where b is an integer.</entry>
+    <entry key="notDoub">MSG must be a double</entry>
+    <entry key="intErr">Values of MSG must be integers between 0 and N.</entry>
+    <entry key="rangeErr">Values of MSG must be integers between 0 and N.</entry>
+    <entry key="wrongMSGsize">The number of rows in MSG must be an integer multiple of K</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidNVal1">N must be between 3 and 65535.</entry>
+    <entry key="InvalidNVal2">N must not be greater than (2^MSG.m-1).</entry>
+    <entry key="InvalidSyntax1">Illegal syntax.  To specify GENPOLY, it must be provided as the third argument.</entry>
+    <entry key="InvalidSyntax2">Illegal syntax.No more than one Galois vector is allowed in the optional parameter list.</entry>
+    <entry key="InvalidMsgGenPoly1">MSG and GENPOLY must be Galois arrays with the same prim_poly field.</entry>
+    <entry key="InvalidMsgGenPoly2">MSG and GENPOLY must be Galois arrays with the same m field.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TooManyInp">Too many input arguments.</entry>
+    <entry key="DataIsNotNumeric">DATA must be numeric.</entry>
+    <entry key="NrowsIsNotAPosScalar">NROWS must be a positive scalar.</entry>
+    <entry key="NrowsIsNotAPosInt">NROWS must be a positive integer.</entry>
+    <entry key="SlopeIsNotAPosScalar">SLOPE must be a positive scalar.</entry>
+    <entry key="SlopeIsNotAPosInt">SLOPE must be a positive integer.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2011-2014 The MathWorks, Inc.-->
+<!--THIS FILE CONTRIBUTES TO THE MATLAB APPS GALLERY WHICH IS CAREFULLY CURATED-->
+<!--ADDITIONS AND CHANGES MUST GO THROUGH A DESIGN REVIEW PROCESS WITH SENIOR MANGEMENT-->
+<!--THIS PROCESS IS MANAGED BY THE MATLAB DESKTOP TEAM. CONSULT THE TOOLSTRIP GUIDELINES TO GET STARTED-->
+<rsccat locale="en_US" product="comm" version="1.0">
+   <message>
+      <entry key="Tool_bertool_Label">Bit Error Rate Analysis</entry>
+      <entry key="Tool_bertool_Description">Generate theoretical and Monte Carlo bit error rate curves (bertool)</entry>
+      <entry key="Tool_eyescope_Label">Eye Diagram Scope</entry>
+      <entry key="Tool_eyescope_Description">Visualize eye diagram data (eyescope)</entry>
+   </message>
+</rsccat>

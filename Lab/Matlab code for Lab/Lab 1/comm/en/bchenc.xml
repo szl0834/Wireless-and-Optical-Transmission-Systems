@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="wrongcodesize">The number of rows in CODE must be an integer multiple of N.</entry>
+    <entry key="notDoub">MSG must be a double</entry>
+    <entry key="wrongMSGsize">The number of rows in MSG must be an integer multiple of K</entry>
+    <entry key="notBin">The values of MSG must be 0 or 1</entry>
+    <entry key="InvalidParityPos">PARITYPOS must be either ''beginning'' or ''end''  </entry>
+    <entry key="InvalidMsgLength">The message length must equal K.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidMsg1">MSG must be a Galois array.</entry>
+    <entry key="InvalidMsg2">MSG must be in GF(2).</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

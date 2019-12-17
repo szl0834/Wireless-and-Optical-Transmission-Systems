@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="PositivePhaseNoiseLevel">The phase noise level must be negative.</entry>
+    <entry key="NonequalVectorLengths">The lengths of the phase noise level and frequency offset vectors must be the same.</entry>
+    <entry key="InvalidFreq">The sample rate must be greater than twice the maximum value of the frequency offset.</entry>
+    <entry key="NonincreasingFreq">The frequency offset vector must be monotonically increasing.</entry>
+    <entry key="InvalidParams">Current combination of phase noise level and frequency offset may produce inaccurate results.</entry>
+    <entry key="FreqResolution">The frequency resolution of the spec is greater than can be achieved.  Consider increasing the minimum frequency offset and/or difference between specified frequency offsets.</entry>
+  </message>
+</rsccat>

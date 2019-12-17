@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="harddecision">Only hard decision decoding is supported for HDL code generation.</entry>
+    <entry key="doubletype">Double and Single data types are not supported for HDL code generation.</entry>
+    <entry key="minimumdistance">HDL code generation only supports the Normalization
+                                 Method of Minimum distance between symbols with a Minimum
+                                 Distance of 2.</entry>
+    <entry key="phaseoffset">The Rectangular QAM Demodulator block only supports Phase offsets
+                             which are a multiple of pi/2 for HDL code generation.</entry>
+  </message>
+</rsccat>

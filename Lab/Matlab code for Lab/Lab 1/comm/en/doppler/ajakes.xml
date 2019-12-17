@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidFreqMinMaxAJakes">FreqMinMaxAJakes must be a row vector of 2 finite real numbers between -1 and 1.</entry>
+    <entry key="InvalidFreqMinAJakesTooHigh">The minimum frequency must be must be smaller than or equal to the maximum frequency.</entry>
+  </message>
+</rsccat>

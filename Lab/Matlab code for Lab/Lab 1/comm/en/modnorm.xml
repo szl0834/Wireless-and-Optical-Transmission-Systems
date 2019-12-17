@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="const1D">CONST must be a one dimensional vector.</entry>
+    <entry key="powString">Power type must be ''avpow'' or ''peakpow''. </entry>
+    <entry key="powSalar">AVPOW must be a real, positive scalar.</entry>
+    <entry key="powScalar">PEAKPOW must be a real, positive scalar.</entry>
+  </message>
+</rsccat>

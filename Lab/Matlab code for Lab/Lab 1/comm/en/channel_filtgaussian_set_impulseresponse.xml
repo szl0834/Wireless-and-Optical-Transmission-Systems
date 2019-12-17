@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ir">ImpulseResponse must be set via registered impulse response function (ImpulseResponseFcn).</entry>
+  </message>
+</rsccat>

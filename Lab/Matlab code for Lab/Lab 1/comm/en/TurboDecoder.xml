@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidTrellis">Invalid trellis structure. {0}</entry>
+    <entry key="invalidFiInput">Fixed-point inputs with data type ''Double'' or ''Single'' are not supported.</entry>
+  </message>
+</rsccat>

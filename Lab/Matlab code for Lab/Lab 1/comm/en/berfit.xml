@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="AscEmpEbNo">EMPEbNo must be a vector of ascending, real values</entry>
+    <entry key="EmpBERRange">EMPBER must be a real vector between 0 and 0.5 inclusive</entry>
+    <entry key="BERLength">EMPEbNo and EMPBER must be the same length, and at least 4 elements long</entry>
+    <entry key="BERNaN">One or more values of EMPBER is NaN.  Removing NaN-valued EMPBERs</entry>
+    <entry key="BERZero">One or more values of EMPBER is 0.  Removing 0-valued EMPBERs</entry>
+    <entry key="EmpBERSlope">EMPBER must have a negative slope</entry>
+    <entry key="noDesirableFit">No desirable fit was found.  A valid fit must be real valued and monotonically decreasing between 0 and 0.5 inclusively</entry>
+    <entry key="RealFitEbNo">FITEbNo must be a vector of real values</entry>
+    <entry key="lengthFitEbNo">The length of FITEbNo must be at least that of EMPEbNo</entry>
+    <entry key="extrapolate">BERFIT is being used to extrapolate BER data.  Results may be unreliable beyond an order of magnitude below the smallest empirical BER</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidFitType1">If any output arguments are specified for BERFIT, FITTYPE cannot be ''all''</entry>
+    <entry key="invalidFitType2">When specified, FITTYPE must be one of the following:\n     ''exp'', ''exp+const'', ''polyRatio'', ''doubleExp+const'', or ''all''</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="NotDesirableFit">Selected method did not produce a desirable fit.  Rerun with no output arguments and FITTYPE==''all'' to view all acceptable fits</entry>
+  </message>
+</rsccat>

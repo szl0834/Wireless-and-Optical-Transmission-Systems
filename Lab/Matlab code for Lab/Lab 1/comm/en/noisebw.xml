@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidNumberOfArgs">NOISEBW requires four input arguments.</entry>
+    <entry key="InvalidNumSamp">NUMSAMP must be a positive integer scalar.</entry>
+    <entry key="InvalidFs">Fs must be a positive real scalar.</entry>
+    <entry key="InvalidFilter">The filter is not lowpass.</entry>
+  </message>
+</rsccat>

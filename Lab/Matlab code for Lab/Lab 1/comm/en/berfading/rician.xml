@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="fskOrthogonalNoncoherentRician">No theoretical results for noncoherent detection of orthogonal FSK in Rician fading with M &gt; 32.</entry>
+  </message>
+</rsccat>

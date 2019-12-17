@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidMethod">Invalid method option for DECODE.</entry>
+    <entry key="inputVarNum">Wrong number of input variables for DECODE.</entry>
+    <entry key="TooManyArgs">Too many output arguments.</entry>
+    <entry key="InvalidN">The codeword length, N must be a positive integer greater than 0.</entry>
+    <entry key="InvalidK">The message length, K must be a positive integer greater than 0.</entry>
+    <entry key="NLessThanK">The codeword length, N must be greater than the message length, K.</entry>
+    <entry key="CodeNotVector">CODE for {0} code in decimal format must be a vector.</entry>
+    <entry key="InvalidCode">CODE must contain only positive integers smaller than 2^N.</entry>
+    <entry key="CodeNotBinary">CODE must contain only binary numbers.</entry>
+    <entry key="codeFormat">The input CODE does not have the same format as the output of ENCODE.  Check your computation procedures for possible errors.</entry>
+    <entry key="InvalidCodeColumnSize">CODE must be either a vector or a matrix with N columns.</entry>
+    <entry key="InvalidNKLen">The specified codeword length and message length are not valid.</entry>
+    <entry key="MissingGenMatrix">The generator matrix is a required input argument for linear block decoding.</entry>
+    <entry key="InvalidGenMatrixDims">The generator matrix must be a K-by-N matrix.</entry>
+    <entry key="InvalidDecodingMethod">Invalid decoding method ''{0}''</entry>
+    <entry key="InvalidGenMatrixForm">The generator matrix must be in the standard form.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="NotEnoughInputs1">Not enough input parameters</entry>
+    <entry key="NotEnoughInputs2">Not enough input parameters.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numArgs">BERSYNC requires 3 input arguments.</entry>
+    <entry key="EbNo">EbNo must be a real vector.</entry>
+    <entry key="timerr">TIMERR must be a scalar between 0 and 0.5.</entry>
+    <entry key="phaserr">PHASERR must be a nonnegative number.</entry>
+    <entry key="thirdArg">The 3rd argument must be either ''timing'' or ''carrier''.</entry>
+  </message>
+</rsccat>

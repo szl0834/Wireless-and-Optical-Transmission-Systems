@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="LHTransitionNotFound">At least one low to high transition cannot be found. Measurements may not be accurate.</entry>
+    <entry key="HLTransitionNotFound">At least one high to low transition cannot be found. Measurements may not be accurate.</entry>
+  </message>
+</rsccat>

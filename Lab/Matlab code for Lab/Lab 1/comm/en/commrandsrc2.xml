@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="obsoleteBlock">The {0} block will be removed in the future. Use &lt;a href="matlab:upgradeadvisor(bdroot)"&gt;Upgrade Advisor&lt;/a&gt; with "^Check model for block upgrade issues requiring compile time information" option selected to update your model. See &lt;a href="matlab:helpview(fullfile(docroot, 'toolbox', 'comm', 'comm.map'), 'cst_release_notes_15_src_blocks')"&gt; R2015b Communications System Toolbox Release Notes&lt;/a&gt; for more information.</entry> 
+  </message>
+</rsccat>

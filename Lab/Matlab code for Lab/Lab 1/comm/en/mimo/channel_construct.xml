@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Nt">NT must be an integer between 1 and 8.</entry>
+    <entry key="Nr">NR must be an integer between 1 and 8.</entry>
+    <entry key="ts">TS must be a strictly positive real finite scalar.</entry>
+    <entry key="fd">FD must be a non-negative real finite scalar.</entry>
+    <entry key="sizeTau">TAU must be a row vector.</entry>
+    <entry key="typeTau">TAU must be real.</entry>
+    <entry key="infNanTau">Elements of TAU cannot be Inf or NaN.</entry>
+    <entry key="sizePdb">PDB must be a row vector.</entry>
+    <entry key="typePdb">PDB must be real.</entry>
+    <entry key="infNanPdb">Elements of PDB cannot be Inf or NaN.</entry>
+    <entry key="PdbTau">PDB must be the same size as TAU.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

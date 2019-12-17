@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidCReg1">The control region must be either 2, 3, or 4 OFDM symbols for number of resource blocks less than or equal to 10 (i.e. for a channel bandwidth of 1.4 MHz).</entry>
+    <entry key="InvalidCReg2">The control region must be either 1, 2, or 3 OFDM symbols for number of resource blocks greater than 10 (i.e. for a channel bandwidth greater than 1.4 MHz).</entry>
+    <entry key="InvalidCbIdx2">The specified codebook index must be 1 or 2 for a two transmit antenna configuration.</entry>
+    <entry key="InvalidCbIdx4">The specified codebook index must be in range [0, 15] for a four transmit antenna configuration.</entry>
+  </message>
+</rsccat>

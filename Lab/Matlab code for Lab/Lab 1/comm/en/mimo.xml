@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="FreqMinMaxRJakes">The minimum and maximum frequencies (normalized by the maximum Doppler shift) for the RJakes doppler spectrum should be spaced by more than 1/50, FreqMinMaxRJakes has been reset to [0 1].</entry>
+    <entry key="FreqMinMaxAJakes">The minimum and maximum frequencies (normalized by the maximum Doppler shift) for the AJakes doppler spectrum should be spaced by more than 1/50, FreqMinMaxAJakes has been reset to [0 1].</entry>
+    <entry key="SigmaGaussian">SigmaGaussian must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period. It has been set to 0.99 times this value.</entry>
+    <entry key="SigmaGaussian2">SigmaGaussian2 must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.\nIt has been set to 0.99 times this value.</entry>
+    <entry key="SigmaGaussian1">SigmaGaussian1 must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.\nIt has been set to 0.99 times this value.</entry>
+    <entry key="SigmaGaussian12">SigmaGaussian1 and SigmaGaussian2 must be less than 1/(10*sqrt(2*log(2))*fd*Ts), where fd is the maximum Doppler shift and Ts is the input sample period.\nThey have been set to 0.99 times this value.</entry>
+    <entry key="CenterFreqGaussian1SigmaGaussian1">CenterFreqGaussian1 and SigmaGaussian1 must be chosen such that abs(CenterFreqGaussian1) + SigmaGaussian1*sqrt(2*log(2))) &lt;= 1.\nSigmaGaussian1 has been set to its maximum permissible value, i.e. (1-abs(CenterFreqGaussian1))/(sqrt(2*log(2))).</entry>
+    <entry key="CenterFreqGaussian2SigmaGaussian2">CenterFreqGaussian2 and SigmaGaussian2 must be chosen such that abs(CenterFreqGaussian2) + SigmaGaussian2*sqrt(2*log(2))) &lt;= 1.\nSigmaGaussian2 has been set to its maximum permissible value, i.e. (1-abs(CenterFreqGaussian2))/(sqrt(2*log(2))).</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

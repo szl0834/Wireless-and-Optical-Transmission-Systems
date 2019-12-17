@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="setOversamplingFactorGreaterThanZero">Oversampling factor must be greater than zero.</entry>
+    <entry key="setOversamplingFactorQuasiStatic">Cannot set oversampling factor for quasi-static source.</entry>
+    <entry key="TimeDomainSetViaImpulseResponseFcn">TimeDomain must be set via registered impulse response function (ImpulseResponseFcn).</entry>
+    <entry key="MismatchSizes">Sizes of time domain and impulse response must be the same.</entry>
+  </message>
+</rsccat>

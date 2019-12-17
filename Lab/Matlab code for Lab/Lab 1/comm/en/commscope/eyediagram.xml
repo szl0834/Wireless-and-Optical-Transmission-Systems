@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="ExportDataNoDataStored">No traces were stored for line plot.  The number of input data samples must be\nat least the length of one trace, which is SamplesPerSymbol*SymbolsPerTrace samples.</entry>
+    <entry key="OutOfRange">The input signal exceeded the amplitude limits.  Out-of-range signal values are ignored.  Adjust amplitude limits.</entry>
+    <entry key="PlotTimeOffsetRounding">PlotTimeOffset is rounded to obtain an integer delay in samples</entry>
+    <entry key="PlotTimeOffsetWrapping">Specified plot time offset value is not in the range [-Ts +Ts], where Ts is the symbol duration.  The value will be wrapped into the range.</entry>
+    <entry key="InvalidMinAmplitude">MinimumAmplitude must be a real number</entry>
+    <entry key="MinAmpGreaterThenMaxAmp">MinimumAmplitude must be less than MaximumAmplitude</entry>
+    <entry key="MinAmplitudeChanged">Specified MinimumAmplitude level is changed to {0} to obtain uniform amplitude grid</entry>
+    <entry key="InvalidMaxAmplitude">MaximumAmplitude must be a real number</entry>
+    <entry key="MaxAmpLessThenMinAmp">MaximumAmplitude must be greater than MinimumAmplitude</entry>
+    <entry key="MaxAmplitudeChanged">Specified MaximumAmplitude level is changed to {0} to obtain uniform amplitude grid</entry>
+    <entry key="AmplitudeResolutionChanged">Specified AmplitudeResolution level is changed to {0} to obtain uniform amplitude grid</entry>
+    <entry key="InvalideltaAmpoltResolution">AmplitudeResolution must be less than or equal to the amplitude span</entry>
+    <entry key="PlotPDFRangeWith2DLine">PlotPDFRange cannot be used when PlotType is set to 2D Line or 3D Color</entry>
+    <entry key="PlotPDFRangeNotValid">PlotPDFRange must be a two-element, ascending row vector with elements within [0,1]</entry>
+    <entry key="NegativeNumTraces">NumberOfStoredTraces must be a non-negative integer</entry>
+    <entry key="OperationModeCompInPhase">''In-phase Only'' mode is equivalent to ''Real Signal'' mode.  Setting OperationMode to ''Real Signal''.</entry>
+    <entry key="OperationModeCompQuad">''In-phase and Quadrature'' mode is equivalent to ''Complex Signal'' mode.  Setting OperationMode to ''Complex Signal''.</entry>
+    <entry key="InputNotVector">Input vector must be a vector</entry>
+    <entry key="unknownEventSource">Eye diagram object received an EyeMeasurementSetupPropertiesChanged event from an unknown source</entry>
+    <entry key="PlotNoDataStored">No traces were stored for line plot.  The number of input data samples must be at least the length of one trace, which is SamplesPerSymbol*SymbolsPerTrace samples.</entry>
+    <entry key="PlotLineSpecWrongUsage">LINESPEC must be a string. Type "help {0}.plot" for proper usage.</entry>
+    <entry key="PlotWrongUsage">Too many input arguments. Type "help {0}.plot" for proper usage.</entry>
+    <entry key="errorInSaving">An error occurred while saving the session file.  Make sure the file is not Read-only and you have permission to write to that directory.</entry>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+    <entry key="InvalidPropValue">Property names must be strings.  Type "help {0}" for proper usage.</entry>
+    <entry key="ReadOnlyProperty">{0} is a read-only property.</entry>
+    <entry key="unsupportedFile">Eye Diagram Scope session data file for version {0} is not supported.</entry>
+    <entry key="invalidSessionFile">Session file does not contain data for Eye Diagram Scope.</entry>
+    <entry key="invalidLoadedFile">Loaded file is not an Eye Diagram Scope session data file.</entry>
+    <entry key="corruptedSessionFile">Eye Diagram Scope session data file is corrupted.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="PSK_phaseerr1">No theoretical results for PSK in Rayleigh fading with phase error if M &gt; 2 or L &gt; 1.</entry>
+     <entry key="PSK_phaseerr2">No theoretical results for PSK in Rician fading with phase error if M &gt; 2 or L &gt; 1.</entry>
+    <entry key="minArgs">BERFADING requires at least 3 input arguments.</entry>
+    <entry key="EbNo">EbNo must be a real vector.</entry>
+    <entry key="scalarM">M must be a scalar.</entry>
+    <entry key="intM">M must be a positive integer power of 2.</entry>
+    <entry key="minM">M must be at least 4 for QAM.</entry>
+    <entry key="phaserr">PHASERR must be a nonnegative number.</entry>
+    <entry key="coherence">COHERENCE must be either ''coherent'' or ''noncoherent''.</entry>
+    <entry key="rho">RHO must be a numeric scalar with a magnitude smaller than or equal to 1.</entry>
+    <entry key="modType">Invalid modulation type.</entry>
+    <entry key="kFactor">K factor must be a nonnegative real scalar.</entry>
+    <entry key="divOrder">DIVORDER must be a positive integer.</entry>
+    <entry key="DEPSK">No theoretical results for DEPSK if M &gt; 2.</entry>
+    <entry key="FSK">No theoretical results for coherent detection of orthogonal FSK with M &gt; 2.</entry>
+    <entry key="fskNonorthogonalNoncoherentDiversity">No results for noncoherent detection of nonorthogonal FSK with diversity.</entry>
+    <entry key="fskNonorthogonal">No results for nonorthogonal FSK with M &gt; 2.</entry>
+  <!--Resource entries for toolbox/comm-->
+  <!--Resource entries for toolbox/comm-->
+    <entry key="minArgs5">BERFADING requires at least 5 input arguments for FSK.</entry>
+    <entry key="minArgs4">BERFADING requires at least 4 input arguments for {0}.</entry>
+  </message>
+</rsccat>

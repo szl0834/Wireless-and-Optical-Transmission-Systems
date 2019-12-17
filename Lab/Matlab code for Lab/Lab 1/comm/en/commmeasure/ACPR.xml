@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidParamValue">Number of values must be same as number of properties.</entry>
+    <entry key="InvalidPropValue">Property names must be strings.  Type "help {0}" for proper usage.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidAdjacentChannelMeasBWLength">Length of AdjacentChannelMeasBW property can only be 1 or equal to length of AdjacentChannelOffset.</entry>
+    <entry key="tooManyOutputArguments">Too many output arguments.</entry>
+    <entry key="invalidFilterObject">Measurement filter must be a dfilt.dffir object</entry>
+    <entry key="DeprecatedFunction">commmeasure.ACPR will be removed in a future release. Use comm.ACPR instead.</entry>
+  </message>
+</rsccat>

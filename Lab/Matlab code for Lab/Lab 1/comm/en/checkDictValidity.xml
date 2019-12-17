@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidDictionaryFormat">The Huffman dictionary has to be a 2 column cell array.</entry>
+    <entry key="InvalidDictionarySize">The Huffman dictionary has to have exactly two columns of data.</entry>
+    <entry key="InvalidCodeType">The Huffman codes in the dictionary must be of type double.</entry>
+    <entry key="NonPrefixDictionary">The Huffman dictionary does not satisfy the prefix condition.</entry>
+  </message>
+</rsccat>

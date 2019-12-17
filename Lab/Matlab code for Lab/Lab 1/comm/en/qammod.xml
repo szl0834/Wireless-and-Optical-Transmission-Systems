@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="xreal">Elements of input X must be integers in the range [0, M-1].</entry>
+    <entry key="xrealBit">When InputType is set to 'Bit', elements of input X must be integers in the range [0, 1].</entry>
+    <entry key="xSizeBit">When InputType is set to 'Bit', the number of rows in the input X must be an integer multiple of the number of bits per symbol.</entry>
+    <entry key="Mreal">M must be a scalar positive integer.</entry>
+    <entry key="Mpow2">M must be in the form of M = 2^K, where K is a positive integer.</entry>
+    <entry key="ini_phaseReal">INI_PHASE must be a real scalar.</entry>
+    <entry key="SymbolOrder">Symbol order vector must have M elements.</entry>
+    <entry key="SymbolOrderNotSupported">Symbol order vector is only supported for Square QAM.</entry>   
+    <entry key="InvalidOutputDataType">OutputDataType must be a signed, fixed-point numerictype or fi object.</entry>
+    <entry key="InvalidOutputDataTypeCG">OutputDataType must be a signed, fixed-point numerictype or fi object with specified scaling.</entry>
+    <entry key="OutputDataTypeMustBeSpecified">OutputDataType must be specified when input is of fixed-point datatype.</entry>
+    <entry key="InvalidM">M must be less than or equal to 1024 for fixed-point output.</entry>
+    <entry key="IniPhaseNotSupported">INI_PHASE is not supported in this form.</entry>
+  </message>
+</rsccat>

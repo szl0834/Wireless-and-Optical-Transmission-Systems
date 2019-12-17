@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidProperty">Invalid property passed in.</entry>
+    <entry key="invalidMsg">The input message must have binary (0 or 1) values.</entry>
+    <entry key="invalidInitialState">Unknown InitialState type passed in.</entry>
+    <entry key="invalidFinalXOR">Unknown FinalXOR type passed in.</entry>
+    <entry key="invalidLogicalScalar">The {0} property must be a logical scalar.</entry>
+    <entry key="cannotReflectData">To implement reflected data, the input length must be a multiple of 8.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidPoly1">The first element of a numeric vector Polynomial property must be 1.</entry>
+    <entry key="invalidPoly2">Unknown Polynomial type passed in.</entry>
+    <entry key="invalidHexString1">A hex string that specifies the {0} property must begin with ''0x''.</entry>
+    <entry key="invalidHexString2">The body of a hex string that specifies the {0} property must use the characters ''0123456789abcdefABCDEF'' only.</entry>
+    <entry key="invalidHexString3">A hex {0} property must have the same length as the hex form of the Polynomial property.</entry>
+    <entry key="invalidBinaryVector1">A numeric vector that specifies the {0} property must have binary (0 or 1) values.</entry>
+    <entry key="invalidBinaryVector2">A numeric, nonscalar {0} property must be a row vector.</entry>
+    <entry key="invalidBinaryVector3">A numeric, nonscalar {0} property must have a length that is one less than the length of the numeric form of the Polynomial property.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

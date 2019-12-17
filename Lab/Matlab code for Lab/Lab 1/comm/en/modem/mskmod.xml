@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="MMustBe2">M must be 2 for MSK and is set accordingly.</entry>
+    <entry key="InvalidSamplesPerSymbol">SamplesPerSymbol must be a finite scalar number.</entry>
+    <entry key="InitYReset">The number of channels has changed.  Resetting the modulator.</entry>
+    <entry key="ResetInvalidNChan">NCHAN must be a finite scalar integer.</entry>
+    <entry key="InitDiffBitReset">The number of channels has changed.  Resetting the modulator.</entry>
+  </message>
+</rsccat>

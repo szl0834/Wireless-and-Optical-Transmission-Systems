@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidYaxisHistogram">All probability values of the CCDF curve of at least one channel are equal to 100 percent. Try changing the values of the MaximumPowerLimit and NumPoints properties to extend the power ranges and/or increase resolution of the CCDF curves.</entry>
+    <entry key="invalidXaxisHistogram">The measured CCDF curves for at least one channel do not contain any relative power values above 0 dB. Try changing the values of the MaximumPowerLimit and NumPoints properties to have valid power ranges and/or higher resolution of the CCDF curves.</entry>
+    <entry key="tooManyOutputArguments">Too many output arguments.</entry>
+    <entry key="noAvailableMeasurements">There are no measurements available at this time. Call the step method of the CCDF System object to get measurements.</entry>
+    <entry key="powerGreaterThanMaxLimit">Instantaneous signal power values exceed the specified maximum power in MaximumPowerLimit property and will be counted as MaximumPowerLimit occurrences when calculating the CCDF probabilities. Increase MaximumPowerLimit to avoid this.</entry>
+    <entry key="NoCodegenForPlotMethod">Code generation for the plot method of the CCDF System object is not supported.</entry>
+    <entry key="tooLargeProb">The specified input probability value is too large for at least one channel. Increase the number of CCDF points to be able to obtain results for larger probabilities.</entry>
+    <entry key="invalidRelativePowerSize">The number of specified relative power values must either be one or equal to the number of input channels</entry>
+    <entry key="negativeLinearPower">Values in the relative power input for the getProbability method cannot be negative when the PowerUnits property is set to ''Watts''.</entry>
+    <entry key="largePwrInput">The instantaneous power derived from the relative power input exceeds the power limit specified in the MaximumPowerLimit property in at least one channel. Reduce the relative power input value to get valid probabilities.</entry>
+    <entry key="tooSmallPower">The specified input relative power value is too small for at least one channel. Either there are no occurrences of such a small relative power value or the number of CCDF points is not large enough to resolve it.</entry>
+    <entry key="maximumPowerLimitNumChannMismatch">The MaximumPowerLimit property must be a scalar or a vector with a length equal to the number of input channels.</entry>
+  </message>
+</rsccat>

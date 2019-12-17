@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="EbNo">EbNo must be a real vector.</entry>
+    <entry key="minArgsconv">BERCODING requires 5 input arguments for convolutional coding.</entry>
+    <entry key="codeRate">CODERATE must be a real number between 0 and 1.</entry>
+    <entry key="dspec">DSPEC must be a structure containing dfree and weight fields.</entry>
+    <entry key="dfree">DSPEC.DFREE must be a positive integer.</entry>
+    <entry key="distSpec">DSPEC.WEIGHT must be a real vector.</entry>
+    <entry key="convhard">BERCODING requires 5 input arguments for convolutional coding.</entry>
+    <entry key="convsoftpsk">BERCODING requires 5 input arguments for convolutional coding.</entry>
+    <entry key="convsoft">BERCODING requires 5 input arguments for convolutional coding.</entry>
+    <entry key="decision">DECISION must be either ''hard'' or ''soft''.</entry>
+    <entry key="minArgsBlock">BERCODING requires 6 input arguments for block coding.</entry>
+    <entry key="N">N must be a finite positive integer.</entry>
+    <entry key="K">K must be a positive integer smaller than N.</entry>
+    <entry key="dmin">DMIN must be a positive integer smaller than or equal to N-K+1.</entry>
+    <entry key="blockhard">BERCODING requires 6 input arguments for block coding.</entry>
+    <entry key="blocksoftpsk">BERCODING requires 6 input arguments for block coding.</entry>
+    <entry key="blocksoftfsknoncoherentnonorthogonal">No results for coded non-orthogonal non-coherent BFSK.</entry>
+    <entry key="blocksoft">BERCODING requires 6 input arguments for block coding.</entry>
+    <entry key="nArgsHamming">BERCODING requires 4 input arguments for Hamming coding.</entry>
+    <entry key="hamminghard">BERCODING requires 4 input arguments for Hamming coding.</entry>
+    <entry key="nArgsGolay">BERCODING requires 4 input arguments for Golay coding.</entry>
+    <entry key="invalidN">N must be 24 for Golay</entry>
+    <entry key="invalidN1">N must be of the form 2^m - 1, such that m>=2.</entry>
+    <entry key="golayhard">BERCODING requires 4 input arguments for Golay coding.</entry>
+    <entry key="nArgsRS">BERCODING requires 5 input arguments for Reed-Solomon coding.</entry>
+    <entry key="invalidK">K must be a positive integer such that K&lt;N</entry>
+    <entry key="rshard">BERCODING requires 5 input arguments for Reed-Solomon coding.</entry>
+    <entry key="coding">CODING must be either ''conv'', ''block'',''Hamming'',''Golay'', or ''RS''.</entry>
+    <entry key="NaN">NaN is returned due to numerical difficulties.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="invalidDecision1">DECISION must be ''hard'' for Hamming</entry>
+    <entry key="invalidDecision2">DECISION must be ''hard'' for Golay</entry>
+    <entry key="invalidDecision3">DECISION must be ''hard'' for Reed-Solomon</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="invalidSpreadingFactor">The SpreadingFactor property must be a scalar integer power of two.</entry>
+    <entry key="invalidIndex">The Index property must be a non negative scalar integer smaller than the SpreadingFactor property</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- Copyright 2012-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DiscreteTimeVCO_expectedInputReal">Expected input to be real.</entry>
+    <entry key="DiscreteTimeVCO_invalidFiInput">Fixed-point inputs with data type ''Double'' or ''Single'' are not supported.</entry>
+    <entry key="CUDAKernelSystemBase_unsupportedDataType">This MATLAB data type is not supported on the GPU.</entry>
+    <entry key="inputNotReal">Input must be real.</entry>
+    <entry key="CDF_binSizeSizeMismatch">The number of elements in the BinSize property must be equal to one or to the number of input channels.</entry>
+    <entry key="CDF_upplerLimitSizeMismatch">The number of elements in the UpperLimit property must be equal to one or to the number of input channels.</entry>
+    <entry key="CDF_lowerLimitSizeMismatch">The number of elements in the LowerLimit property must be equal to one or to the number of input channels.</entry>
+    <entry key="Probability_invalidBins">Cannot obtain probability values for CDF curves with less than 2 points.</entry>
+    <entry key="Probability_highLowerLimit">Internal Error:  The specified percentile value is below the lower range of the CDF curve</entry>
+    <entry key="Probability_lowUpperLimit">Internal Error:  The specified percentile value is above the upper range of the CDF curve.</entry>
+    <entry key="MemorylessNonlinearity_invalidUprInpPowLimit">The PowerUpperLimit property value must be greater than the PowerLowerLimit property value.</entry>
+    <entry key="MemorylessNonlinearity_expectedInputComplex">Expected input to be complex.</entry>
+    <entry key="MemorylessNonlinearity_invalidFiInput">Fixed-point inputs with data type ''Double'' or ''Single'' are not supported.</entry>
+    <entry key="CPMPSKCarrierPhaseSynchronizerBase_expectedInputComplex">Expected input to be complex.</entry>
+    <entry key="CPMPSKCarrierPhaseSynchronizerBase_invalidInputSize">Input length must be equal to the ObservationInterval property</entry>
+    <entry key="CPMPSKCarrierPhaseSynchronizerBase_invalidFiInput">Fixed-point inputs with data type ''Double'' or ''Single'' are not supported.</entry>
+    <entry key="PhaseNoise_invalidComplexity">Expected input X to be complex.</entry>
+    <entry key="PhaseNoise_NonequalVectorLengths">The lengths of the phase noise level and frequency offset vectors must be the same.</entry>    
+    <entry key="PhaseNoise_InvalidFreq">The sample rate must be greater than twice the maximum value of the frequency offset.</entry>
+    <entry key="PhaseNoise_NonincreasingFreq">The frequency offset vector must be monotonically increasing.</entry>
+    <entry key="PhaseNoise_codegen">The visualize method of the comm.PhaseNoise System object does not generate code.</entry>    
+    <entry key="Percentile_invalidBins">Cannot obtain percentile values for CDF curves with less than 2 points.</entry>
+    <entry key="Percentile_highLowerLimit">Internal Error:  The requested percentile value is below the lower range of the CDF curve</entry>
+    <entry key="Percentile_lowUpperLimit">Internal Error:  The requested percentile value is above the upper range of the CDF curve.</entry>
+    <entry key="CDF_invalidMaxLowerLimits">Each element of the UpperLimit property must be greater than the corresponding element of the LowerLimit property.</entry>
+    <entry key="CDF_invalidComplexInput">Input to the step method of the CDF object must be real.</entry>
+    <entry key="CDF_histSizeMismatch">The LowerLimit, UpperLimit and BinSize property values yield histograms of different sizes.</entry>
+    <entry key="HDLCRCInvPolyDataWidth">CRC length should be greater than or equal to data length and should be divisible by data length.</entry>
+    <entry key="HDLCRCInvDataWidth">Data length should be >=1 and should be multiple of 8 when reflecting input.</entry>
+    <entry key="HDLCRCNotSameLength">The initial vector and the FinalXor vector should have the same length as the polynomial.</entry>
+    <entry key="MoreProperties">More properties</entry>
+    <entry key="ConstellationDiagramSystemObjectHelp"><![CDATA[comm.ConstellationDiagram &Help]]></entry>
+    <entry key="ConstellationDiagramBlockHelp"><![CDATA[Constellation Diagram &Help]]></entry>
+    <entry key="CommSystemToolboxHelp"><![CDATA[Communication System &Toolbox Help]]></entry>
+    <entry key="CommSystemToolboxDemos"><![CDATA[Communication System Toolbox &Examples]]></entry>
+    <entry key="UnsignedIntFixptExpected">Unsigned integer fixed point data type is expected.</entry>  
+    <entry key="IQInputStepSizeNotPosReal">StepSize must be a positive real scalar.</entry>
+    <entry key="IQInputCoefWrongDim">Compensator coefficient must be a scalar or a column vector of the same size as the input signal.</entry>
+    <entry key="ObsoleteTimingSyncObject">The {0} System object is obsolete and may be removed in the future.  Please use comm.SymbolSynchronizer instead.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsccat version="1.0" locale="en_US" product="comm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schema/msgcat.xsd">
+  <message>
+    <entry key="bcstCapabilities" translate="false">singleIn,singleOut,booleanIn,booleanOut,integerIn,integerOut,fixedptIn,fixedptOut</entry>
+    <entry key="FnSquareQAMOnly">Square QAM only.</entry>
+    <entry key="FnM8Only">M = 2, 4, 8 only.</entry>
+    <entry key="FnSIntsOnly">Signed integers only.</entry>
+    <entry key="FnNoSuppIntOnlyCodegen">Does not support integer only code generation.</entry>
+    <entry key="FnTrigSubOnlySingleRate">Can be used in single-rate mode inside a triggered subsystem, and with asynchronous signals.</entry>
+    <entry key="FnNoTrigSub">Cannot be used inside a triggered subsystem, and with asynchronous signals.</entry>
+    <entry key="Fnu1asic">ufix(1) only when output type is ''smallest unsigned integer'' and ASIC/FPGA is selected in the Hardware Implementation Pane.</entry>
+    <entry key="Fnbpack">ufix(1) when ''enable bit-packed outputs'' is not selected, ''output data type'' is specified as ''smallest unsigned integer'' and ASIC/FPGA is selected in the Hardware Implementation Pane. sfix(N)/ufix(N) when ''enable bit-packed outputs'' is selected, and ASIC/FPGA is selected in the Hardware Implementation Pane; N is the ''number of packed bits'' parameter value.</entry>
+    <entry key="Fns">Signed only.</entry>
+    <entry key="Fncs16">Complex, signed 16-bit integers only.</entry>
+    <entry key="Fnu1">ufix(1) only.</entry>
+    <entry key="Fnudecn">Input can be ufix(1) for hard decision, and ufix(N) for soft decision; output can be ufix(1) only.</entry>
+    <entry key="Fnis">Fixed-point inputs must be signed.</entry>
+    <entry key="Fnouk">When ASIC/FPGA is selected in the Hardware Implementation Pane, output is ufix(1) for bit outputs, and ufix(ceil(log2(M))) for integer outputs.</entry>
+    <entry key="Fniuk">ufix(ceil(log2(M))) only at the input for M-ary modulation.</entry>
+    <entry key="Fnos">Fixed-point outputs must be signed.</entry>
+    <entry key="Fniukbi">ufix(1) at the input if ''input type'' is set to ''bit''. ufix(ceil(log2(M))) at input if ''input type'' is set to ''integer'' for M-ary modulation.</entry>
+    <entry key="Fnou1">ufix(1) only at the output when ASIC/FPGA is selected in the Hardware Implementation Pane.</entry>
+    <entry key="Fniu1">Fixed-point inputs must be ufix(1).</entry>
+    <entry key="Fnoasic">ufix(N) or sfix(N) when ASIC/FPGA is selected in the Hardware Implementation Pane and output data-type is set to either (a) Smallest integer or, (b) Inherit via internal rule and at the same time input is non floating-point. </entry>
+    <entry key="LoadingCommsLib">Loading Communications System Toolbox Library.</entry>
+    <entry key="bcstUnknownAct">Unrecognized action</entry>
+  </message>
+</rsccat>

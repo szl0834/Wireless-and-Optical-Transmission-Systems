@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidStr">The second input variable must be a string.</entry>
+    <entry key="ANotRowVector">The input polynomial must be a row vector.</entry>
+    <entry key="InvalidCoeffA">The polynomial coefficients must be nonnegative integers.</entry>
+  </message>
+</rsccat>

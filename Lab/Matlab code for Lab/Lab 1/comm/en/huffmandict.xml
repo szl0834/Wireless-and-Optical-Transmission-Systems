@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="VectorSymbol">The symbol input must be a vector</entry>
+    <entry key="VectorProbability">The probability input must be a vector</entry>
+    <entry key="DoubleProbability">The probability vector must be of type double</entry>
+    <entry key="ProbabilityMinVal">Probability of an input symbol cannot be negative</entry>
+    <entry key="ProbabilityMaxVal">Probability of an input symbol cannot be greater than 1</entry>
+    <entry key="SymbolProbabilityLengthMismatch">The symbol and probability vector must have the same length</entry>
+    <entry key="ProbabilitySum">The sum of elements of the probability vector must be 1</entry>
+    <entry key="NumericSymbol">Non-numeric symbols must be represented in a cell array.</entry>
+    <entry key="DoubleNAry">The value for n_ary has to be a numeric scalar.</entry>
+    <entry key="MinNAry">The value of n_ary has to be greater than or equal to 2.</entry>
+    <entry key="MaxNAry">The value of n_ary has to be less than or equal to 10.</entry>
+    <entry key="IntegerNAry">The value of n_ary has to be a positive integer between 2 and 10.</entry>
+    <entry key="NArySymbolLengthMismatch">The value for n_ary must be less than or equal to the number of distinct symbols.</entry>
+    <entry key="InvalidVariance">The value for variance has to be either ''min'' or ''max''.</entry>
+    <entry key="InvalidSymbolData">One or more symbols are neither numeric nor character strings.</entry>
+    <entry key="RepeatedSymbols">Source symbols repeat</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InputArgumentCount">There are must be two to four input arguments.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="RandState">RandState must be a real scalar or 2-element column vector.</entry>
+    <entry key="setOversamplingFactorQuasiStatic">Cannot set oversampling factor for quasi-static source.</entry>
+    <entry key="setTimeDomain">TimeDomain must be set via registered impulse response function (ImpulseResponseFcn).</entry>
+    <entry key="setTimeDomainSize">Sizes of time domain and impulse response must be the same.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

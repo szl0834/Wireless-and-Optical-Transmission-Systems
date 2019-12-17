@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidUse">Use FEC.&lt;TYPE&gt; to create a forward error control code object.\nFor example,\n h = fec.rsenc</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="Kerr">The values for N and K do not produce a valid narrow-sense BCH code</entry>
+    <entry key="Nval">N must be a real integer scalar equal to or larger than 3.</entry>
+    <entry key="kVal">K must be a real positive integer scalar.</entry>
+    <entry key="nRange2">N must equal 2^m-1 for some integer m between 3 and 16.</entry>
+    <entry key="Nerr">N must equal 2^m-1 for some integer m between 3 and 16.</entry>
+    <entry key="genPolyVec">The generator polynomial must be a Galois row vector.</entry>
+    <entry key="genPolyDegee">The generator polynomial must be of degree (N-K).</entry>
+    <entry key="genPolyProd">The generator polynomial must be the product\n(X+alpha^b)*(X+alpha^(b+1))*...*(X+alpha^(b+N-K-1)), where b is an integer.</entry>
+    <entry key="DeprecatedFunction">fec.{0} has been removed. Use comm.{1} instead.</entry>
+  </message>
+</rsccat>

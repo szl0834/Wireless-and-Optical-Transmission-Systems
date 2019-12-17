@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="numarg1">Too few input arguments.</entry>
+    <entry key="numarg2">Too many input arguments.</entry>
+    <entry key="Mreal">M must be a scalar positive integer.</entry>
+    <entry key="Mpow2">M must be in the form of M = 2^K, where K is a positive integer.</entry>
+    <entry key="ini_phaseReal">INI_PHASE must be a real scalar.</entry>
+    <entry key="SymbolOrder">Symbol order vector must have M elements.</entry>
+    <entry key="SymbolOrderNotSupported">Symbol order vector is only supported for Square QAM.</entry>   
+    <entry key="fiInputSupportedForBitOutputOnly">OutputType must be Bit for fixed-point input.</entry>
+    <entry key="fiInputSupportedForSquareQAMOnly">M must be an even power of two for fixed-point input.</entry>
+    <entry key="inputMustBe2dOr3d">Input must be a matrix or an array with 3 dimensions.</entry>
+    <entry key="InvalidInputDataType">Fixed-point input must be a signed, fixed-point fi object.</entry>
+    <entry key="InvalidM">M must be less than or equal to 1024 for fixed-point output.</entry>
+    <entry key="IniPhaseNotSupported">INI_PHASE is not supported in this form.</entry>
+    <entry key="InvalidSizeNoiseVar">The number of elements in noise variance vector must be equal to the size of the last dimension of input Y.</entry>
+    <entry key="InvalidInputDatatype">Input Y must be of datatype double or single when ''OutputType'' is ''{0}''.</entry>
+      <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

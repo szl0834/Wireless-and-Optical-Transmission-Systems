@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2014 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="TxCorrMtxMoreThan3D">TransmitCorrelationMatrix must be either a matrix or a three-dimensional array with the first dimension no larger than 8.</entry>
+    <entry key="TxCorrMtxNotValid">The transmit spatial correlation matrix specified for each path must be a valid correlation matrix.</entry>
+    <entry key="RxCorrMtxMoreThan3D">ReceiveCorrelationMatrix must be either a matrix or a three-dimensional array with the first dimension no larger than 8.</entry>
+    <entry key="RxCorrMtxNotValid">The receive spatial correlation matrix specified for each path must be a valid correlation matrix.</entry>
+    <entry key="SelectionOnFor1Tx">Transmit antenna selection is only supported for more than one transmit antenna.</entry>
+    <entry key="SelectionOnFor1Rx">Receive antenna selection is only supported for more than one receive antenna.</entry>
+    <entry key="TxCorrMtxDimMismatchNumTxAndNP">When TransmitCorrelationMatrix is a three-dimensional array, its third dimension must be equal to the length of PathDelays.</entry>
+    <entry key="RxCorrMtxDimMismatchNumTxAndNP">When ReceiveCorrelationMatrix is a three-dimensional array, its third dimension must be equal to the length of PathDelays.</entry>
+    <entry key="CenterFreqGaussian1SigmaGaussian1">CenterFreqGaussian1 and SigmaGaussian1 of a BiGaussian Doppler spectrum object must be chosen so that abs(CenterFreqGaussian1) + SigmaGaussian1*sqrt(2*log(2)) is not greater than 1.</entry>
+    <entry key="CenterFreqGaussian2SigmaGaussian2">CenterFreqGaussian2 and SigmaGaussian2 of a BiGaussian Doppler spectrum object must be chosen so that abs(CenterFreqGaussian2) + SigmaGaussian2*sqrt(2*log(2)) is not greater than 1.</entry>
+    <entry key="DispAntPairNotInNtxNr">AntennaPairsToDisplay must have the first element in [1, Nt] and second element in [1, Nr], where Nt/Nr is the number of transmit/receive antennas, or equivalently, the first dimension of the transmit/receive correlation matrix.</entry>
+</message>
+</rsccat>

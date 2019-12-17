@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DataIsEmpty">DATA cannot be empty.</entry>
+    <entry key="DataIsNotNumeric">DATA must be numeric.</entry>
+    <entry key="NrowsIsNotAScalar">NROWS must be a scalar integer value.</entry>
+    <entry key="NcolsIsNotAScalar">NCOLS must be a scalar integer value.</entry>
+    <entry key="NrowsIsNotNumeric">NROWS must numeric.</entry>
+    <entry key="NcolsIsNotNumeric">NCOLS must numeric.</entry>
+    <entry key="NrowsByNcolsIsInvalid">The product of NROWS and NCOLS must equal\nthe length of the sequence in DATA.</entry>
+  </message>
+</rsccat>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DataIsEmpty">DATA cannot be empty.</entry>
+    <entry key="CostelloTooManyInp">Not enough input arguments.</entry>
+    <entry key="WelchTooManyInp">Too many input arguments.</entry>
+    <entry key="ElemIsNotAnInt">Number of elements must be an integer.</entry>
+    <entry key="NumIsNotAPowerOfTwo">Number of elements must be a power of 2.</entry>
+    <entry key="KIsNotOdd">Multiplicative factor must be an odd integer.</entry>
+    <entry key="KIsNotAPositiveInt">Multiplicative factor must be greater than zero.</entry>
+    <entry key="HIsNotAnInt">Cyclic shift must be an integer.</entry>
+    <entry key="HIsNotAPositiveInt">Cyclic shift must be greater than or equal to zero.</entry>
+    <entry key="HIsGtrThanNum">Cyclic shift must be less than Number of elements.</entry>
+    <entry key="NumPlusOneIsNotPrime">Number of elements plus one must be prime.</entry>
+    <entry key="AlphaIsGtrThanNum">Primitive element must be less than Number of elements.</entry>
+    <entry key="InvalidAlpha">Specified value is not a primitive element.</entry>
+    <entry key="InvalidType">TYPE must be either ''takeshita-costello'' or ''welch-costas''</entry>
+  </message>
+</rsccat>

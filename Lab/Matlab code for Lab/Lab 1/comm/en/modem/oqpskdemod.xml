@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidInputLength">Number of rows of input signal X must be even.</entry>
+    <entry key="NumChanReset">The number of channels has changed.  Resetting the demodulator.</entry>
+    <entry key="MMustBe4">M must be 4 for OQPSK and is set accordingly.</entry>
+  </message>
+</rsccat>

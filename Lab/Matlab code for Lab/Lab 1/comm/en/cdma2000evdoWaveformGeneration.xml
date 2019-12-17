@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<!-- Copyright 2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <!-- BaseStation.hpp/cpp -->
+    <entry key="OSREqualTo1">Oversampling ratios equal to 1 cannot be used with the internal / default filter coefficients.</entry>
+    <entry key="ChannelNotActive">Test point placed against a channel that is not active.</entry>
+    <!-- BSWaveform.cpp -->
+    <entry key="CouldNotCreateOutputResources">Waveform generation failed; the appropriate output resources could not be created.</entry>
+    <!-- cdma2000_setShs.hpp -->
+    <entry key="cdma2000NonDeployable">The 3GPP2 waveform generators of the Communications System Toolbox do not support deployment with MATLAB Compiler.</entry>
+    <!-- Channel.hpp -->
+    <entry key="CannotCreateSubChannelDataSource">An error occurred during Channel initialization; the data source of the power control subchannel could not be created:\n{0}</entry>
+    <!-- ChannelCoding.cpp -->
+    <entry key="EncodingSizeMismatch">A channel encoding stage was configured for an input of {0, number, integer} bits per {1}s frame, but the encoding operation was presented with {2, number, integer} bits.</entry>
+    <entry key="DecodingSizeMismatch">A channel decoding stage was configured for an output of {0, number, integer} bits per {1}s frame, but the decoding operation was presented with {2, number, integer} bits.</entry>
+    <entry key="NoPaddingBits">Decoding only operates on channels that terminate their convolutional encoding.</entry>
+    <!-- codecSegment.cpp -->
+    <entry key="InvalidConvRate">The convolutional encoder supports the coding rates 1/2, 1/3, 1/4, 1/6 (parameterized as 2, 3, 4, 6, respectively).</entry>
+    <!-- ComplexModulator.cpp -->
+    <entry key="InvalidInitPhase">The initial phase of the complex modulator must be between 0 and 2*pi.</entry>
+    <entry key="InvalidFrequency">The modulation frequency of the complex modulator must not be greater than the sampling frequency.</entry>
+    <!-- CRCGen.cpp -->
+    <entry key="InvalidCRCPoly">Illegal enumerated CRC polynomial value.</entry>
+    <!-- DataRateControlLockChannel.cpp -->
+    <entry key="InvalidDRCPeriod">The ''DRC lock period'' parameter must be 8 or 16.</entry>
+    <entry key="InvalidDRCLength">The ''DRC lock length'' parameter must be 4, 8, 16 or 32.</entry>
+    <!-- decoder.cpp -->
+    <entry key="InvalidViterbiRate">The Viterbi decoder supports the coding rates 1/2, 1/3, 1/4, 1/6 (parameterized as 2, 3, 4, 6, respectively).</entry>
+    <entry key="InvalidBlockSizeLTEdec">The input block size {0, number, integer} should be a multiple of the encoding rate {1, number, integer}.</entry>
+    <!-- FilterFileReader.hpp -->
+    <entry key="CannotOpenFilterFile">Unable to open file ''{0}''.</entry>
+    <entry key="NoNumeratorDenominatorKeyword">Unable to find keyword ''{0}''.</entry>
+    <entry key="NoSpaceAfterKeyword">Keyword ''{0}'' must be followed by a space.</entry>
+    <entry key="NoCoefficientsKeyword">Unable to find keyword ''coefficients'' after ''{0}''.</entry>
+    <entry key="NoEqualOperator">Unable to find the '=' operator after the ''{0} coefficients'' keywords.</entry>
+    <entry key="InvalidCoefNumber">Unable to find the number of {0} coefficients.</entry>
+    <entry key="NumCoeffsNonPositive">The number of {0} coefficients must be a positive integer real scalar.</entry>
+    <entry key="CannotReadCoefficient">Unable to read the {0} coefficient #{1, number, integer}.</entry>
+    <entry key="NumeratorCoefLabel">Numerator coefficients:</entry>
+    <entry key="DenominatorCoefLabel">Denominator coefficients:</entry>
+    <!-- FilteringAndModulation.hpp -->
+    <entry key="FilterVectorEmpty">Filtering cannot proceed as the filter weights vector is empty.</entry>
+    <entry key="InvalidFilterModOutLength">Filtering and Modulation: request to produce output beyond length of output given by parameters.</entry>
+    <entry key="UnequalFiltAndModLengths">The number of inputs {0, number, integer} must equal the number of outputs {1, number, integer} for the group Filtering and Modulation.</entry>
+    <!-- FilteringCdma2000.hpp -->
+    <entry key="OSR1DefaultFilter">OSR must not be 1 for default filter coefficients.</entry>
+    <!-- FilterResampler.cpp -->
+    <entry key="ResampLengthMismatch">Mismatch in length of dot product vectors in filter resampler.</entry>
+    <!-- FIR2Ch.cpp -->
+    <entry key="MissingFilterFileName">No filter coefficient file name has been specified.</entry>
+    <entry key="MissingHeader">Header not found. Check the file format.</entry>
+    <entry key="CannotOpenFilterFileNoName">Unable to open filter file.</entry>
+    <!-- FLWaveformMEX.hpp -->
+    <entry key="PercentComplete">{0, number, integer}% complete\n</entry>
+    <entry key="FLMessagePreamble">For {0} channel {1, number, integer}: {2}</entry>
+    <entry key="TooManyChannels">The number of active channels cannot be greater than {0, number, integer}.</entry>
+    <entry key="OutputSourceGenParamSet">Default PN Generator.</entry>
+    <entry key="InvalidWalshCode">The Walsh code index ({0, number, integer}) must be non-negative and less than the Walsh code length ({1, number, integer}).</entry>
+    <entry key="AmbiguousParameterization">{0, number, integer} modulation configurations have been matched. Specify a unique configuration.</entry>
+    <entry key="TurboStr">Turbo</entry>
+    <entry key="ConvolutionalStr">Convolutional</entry>
+    <entry key="CodingStr">coding</entry>
+    <entry key="FrameStr">{0, number, integer} ms</entry>
+    <entry key="DataRateStr">{0, number, integer} bps</entry>
+    <entry key="WalshCodeLenStr">{0, number, integer} Walsh code length</entry>
+    <entry key="InvalidChannelConfiguration">Invalid channel configuration {0}\n{1}</entry>
+    <entry key="NearestValid">The nearest valid configurations are:</entry>
+    <entry key="InvalidChannelSR">This channel type is not valid for the current spreading rate ({0}).</entry>
+    <entry key="InvalidRCChannelSR">The radio configuration {0} is not valid for this channel type and/or current spreading rate ({1}).</entry>
+    <entry key="InvalidChannelRC">This channel type is not valid under radio configuration {0}.</entry>
+    <!-- ForwardPacketBuilderEvDo.cpp -->
+    <entry key="InvalidBlockSizeEvDo">Invalid block size ({0, number, integer}) for traffic packet building.</entry>
+    <!-- ForwardPreambleGeneratorEvDo.cpp -->
+    <entry key="InvalidMACIndex">Invalid MAC index ({0, number, integer}) for preamble generation. MAC indices must be between 0 and {1, number, integer}.</entry>
+    <!-- FPDCHConfigProvider.cpp -->
+    <entry key="InvalidNumSlots">Invalid number of slots ({0, number, integer}). The permitted values are 1, 2, 4.</entry>
+    <entry key="InvalidSubpackets">At least one active subpacket must be defined.</entry>
+    <entry key="OutOfRangeConfigIdx">The FPDCH configuration index {0, number, integer}, given by the FPDCH SP Config Idx input, is out of the range [0, {1, number, integer}]. Check the configuration and the input signal at the FPDCH SP Config Idx port.</entry>
+    <entry key="CannotOpenFPDCHFile">Unable to open FPDCH subpacket configuration file ''{0}''.</entry>
+    <entry key="OutOfRangeModOrderFPDCH">Out-of-range modulation order {0, number, integer} specified in one of the FPDCH subpacket configurations in file ''{1}''. The permitted values are 2 (QPSK), 3 (8-PSK), and 4 (16-QAM).</entry>
+    <entry key="InvalidWalshCoverSet">Invalid walsh cover set definition ''{0}'' in FPDCH subpacket configuration file.</entry>
+    <entry key="InvalidWalshCoverSize">A Walsh set cover is of length {0, number, integer}. The length must equal the number of 32-Chip Walsh channels in the same configuration.</entry>
+    <entry key="InvalidWalshCoverValue">One 'walsh set cover' specified in file ''{0}'' has value {1, number, integer}. The values must be non-negative integers that are less than the number of 32-chip Walsh channels.</entry>
+    <entry key="InvalidSPID">One SPID value in file ''{0}'' equals {1, number, integer}, while it must lie within [0, 3].</entry>
+    <entry key="InvalidNumWalshChannels">A subpacket configuration in filename ''{0}'' has {1, number, integer} 32-chip Walsh channels, while the permitted range is [1, 28].</entry>
+    <!-- FPDCHParameters.hpp -->
+    <entry key="BitsPerEncPacket">Unable to find a valid value of bits per encoder packet.</entry>
+    <entry key="NoValidFPDCHConfig">A valid configuration could not be established during the FPDCH subpacket setup.</entry>
+    <!-- FuncComponents.hpp -->
+    <entry key="NotEnoughInputs">The number of input arguments to the hosted function must be at least {0, number, integer}.</entry>
+    <!-- Interleaver.cpp -->
+    <entry key="InvalidChannelType">Invalid channel type.</entry>
+    <!-- InterleaverEvDo.cpp -->
+    <entry key="InvalidCodeRateEvDo">The code rate in forward 1xEV-DO interleavers must be 1/3 or 1/5.</entry>
+    <entry key="InvalidPacketSize">Invalid packet size ({0, number, integer}) in reverse interleaver. Acceptable packet sizes are 256, 512, 1024, 2048, and 4096.</entry>
+    <!-- Layer.cpp -->
+    <entry key="MissingUpperLayer">No upper layer is attached to the protocol layer.</entry>
+    <!-- LiteralProcessing.hpp -->
+    <entry key="InvalidLiteral">In {0}, the string {1} does not define a valid literal.</entry>
+    <entry key="LiteralDoesNotFit">In {0}, {1} requires more than {2, number, integer} bits, so it cannot be placed in an unsigned long integer.</entry>
+    <!-- MexLibrarian.hpp -->
+    <entry key="ErrorInComponentName">The MEX Library function call (&lt;a href=\&quot;matlab: help(''{0}'')\&quot;&gt; {0} &lt;/a&gt;) resulted in an error:\n{1}</entry>
+    <entry key="CannotFindMexLibraryFcn">Unable to find the MEX library function name.</entry>
+    <entry key="EmptyMexLibrary">The MEX library is empty.</entry>
+    <entry key="FcnNotDefined">The requested function {0} is not defined for this MEX library. This library contains:\n{1}</entry>
+    <!-- ModulationParametersEvDo.cpp -->
+    <entry key="InvalidDataRate">Data rate {0, number, integer} bps is not supported by the standard.</entry>
+    <entry key="InvalidDataRateSlots">The standard does not support the requested combination of data rate ({0, number, integer} bps) and number of slots ({1, number, integer}).</entry>
+    <entry key="InvalidPacketSizeSlotsPreamble">The standard does not support the requested combination of packet size ({0, number, integer} bits), number of slots ({1, number, integer}) and preamble length ({2, number, integer} chips).</entry>
+    <!-- MxArrayProxies.hpp -->
+    <entry key="OutOfBounds">Array index {0, number, integer} out of bounds [0, {1, number, integer}].</entry>
+    <entry key="StructFieldNotFound">Structure field {0} not found.</entry>
+    <entry key="StructEmpty">Error getting structure field {0}. Parameter structure must not be empty.</entry>
+    <entry key="ParamNotStruct">Error getting structure field {0}. Parameter must be a structure.</entry>
+    <entry key="InvalidArrayType">The data type of the MATLAB array is {0}. It must be {1}.</entry>
+    <entry key="CannotBeChar">The data type of the MATLAB array must not be char.</entry>
+    <entry key="NumericStr">numeric</entry>
+    <entry key="ParamNotString">Parameter not a string.</entry>
+    <entry key="CannotProcessDataType">Unable to process data type (ip).</entry>
+    <entry key="InputMatrixNotVector">The input is a matrix, while it must be a vector.</entry>
+    <!-- Packet.hpp -->
+    <entry key="TooManyBits">Unable to construct packet. Change the number of bits ({0, number, integer}) to a value non-greater than 32.</entry>
+    <entry key="ValueCannotBeEncoded">Unable to construct packet containing value {0, number, integer}. Ensure that all values can be binary-encoded in packets of {1, number, integer} bits length.</entry>
+    <entry key="PacketTooBig">As the packet length ({0, number, integer}) is greater than 64, it cannot be encoded to a 64-bit integer value.</entry>
+    <!-- PhysicalChannel.cpp -->
+    <entry key="InvalidModOrderFPDCH">The specified modulation order is {0, number, integer}. It must be {1, number, integer} when frame length is {2, number, integer} ms, the number of slots is {3, number, integer} and the Walsh code lerngth is {4, number, integer}.</entry>
+    <entry key="SubpacketSizeGrThanC">The size of the FPDCH subpacket #{0, number, integer} is {1, number, integer} bits and it is greater than the capacity of the FPDCH channel, which is {2, number, integer} bits. Either modify the subpacket configuration to reduce the subpacket size, or increase the capacity of the physical channel.</entry>
+    <entry key="UnsupportedCombinationFPDCH">The standard does not support this combination: modulation order = {0, number, integer}, frame length = {1, number, integer} ms, number of slots = {2, number, integer} and Walsh code length = {3, number, integer}.\nFor the given frame length and number of slots, legitimate combinations of Walsh code length and modulation order are:\n{4}</entry>
+    <entry key="WalshLengthStr">Walsh length</entry>
+    <entry key="ModOrderStr">modulation order</entry>
+    <!-- puncturing.cpp -->
+    <entry key="InvalidPuncLenConv">Length of puncturing pattern is {0, number, integer}. For convolutional coding, valid values are 0 (no puncturing), 5 (rate 1/5), 6 (2/6), 9 (1/9), 12 (4/12), 18 (2/18), 24 (8/24), and 37 (13/37).</entry>
+    <entry key="InvalidPuncLenTurbo">Length of puncturing pattern is {0, number, integer}. For turbo coding, valid values are 0 (no puncturing), 12 (rate 4/12), and 18 (2/18).</entry>
+    <!-- ReverseActivityChannel.hpp -->
+    <entry key="InvalidRABLength">RAB length equals {0, number, integer}, while it must be 8, 16, 32, or 64.</entry>
+    <entry key="InvalidRABOffset">RAB offset and length equal {0, number, integer} and {1, number, integer}, respectively. RAB offset must not be less than RAB length, nor equal to a integer multiple of RABLength/8.</entry>
+    <!-- ReversePowerControlChannel.hpp -->
+    <entry key="InvalidFrameOffset">Frame offset equals {0, number, integer}. It must range in [0, 15].</entry>
+    <entry key="InvalidDRCLockPeriod">DRC lock period equals {0, number, integer}. It must equal 8 or 16.</entry>
+    <!-- RRCFiltering.hpp -->
+    <entry key="CannotCreateRRC">Unable to create the RRC filter.</entry>
+    <entry key="CannotInitRRC">Unable to initialize the RRC filter.</entry>
+    <entry key="CannotOpenRRCFile">Unable to find the RRC filter coefficients file ''{0}''.</entry>
+    <entry key="InvalidSubchipDelays">Subchip delays I and Q equal {0, number, integer} and {1, number, integer}, while the oversampling ratio (OSR) equals {2, number, integer}. Both delays must lie in [0, OSR).</entry>
+    <!-- ScramblerEvDo.cpp -->
+    <entry key="InvalidDataRateSlotsScrambler">Invalid combination of data rate ({0, number, integer} bps) and number of slots ({1, number, integer}) in scrambler initialization.</entry>
+    <entry key="InvalidBlockSizeScrambler">Invalid block size ({0, number, integer}).</entry>
+    <entry key="InvalidTxFormat">Unsupported transmission format: packet size = {0, number, integer}, number of slots = {1, number, integer} and preamble length = {2, number, integer}.</entry>
+    <entry key="InvalidRel0MACIdx">MAC index equals {0, number, integer}. For Release 0, it must lie in [0, 63].</entry>
+    <entry key="InvalidRevAMACIdx">MAC index equals {0, number, integer}. For Revision A, it must lie in [0, 127].</entry>
+    <!-- SequenceRepetitionEvDo.cpp -->
+    <entry key="InvalidModSeqRepEvDo">Invalid Release A reverse modulation specification.</entry>
+    <!-- SlotScheduler.cpp -->
+    <entry key="InvalidMACIdxScheduler">MAC index equals {0, number, integer}. It must lie in [{1, number, integer}, {2, number, integer}].</entry>
+    <entry key="SameMACIdx">Two terminals cannot have the same MAC index ({0, number, integer}).</entry>
+    <entry key="NoPacketConfigs">No packet configurations available for transmission.</entry>
+    <!-- SourceGenParamSet.hpp -->
+    <entry key="InvalidSourceParamType">Unable to construct source parameters, as the type {0} is not accepted. Valid types are:\n{1}\nNote that source types are case-insensitive and shown lower case here.</entry>
+    <!-- StaticMap.hpp -->
+    <entry key="NotEnoughInputsStaticMap">The number of input arguments is {0, number, integer}. It must be at least {1, number, integer}.</entry>
+    <entry key="ValueNotInSet">the value {0} is not in the set: {1}.</entry>
+    <entry key="ValueNotInRange">the value {0, number, integer} must be within the range [{1, number, integer}, {2, number, integer}].</entry>
+    <entry key="ValueNotLessThan">the value {0} must not be less than {1}.</entry>
+    <entry key="ErrorRegardingParam">For the {0} parameter: {1}</entry>
+    <entry key="ErrorRegardingParamField">For the parameter field {0}: {1}</entry>
+    <entry key="DefaultValue">Using default value ({0}) for parameter field {1}.</entry>
+    <entry key="NonDefaultingEmpty">The non-defaulting parameter field {0} cannot be empty.</entry>
+    <entry key="CannotFindFields">Structure fields ''{0}'' and ''{1}'' have no default values and cannot be found.</entry>
+    <entry key="CannotFindOutEnum">Could not find out enum.</entry>
+    <!-- StreamBlocks.cpp -->
+    <entry key="CouldNotCreateResources">Waveform generation failed; the appropriate output resources could not be created.</entry>
+    <entry key="CouldNotAccessResources">Waveform generation failed; the appropriate output resources could not be accessed.</entry>
+    <!-- SymbolModulator.hpp -->
+    <entry key="SymbolModFailed">Symbol modulation failed; input block did not provide input bits for a whole number of modulated symbols</entry>
+    <!-- SymbolModulatorCdma2000.cpp -->
+    <entry key="InvalidSPS">Samples (bits) per symbol equals {0, number, integer}. Symbol modulator only supports constellations of 1, 2, 3, or 4 samples per symbol.</entry>
+    <!-- SymbolPermuterEvDo.cpp -->
+    <entry key="InvalidInterleaverFormat">Unsupported interleaver format: packet size = {0, number, integer}, number of slots = {1, number, integer} and preamble length = {2, number, integer}.</entry>
+    <entry key="InvalidBlockSizePermuter">Invalid block size {0, number, integer} for interleaver symbol permutation. Valid values are 1024, 2048, 3072 and 4096.</entry>
+    <!-- TransportChannel.cpp -->
+    <entry key="CannotCreateChannelDataSource">An error occurred during the initialization of the Transport Channel; its data source could not be created:\n{0}</entry>
+    <!-- TurboCoderEvDo.cpp -->
+    <entry key="InvalidBlockSizeTurboEvDo">For 1/5 code rate, block size must be one of 128, 256, 512, 768, 1024, 1536, 2048, 3072, 4096, 6144, and 8192.</entry>
+    <entry key="InvalidCodeRateTurboEvDo">Turbo code rate is 1/{0, number, integer}. It must be 1/3 or 1/5 for the forward link and 1/2 or 1/4 for the reverse.</entry>
+    <!-- TurboInterleaver.cpp -->
+    <entry key="InvalidBlockLenTurboInterleaver">Block size equals {0, number, integer}. For Turbo interleaving, it must be one of 122, 250, 378, 402, 506, 570, 762, 786, 1018, 1146, 1530, 1554, 2042, 2298, 2322, 3066, 3090, 3858, 4090, 4602, 5114, 6138, 8186, 9210, 12282, 20730.</entry>
+    <!-- TxChCoding.cpp -->
+    <entry key="InvalidVectorChCoding">Error in the size of the vector containing the channel coding parameters.</entry>
+    <entry key="InvalidVectorDataRate">Error in the size of the vector containing the data rate of the channel at the chosen radio configuration.</entry>
+    <entry key="InvalidVectorFrameLength">Error in the size of the vector containing the frame length of the channel at the chosen radio configuration.</entry>
+    <entry key="InvalidConfiguration">Channel {0} does not support this combination: radio configuration RC{1, number, integer}), data rate {2, number, integer} bps and frame length {3, number, integer} ms.</entry>
+    <!-- UEWaveform.cpp -->
+    <entry key="NoPilotInRC1or2">Pilot Channel not allowed in Radio Configurations 1 and 2.</entry>
+    <entry key="AccessOnlyInRC1or2">Access Channel allowed only in Radio Configurations 1 and 2.</entry>
+    <entry key="NoEACHInRC1or2">Enhanced Access Channel not allowed in Radio Configurations 1 and 2.</entry>
+    <entry key="NoCCCHInRC1or2">Common Control Channel not allowed in Radio Configurations 1 and 2.</entry>
+    <entry key="SCCHOnlyInRC1or2">Supplemental Code Channel allowed only in Radio Configurations 1 and 2.</entry>
+    <entry key="NoSCHInRC1or2">Supplemental Channel not allowed in Radio Configurations 1 and 2.</entry>
+    <entry key="NoDCCHInRC1or2">Dedicated Control Channel not allowed in Radio Configurations 1 and 2.</entry>
+    <entry key="RC12MismatchWithWV">Attempt to add an RC3/4/5/6 channel to an RC1/2 configured waveform.</entry>
+    <entry key="RC3456MismatchWithWV">Attempt to add an RC1/2 channel to an RC3/4/5/6 configured waveform.</entry>
+    <!-- UserEquipment.cpp -->
+    <entry key="OSRNonPositive">The oversampling ratio (OSR) must be greater than 0.</entry>
+    <entry key="ErrorDuringFilterSetup">Error occured during filter setup.</entry>
+    <!-- UserEquipment.hpp -->
+    <entry key="TestAgainstInactive">Test point placed against an inactive channel.</entry>
+    <!-- Walsh.hpp -->
+    <entry key="ErrorWalshInit">Error during Walsh code initialization.</entry>
+    <!-- WalshModulatorEvDo.hpp -->
+    <entry key="UnsupportedMod">Unsupported reverse-link modulation format.</entry>
+   </message>
+</rsccat>

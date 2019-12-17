@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidArg">Only string and numeric arguments are accepted.</entry>
+    <entry key="InvalidSyntax">Syntax error.</entry>
+    <entry key="InvalidInputs">Required parameter empty.</entry>
+    <entry key="InfOrNaN">Inputs contain an "Inf" or "NaN", results may not be reliable.</entry>
+    <entry key="DifferentSizeInputs">Input matrices must be the same size.</entry>
+    <entry key="InvalidCflag">Invalid string cFlag.</entry>
+    <entry key="RowInputColumnwiseComparison">A column-wise comparison is not possible with a row vector input.</entry>
+    <entry key="ColumnInputRowwiseComparison">A row-wise comparison is not possible with a column vector input.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="InvalidInputSize1">Input row vector must contain as many elements as there are columns in the input matrix.</entry>
+    <entry key="InvalidInputSize2">Input column vector must contain as many elements as there are rows in the input matrix.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

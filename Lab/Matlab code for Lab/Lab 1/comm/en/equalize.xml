@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="inputSigNumeric">INPUTSIG must be numeric.</entry>
+    <entry key="inputSigVector">INPUTSIG must be a vector.</entry>
+    <entry key="inputSigLength">Number of elements in INPUTSIG must be an integer multiple of EQOBJ.nSampPerSym.</entry>
+    <entry key="trainSigVector">TRAINSIG must be a vector.</entry>
+    <entry key="trainSigNumeric">TRAINSIG must be numeric vector, with length less than or equal to length(INPUTSIG)/EQOBJ.nSampPerSym.</entry>
+    <entry key="blindmode">Training signal is ignored for constant modulus algorithm.</entry>
+    <entry key="trainSigLength">TRAINSIG will be truncated to a length equal to length(INPUTSIG)- delay, where delay = (EQOBJ.RefTap-1)/EQOBJ.nSampPerSym.</entry>
+    <entry key="CMAsigconst">Signal constellation with non-constant magnitude may cause CMA equalizer to be unstable.</entry>
+    <entry key="error">Equalizer unstable. Try adjusting step size or forgetting factor.</entry>
+    <entry key="SigConst">SigConst must be a row vector with 2 or more elements.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="ImproperUseOfEqualize">To equalize a signal X, use Y=EQUALIZE(EQOBJ, X) where EQOBJ is an equalizer object.\nFor more information, type ''help equalize'' in MATLAB</entry>
+  </message>
+</rsccat>

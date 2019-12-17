@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidMBool">The set size must be 2 for boolean outputs.</entry>
+    <entry key="SetSizeDataTypeMismatch">Set size is too big for output data type of ''{0}''. Either choose another output data type or set Set size to a number less than or equal to 2^{1}.</entry>
+  </message>
+</rsccat>

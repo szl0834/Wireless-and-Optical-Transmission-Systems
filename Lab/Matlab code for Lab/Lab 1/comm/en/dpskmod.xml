@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011-2015 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="Xreal">Elements of input X must be integers in the range [0, M-1].</entry>
+    <entry key="Mreal">M must be a scalar positive integer.</entry>
+    <entry key="Mpow2">M must be a scalar positive integer power of 2.</entry>
+    <entry key="phaserotreal">PHASEROT must be a real scalar.</entry>
+    <entry key="SymbolOrder">Invalid symbol set ordering.</entry>
+  <!--Resource entries for toolbox/comm-->
+    <entry key="numarg1">Too few input arguments.</entry>
+    <entry key="numarg2">Too many input arguments.</entry>
+  <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>

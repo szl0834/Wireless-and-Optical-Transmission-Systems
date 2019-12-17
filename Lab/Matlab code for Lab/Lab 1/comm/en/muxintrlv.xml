@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="DelayIsNotAPosInt1">DELAY must be a vector of positive integers.</entry>
+    <entry key="DelayIsNotAPosInt2">DELAY must be an vector of positive integers.</entry>
+    <entry key="TooManyInp">Too many input arguments.</entry>
+    <entry key="DataIsNotNumeric">DATA must be numeric.</entry>
+    <entry key="DelayIsEmpty">DELAY must be a nonempty array of positive integers.</entry>
+    <entry key="DelayIsMatrix">DELAY must be a vector.</entry>
+    <entry key="Init_stateIsNotAStruct">INIT_STATE must be a structure.</entry>
+    <entry key="Init_stateTooManyFields">INIT_STATE must be a structure with two fields.</entry>
+    <entry key="Init_stateIsNotACell">INIT_STATE.VALUE must be a cell array.</entry>
+    <entry key="Init_stateIncorrectFormat">INIT_STATE.VALUE must be a cell array of vectors having lengths equal to the corresponding delay values.</entry>
+    <entry key="Init_stateIsNotNumeric">INIT_STATE.VALUE must be a cell array of numeric values.</entry>
+    <entry key="InvalidDataAndInit_state">Both DATA and INIT_STATE.VALUE must be numeric or Galois field array.</entry>
+    <entry key="Init_stateTooManyRegs">The number of shift registers must be equal to the length of DELAY.</entry>
+    <entry key="IndexIsNotAPosInt">INIT_STATE index must be a positive scalar integer greater than zero.</entry>
+ <!--Resource entries for toolbox/comm-->
+    <entry key="DelayIsNotAPosInt">DELAY must be a vector of positive integers.</entry>
+  </message>
+</rsccat>

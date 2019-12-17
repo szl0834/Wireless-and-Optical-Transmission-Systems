@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Copyright 2011 The MathWorks, Inc. -->
+<rsccat version="1.0" locale="en_US" product="comm">
+  <message>
+    <entry key="InvalidPrim_poly1">Entries in PRIM_POLY must be real positive integers.</entry>
+    <entry key="InvalidPrim_poly2">Coefficients in PRIM_POLY must be between 0 and P-1.</entry>
+    <entry key="InvalidP">The field parameter P must be a positive prime integer.</entry>
+    <entry key="InvalidA">Form of A invalid.</entry>
+    <entry key="ElementsOfANotInt">If input A is a column vector, then its entries must be real integers.</entry>
+    <entry key="ElementsOfANotPositiveInt">If input A is a matrix, then its entries must be real positive integers.</entry>
+    <entry key="InvalidSecondArg">The second input argument must be either a scalar or a row vector.</entry>
+    <entry key="InvalidM">M must be a real positive integer.</entry>
+    <entry key="Prim_polyNotMonic">PRIM_POLY must be a monic primitive polynomial, see GFPRIMDF.</entry>
+    <entry key="InvalidPrim_polyForP2">Coefficients in PRIM_POLY must be either zero or one.</entry>
+    <entry key="NotAPrim_poly">PRIM_POLY is not a primitive polynomial.</entry>
+ <!--Resource entries for toolbox/comm-->
+  </message>
+</rsccat>
